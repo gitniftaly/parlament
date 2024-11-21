@@ -1,10 +1,7 @@
-import Image from "next/image";
-import Container from "../Container";
-import Link from "next/link";
 import UrlInfo from "./UrlInfo";
 import ImageView from "./ImageView";
 
-const TartarView = ({ data, lang }) => {
+const TartarView = ({ data }) => {
   return (
     <>
       <div className="py-4 flex flex-col justify-center items-start gap-2 sm:flex-row">

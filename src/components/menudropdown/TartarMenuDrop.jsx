@@ -1,13 +1,11 @@
 "use client";
 import { useState } from "react";
-import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuSeparator,
-  DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 import Link from "next/link";
@@ -15,7 +13,7 @@ import Link from "next/link";
 const TartarMenuDrop = ({ text, lang }) => {
   const [iconView, setIconView] = useState(false);
 
-  const onSelectIterm = (e) => {
+  const onSelectIterm = () => {
     setIconView(true);
   };
   return (
