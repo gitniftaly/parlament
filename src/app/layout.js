@@ -3,11 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-import Image from "next/image";
-
 import Container from "@/components/Container";
-import Head from "next/head";
-import favicon from "../../public/favicon.ico";
 import { AppContextApi } from "@/contextapi/CreateContexApi";
 
 const geistSans = localFont({

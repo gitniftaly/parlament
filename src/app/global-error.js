@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function GlobalError({ error, reset }) {
+export default function GlobalError() {
   return (
     <div className="flex items-center justify-center">
       <h1>500</h1>
