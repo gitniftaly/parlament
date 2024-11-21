@@ -1,7 +1,6 @@
 import clsx from "clsx";
 import Image from "next/image";
 import React from "react";
-import aba from "../../images/media/aba.png";
 import Link from "next/link";
 const MediaView = ({ tv, person, produser, since, url, className }) => {
   return (

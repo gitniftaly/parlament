@@ -1,10 +1,4 @@
 import Container from "@/components/Container";
-import React from "react";
-import aba from "../../../images/media/aba.png";
-import man from "../../../images/media/man.png";
-import azad from "../../../images/media/azad.png";
-import ayvaz from "../../../images/media/ayvaz.png";
-import Image from "next/image";
 import MediaView from "@/components/MediaView";
 import { mediaObject, tvprodusers } from "@/constants/constan";
 

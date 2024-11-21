@@ -2,17 +2,6 @@
 import React, { useState } from "react";
 import { navContents, urls } from "@/constants/constan";
 import NavLink from "./NavLink";
-import Head from "next/head";
-
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuTrigger,
-} from "./ui/dropdown-menu";
 import Link from "next/link";
 
 const Menu = () => {

@@ -2,9 +2,8 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { MdArrowDropUp } from "react-icons/md";
 
-const NavLink = ({ text, url, className, onClick, icon, ...props }) => {
+const NavLink = ({ text, url, className, onClick, ...props }) => {
   const param = usePathname();
 
   return (
