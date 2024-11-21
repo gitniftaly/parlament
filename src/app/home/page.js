@@ -5,9 +5,9 @@ import mammd from "../../../public/mammd.png";
 import AzxMemoazn from "@/pages/axpMemAzn";
 import AxpMemoEng from "@/pages/AxpMemoEng";
 import { ContextApi } from "@/contextapi/CreateContexApi";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 const HomeContent = () => {
-  const { lang, setLang } = useContext(ContextApi);
+  const { lang } = useContext(ContextApi);
   return (
     <Container
       className="sm:px-4 lg:px-0 flex-grow  bg-background h-dvh w-full 
