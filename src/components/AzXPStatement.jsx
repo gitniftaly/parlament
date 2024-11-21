@@ -12,7 +12,10 @@ import s8 from "../../images/statement/s8.png";
 
 const AzXPStatement = () => {
   return (
-    <Container className="mt-2 sm:w-[1200px]">
+    <Container
+      className="p-2 bg-background w-full 
+                          rounded-t-xl -mt-2 h-dvh overflow-y-scroll"
+    >
       <div className="flex flex-col items-center justify-center mt-5 gap-[0.5px]">
         <header className="pb-3">
           <h1 className="font-bold">AzXP Statement - Bəyanət</h1>

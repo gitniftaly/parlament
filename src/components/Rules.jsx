@@ -13,7 +13,6 @@ import Link from "next/link";
 
 const Rules = ({ text }) => {
   const [iconView, setIconView] = useState(false);
-
   const onSelectIterm = (e) => {
     setIconView(true);
   };

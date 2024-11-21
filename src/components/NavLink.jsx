@@ -22,9 +22,6 @@ const NavLink = ({ text, url, className, onClick, icon, ...props }) => {
         onClick={onClick}
         {...props}
       >
-        {/* {text.substring(0, 5) === "Rules"
-          ? `Rules & regulations ${icon}`
-          : text} */}
         {text}
       </Link>
     </div>

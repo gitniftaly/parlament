@@ -12,7 +12,7 @@ import {
 } from "./ui/dropdown-menu";
 import Link from "next/link";
 
-const ElectionsView = ({ text }) => {
+const ElectionsView = ({ text, lang }) => {
   const [iconView, setIconView] = useState(false);
 
   const onSelectIterm = (e) => {
@@ -35,7 +35,9 @@ const ElectionsView = ({ text }) => {
               href={"/elections/electioncommision"}
               onClick={(e) => onSelectIterm(e)}
             >
-              Election Commission
+              {lang === "azn"
+                ? "Seçki komissiya üzvləri"
+                : "Election Commission"}
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
@@ -45,7 +47,7 @@ const ElectionsView = ({ text }) => {
               href={"/elections/electionyear"}
               onClick={(e) => onSelectIterm(e)}
             >
-              Election 2024
+              {lang === "azn" ? "Seçki 2024" : "Election 2024"}
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>

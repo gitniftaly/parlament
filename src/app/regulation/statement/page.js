@@ -1,8 +1,11 @@
 import AzXPStatement from "@/components/AzXPStatement";
-import React from "react";
 
 const page = () => {
-  return <AzXPStatement />;
+  return (
+    <div className="flex flex-grow flex-col w-full -mb-5">
+      <AzXPStatement />;
+    </div>
+  );
 };
 
 export default page;

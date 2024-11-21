@@ -4,26 +4,25 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-  DropdownMenuSubContent,
-  DropdownMenuSub,
-  DropdownMenuPortal,
 } from "@/components/ui/dropdown-menu";
 import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 import Link from "next/link";
-import clsx from "clsx";
+
 import st from "../../images/statement/st.png";
 import rg from "../../images/rg.png";
 import Image from "next/image";
 import InfoLinks from "./submenus/InfoLinks";
 import ElectionsLinks from "./submenus/ElectionsLinks";
-const MobileMenu = ({ obj }) => {
+import TartarSubLinks from "./submenus/TartarSubLinks";
+
+const MobileMenu = ({ lang, obj }) => {
   const inputElement = React.useRef();
   const [showlinks, setShowLinks] = useState(false);
   const [subInfo, setSubInfo] = useState(true);
   const [subElection, setSubElection] = useState(false);
+  const [subTartar, setSubTartar] = useState(false);
 
   const handleRules = (e) => {
     e.stopPropagation();
@@ -40,14 +39,27 @@ const MobileMenu = ({ obj }) => {
     setSubElection((hell) => !hell);
     inputElement.current.click();
   };
+  const handleTartarLinks = (e) => {
+    e.stopPropagation();
+    setSubTartar((hell) => !hell);
+    inputElement.current.click();
+  };
   return (
     <>
-      <DropdownMenu className="">
+      <DropdownMenu>
         <DropdownMenuTrigger>{obj}</DropdownMenuTrigger>
 
         <DropdownMenuContent className="bg-white absolute ml-[-300px] shadow-md w-[250px]">
           <DropdownMenuSeparator />
-          <DropdownMenuItem>Home</DropdownMenuItem>
+          <DropdownMenuItem>
+            <Link
+              alt="home"
+              href="/"
+              onClick={() => inputElement.current.click()}
+            >
+              Home
+            </Link>
+          </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem
             onSelect={(e) => e.preventDefault()}
@@ -148,9 +160,28 @@ const MobileMenu = ({ obj }) => {
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
+          <DropdownMenuItem
+            onSelect={(e) => e.preventDefault()}
+            className="flex flex-col"
+            onClick={() => setSubTartar((ln) => !ln)}
+          >
+            <Link
+              alt="tartar"
+              href="/tartar"
+              // onClick={() => inputElement.current.click()}
+            >
+              <TartarSubLinks
+                className="-ml-14"
+                tlinks={subTartar}
+                handleTartarLinks={handleTartarLinks}
+                lang={lang}
+              />
+            </Link>
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
           <DropdownMenuItem className="bg-gray-300 ">
             <span className="font-bold w-full flex items-center justify-center">
-              <button ref={inputElement}>Close</button>
+              <div ref={inputElement}>Close</div>
             </span>
           </DropdownMenuItem>
         </DropdownMenuContent>

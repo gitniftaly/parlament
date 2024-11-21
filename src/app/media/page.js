@@ -24,24 +24,6 @@ const Media = () => {
           person={tvprodusers[0]}
         />
       ))}
-      {/* <section className="flex w-[400px] h-[200px] border border-inherit rounded-md mx-auto">
-        <div className="flex flex-1 items-center justify-center">
-          <Image src={azad} alt="aba" width="200" height="200" />
-        </div>
-        <div className="flex flex-1 items-center justify-center flex-col">
-          <Image src={man} alt="aba" width="120" height="120" />
-          <div className="py-2">Tural Sadıglı</div>
-        </div>
-      </section>
-      <section className="flex w-[400px] h-[200px] border border-inherit rounded-md mx-auto">
-        <div className="flex flex-1 items-center justify-center">
-          <Image src={ayvaz} alt="aba" width="200" height="200" />
-        </div>
-        <div className="flex flex-1 items-center justify-center flex-col">
-          <Image src={man} alt="aba" width="120" height="120" />
-          <div className="py-2">Tural Sadıglı</div>
-        </div>
-      </section> */}
     </Container>
   );
 };

@@ -61,7 +61,17 @@ body {
     --chart-5: 340 75% 55%;
   }
 }
-
+@layer utilities {
+  .text-italicized {
+    font-style: italic;
+  }
+  .page-background {
+    background: "#93c5fd";
+  }
+  .tfont {
+    font-family: "serif";
+  }
+}
 @layer base {
   * {
     @apply border-border;

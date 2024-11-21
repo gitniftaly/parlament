@@ -1,11 +1,11 @@
 export const navContents = [
   "Home",
   "Info",
-  "Rules & regulations",
+  "Regulations",
   "Elections",
   "About",
-  "Media",
   "Contact Us",
+  "Tartar",
 ];
 export const urls = {
   home: "/",
@@ -13,8 +13,8 @@ export const urls = {
   "rules&regulations": "/regulation",
   elections: "/elections",
   about: "/about",
-  media: "/media",
   contactus: "/contact",
+  tartar: "/tartar",
 };
 
 export const mediaObject = [
@@ -73,6 +73,7 @@ export const mediaObject = [
     url: "https://www.youtube.com/c/XuralTV",
   },
 ];
+
 export const tvprodusers = ["man"];
 
 export const contacts = [

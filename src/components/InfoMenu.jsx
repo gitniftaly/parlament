@@ -1,21 +1,18 @@
 import { useState } from "react";
 
-import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuSeparator,
-  DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 import Link from "next/link";
 
-const InfoMenu = ({ text }) => {
+const InfoMenu = ({ text, lang }) => {
   const [iconView, setIconView] = useState(false);
 
-  const onSelectIterm = (e) => {
+  const onSelectIterm = () => {
     setIconView(true);
   };
   return (
@@ -30,7 +27,7 @@ const InfoMenu = ({ text }) => {
         <DropdownMenuContent>
           <DropdownMenuItem>
             <Link alt="news" href={"/news"} onClick={(e) => onSelectIterm(e)}>
-              News
+              {lang === "azn" ? "Xəbərlər" : "News"}
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
@@ -40,7 +37,7 @@ const InfoMenu = ({ text }) => {
               href={"/announcements"}
               onClick={(e) => onSelectIterm(e)}
             >
-              Announcements
+              {lang === "azn" ? "Elanlar" : "Announcements"}
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
@@ -50,7 +47,7 @@ const InfoMenu = ({ text }) => {
               href={"/decisions"}
               onClick={(e) => onSelectIterm(e)}
             >
-              Decisions
+              {lang === "azn" ? "Qərarlar" : "Decisions"}
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>

@@ -16,7 +16,10 @@ import p12 from "../../images/p12.png";
 
 const AzxpRules = () => {
   return (
-    <Container className="mt-2">
+    <Container
+      className="p-2 bg-background w-full
+                 rounded-t-xl -mt-2 h-dvh overflow-y-scroll"
+    >
       <div className="flex flex-col items-center justify-center mt-5 gap-[0.5px]">
         <header className="pb-3">
           <h1 className="font-bold">AzXP Regulations - Nizamnamə</h1>

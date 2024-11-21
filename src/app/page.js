@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Root from "./home/page";
 import HomeContent from "./home/page";
 
 export default function Home() {
