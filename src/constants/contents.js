@@ -1,20 +1,22 @@
 export const navBarContentEng = {
   home: "Home",
   info: "Info",
-  rules: "Rules & Regulations",
+  rules: "Constitution",
   election: "Elections",
   about: "About",
   contactus: "Contact Us",
   tartar: "Tartar",
+  admin: "Admin",
 };
 export const navBarContentAzn = {
   home: "Giriş",
   info: "Info",
-  rules: "Nizamname-Bəyanət",
+  rules: "Konstitusiya",
   election: "Seçkilər",
   about: "Haqqında",
   contactus: "Əlaqə",
   tartar: "Tərtər",
+  admin: "Admin",
 };
 
 export const language = {

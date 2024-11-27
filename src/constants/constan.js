@@ -6,6 +6,7 @@ export const navContents = [
   "About",
   "Contact Us",
   "Tartar",
+  "Admin",
 ];
 export const urls = {
   home: "/",
@@ -15,6 +16,7 @@ export const urls = {
   about: "/about",
   contactus: "/contact",
   tartar: "/tartar",
+  admin: "/admin",
 };
 
 export const mediaObject = [

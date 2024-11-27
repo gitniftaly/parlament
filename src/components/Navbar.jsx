@@ -20,7 +20,6 @@ import { ContextApi } from "@/contextapi/CreateContexApi";
 
 const Navbar = () => {
   const [iconView] = useState(false);
-  // const [lang, setLang] = useState("azn");
   const hrefList = Object.values(urls);
   const { lang, setLang } = useContext(ContextApi);
   const [content, setContent] = useState(language[lang]);
@@ -36,8 +35,8 @@ const Navbar = () => {
   return (
     <>
       <Container
-        className="flex flex-row justify-between h-32 bg-gradient-to-r from-blue-900 via-red-800 to-green-900
-                    sm:w-full rounded-t-md"
+        className="flex flex-row justify-between h-32 
+                    sm:w-full rounded-t-md bg-nav-background"
       >
         <section className="flex items-center gap-2">
           <Image alt="azflag" src={logaaz} className="w-[60px] h-auto" />
@@ -49,7 +48,7 @@ const Navbar = () => {
         </section>
 
         <section
-          className="hidden sm:w-[570px] lg:flex flex-1
+          className="hidden sm:w-[570px] sm:flex flex-1
              justify-between items-center h-8 m-auto
              font-serif font-normal mx-20"
         >
@@ -104,7 +103,7 @@ const Navbar = () => {
         </section>
         <section className="flex h-8 items-center justify-center m-auto w-12">
           <select
-            className="bg-red-300 h-8 w-12 rounded-md"
+            className="bg-nav-background h-8 w-12 rounded-md border border-white"
             onChange={(e) => setLang(e.target.value)}
           >
             <option value="azn" defaultValue>

@@ -68,6 +68,7 @@ body {
   .page-background {
     background: "#93c5fd";
   }
+
   .tfont {
     font-family: "serif";
   }
@@ -78,5 +79,13 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 }
