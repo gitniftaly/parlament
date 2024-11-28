@@ -1,47 +1,47 @@
-import clsx from "clsx";
 import Link from "next/link";
 import { FaCircle } from "react-icons/fa6";
 import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 
-const InfoLinks = ({ className, infolinks, handleInfoLinks }) => {
+const InfoLinks = ({ infolinks, handleInfoLinks, lang }) => {
   return (
     <>
-      <span className="flex relative items-center -ml-44">
-        Info
-        {infolinks ? (
-          <MdArrowDropDown size="20" />
-        ) : (
-          <MdArrowDropUp size="20" />
-        )}
-      </span>
+      <div className="w-full flex">
+        <span className={`flex items-center`}>
+          {lang === "az" ? "Xəbərlər" : "News"}
+          {infolinks ? (
+            <MdArrowDropDown size="20" />
+          ) : (
+            <MdArrowDropUp size="20" />
+          )}
+        </span>
+      </div>
 
-      <section className={clsx(className)}>
+      <section className="w-full px-2">
         {infolinks ? (
-          <div className="flex flex-col -ml-[20px] mt-[-5px]">
+          <div className="flex flex-col ">
             <div className="text-gray-600 flex">
               <Link
                 className="hover:bg-gray-200 font-serif text-black"
-                s
-                href={"/info/news"}
+                href={"/news/newsLine"}
                 alt="news"
                 onClick={(e) => handleInfoLinks(e)}
               >
                 <section className="flex items-center gap-1">
                   <FaCircle size="4" />
-                  <span>News</span>
+                  <span>{lang === "az" ? "Xəbərlər Xətti" : "NewsLine"}</span>
                 </section>
               </Link>
             </div>
             <div className="text-gray-600 flex">
               <Link
                 className="hover:bg-gray-200 font-serif text-black"
-                href={"/info/announcements"}
+                href={"/news/announcements"}
                 alt="statement"
                 onClick={(e) => handleInfoLinks(e)}
               >
                 <section className="flex items-center gap-1">
                   <FaCircle size="4" />
-                  <span>Announcements</span>
+                  <span> {lang === "az" ? "Elanlar" : "Announcements"}</span>
                 </section>
               </Link>
             </div>
@@ -51,12 +51,12 @@ const InfoLinks = ({ className, infolinks, handleInfoLinks }) => {
             >
               <Link
                 className="hover:bg-gray-200"
-                href={"/info/decisions"}
+                href={"/news/decisions"}
                 alt="regulations"
               >
                 <section className="flex items-center gap-1">
                   <FaCircle size="4" />
-                  <span>Decisions</span>
+                  <span>{lang === "az" ? "Qərarlar" : "Decisions"}</span>
                 </section>
               </Link>
             </div>

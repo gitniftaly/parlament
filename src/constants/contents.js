@@ -1,25 +1,25 @@
 export const navBarContentEng = {
-  home: "Home",
-  info: "Info",
-  rules: "Constitution",
+  info: "News",
+  rules: "Documents",
   election: "Elections",
   about: "About",
   contactus: "Contact Us",
-  tartar: "Tartar",
-  admin: "Admin",
+  tartar: "State crimes",
+  home: "Home",
+  // admin: "Admin",
 };
 export const navBarContentAzn = {
-  home: "Giriş",
-  info: "Info",
-  rules: "Konstitusiya",
+  info: "Xəbərlər",
+  rules: "Sənədlər",
   election: "Seçkilər",
   about: "Haqqında",
   contactus: "Əlaqə",
-  tartar: "Tərtər",
-  admin: "Admin",
+  tartar: "Dövləti cinayətlər",
+  home: "Giriş",
+  // admin: "Admin",
 };
 
 export const language = {
-  azn: Object.values(navBarContentAzn),
-  eng: Object.values(navBarContentEng),
+  az: Object.values(navBarContentAzn),
+  en: Object.values(navBarContentEng),
 };

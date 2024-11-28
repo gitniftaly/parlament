@@ -56,7 +56,7 @@ const Navbar = () => {
             <NavLink
               key={ind}
               text={
-                ind === 2 ? (
+                ind === 1 ? (
                   <div className="flex justify-center items-center">
                     <Rules text={text} />
                     {!iconView ? (
@@ -65,7 +65,7 @@ const Navbar = () => {
                       <MdArrowDropDown size="20" />
                     )}
                   </div>
-                ) : text === "Info" ? (
+                ) : ind === 0 ? (
                   <div className="flex justify-center items-center">
                     <InfoMenu text={text} lang={lang} />
                     {!iconView ? (
@@ -74,7 +74,7 @@ const Navbar = () => {
                       <MdArrowDropDown size="20" />
                     )}
                   </div>
-                ) : ind === 3 ? (
+                ) : ind === 2 ? (
                   <div className="flex justify-center items-center">
                     <ElectionsView text={text} lang={lang} />
                     {!iconView ? (
@@ -83,7 +83,7 @@ const Navbar = () => {
                       <MdArrowDropDown size="20" />
                     )}
                   </div>
-                ) : ind === 6 ? (
+                ) : ind === 5 ? (
                   <div className="flex justify-center items-center">
                     <TartarMenuDrop text={text} lang={lang} />
                     {!iconView ? (
@@ -106,10 +106,10 @@ const Navbar = () => {
             className="bg-nav-background h-8 w-12 rounded-md border border-white"
             onChange={(e) => setLang(e.target.value)}
           >
-            <option value="azn" defaultValue>
-              azn
+            <option value="az" defaultValue>
+              az
             </option>
-            <option value="eng">eng</option>
+            <option value="en">en</option>
           </select>
         </section>
         <section className="p-3 hidden sm:flex h-20  my-auto">

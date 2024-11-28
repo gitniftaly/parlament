@@ -25,7 +25,7 @@ const HomeContent = () => {
         />
       </section>
       <UserSetLink />
-      {lang === "azn" ? <AzxMemoazn /> : <AxpMemoEng />}
+      {lang === "az" ? <AzxMemoazn /> : <AxpMemoEng />}
     </Container>
   );
 };

@@ -2,19 +2,20 @@
 import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 import { FaCircle } from "react-icons/fa6";
 import Link from "next/link";
-import clsx from "clsx";
 
-const TartarSubLinks = ({ className, tlinks, handleTartarLinks, lang }) => {
+const TartarSubLinks = ({ tlinks, handleTartarLinks, lang }) => {
   return (
     <>
-      <span className="flex items-center justify-start relative -ml-28">
-        Tartar
-        {tlinks ? <MdArrowDropDown size="20" /> : <MdArrowDropUp size="20" />}
-      </span>
+      <div className="flex w-full">
+        <span className="flex items-center">
+          {lang === "az" ? "Dövləti cinayətlər" : "State crimes"}
+          {tlinks ? <MdArrowDropDown size="20" /> : <MdArrowDropUp size="20" />}
+        </span>
+      </div>
 
-      <section className={clsx("-ml-20", className)}>
+      <section className="flex">
         {tlinks ? (
-          <div className="flex flex-col -ml-[20px] mt-[-5px]">
+          <div className={`flex flex-col w-full px-3 gap-1 mt-1`}>
             <div className="text-gray-600 flex">
               <Link
                 className="hover:bg-gray-200 font-serif text-black"

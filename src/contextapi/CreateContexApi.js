@@ -4,7 +4,7 @@ import { getItem, removeItem } from "@/utils/localStore";
 export const ContextApi = createContext();
 
 export const AppContextApi = ({ children }) => {
-  const [lang, setLang] = useState("azn");
+  const [lang, setLang] = useState("az");
   const [adminAccess, setAdminAccess] = useState(false);
   const STOREKEY = "STOREKEY";
   const [links, setLinks] = useState({ name: "", url: "" });

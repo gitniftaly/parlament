@@ -1,45 +1,50 @@
-import clsx from "clsx";
 import Link from "next/link";
 import { FaCircle } from "react-icons/fa6";
 import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 
-const ElectionsLinks = ({ className, electionLinks, handleElectionLinks }) => {
+const ElectionsLinks = ({ electionLinks, handleElectionLinks, lang }) => {
   return (
     <>
-      <span className="flex -ml-36">
-        Elections
+      <div className="w-full">
+        <span className={`flex`}>
+          {lang === "az" ? "Seçkilər" : "Elections"}
+          {electionLinks ? (
+            <MdArrowDropDown size="20" />
+          ) : (
+            <MdArrowDropUp size="20" />
+          )}
+        </span>
+      </div>
+      <section className="w-full">
         {electionLinks ? (
-          <MdArrowDropDown size="20" />
-        ) : (
-          <MdArrowDropUp size="20" />
-        )}
-      </span>
-      <section className={clsx(className)}>
-        {electionLinks ? (
-          <div className="flex flex-col -ml-[20px] mt-[-5px]">
-            <div className="text-gray-600 flex">
+          <div className="flex flex-col px-2 justify-start items-start">
+            <div className="text-gray-600 w-full">
               <Link
                 className="hover:bg-gray-200 font-serif text-black"
                 href={"/elections/electioncommision"}
                 alt="commision"
                 onClick={(e) => handleElectionLinks(e)}
               >
-                <section className="flex items-center gap-1 ml-2">
+                <section className="flex items-center gap-1 flex-row">
                   <FaCircle size="4" />
-                  <span>Election Commission</span>
+                  <span>
+                    {lang === "az"
+                      ? "Seçki commisiyası"
+                      : "Election Commission"}
+                  </span>
                 </section>
               </Link>
             </div>
-            <div className="text-gray-600 flex">
+            <div className="flex  w-full">
               <Link
                 className="hover:bg-gray-200 font-serif text-black"
                 href={"/elections/electionyear"}
                 alt="electionyear"
                 onClick={(e) => handleElectionLinks(e)}
               >
-                <section className="flex items-center gap-1 ml-2">
+                <section className="flex justify-center items-center gap-1">
                   <FaCircle size="4" />
-                  <span>Election Year</span>
+                  <span>{lang === "az" ? "Seçki ili" : "Election Year"}</span>
                 </section>
               </Link>
             </div>

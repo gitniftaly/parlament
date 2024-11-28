@@ -46,10 +46,10 @@ const MobileMenu = ({ lang, obj }) => {
   };
   return (
     <>
-      <DropdownMenu>
+      <DropdownMenu className="">
         <DropdownMenuTrigger>{obj}</DropdownMenuTrigger>
 
-        <DropdownMenuContent className="bg-white absolute ml-[-300px] shadow-md w-[250px]">
+        <DropdownMenuContent className="bg-blue-200 absolute ml-[-300px] shadow-lg w-[250px]">
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
@@ -57,7 +57,7 @@ const MobileMenu = ({ lang, obj }) => {
               href="/"
               onClick={() => inputElement.current.click()}
             >
-              Home
+              {lang === "az" ? "Giriş" : "Home"}
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
@@ -70,6 +70,7 @@ const MobileMenu = ({ lang, obj }) => {
               className=" w-full px-8"
               infolinks={subInfo}
               handleInfoLinks={handleInfoLinks}
+              lang={lang}
             />
           </DropdownMenuItem>
           <DropdownMenuSeparator />
@@ -78,14 +79,17 @@ const MobileMenu = ({ lang, obj }) => {
             className="flex flex-col"
             onClick={() => setShowLinks((ln) => !ln)}
           >
-            <span className="flex items-center -ml-[73px]">
-              Rules & Regulations
-              {showlinks ? (
-                <MdArrowDropDown size="20" />
-              ) : (
-                <MdArrowDropUp size="20" />
-              )}
-            </span>
+            <div className="flex w-full">
+              <span className={`flex`}>
+                {lang === "az" ? "Sənədlər" : "Documents"}
+                {showlinks ? (
+                  <MdArrowDropDown size="20" />
+                ) : (
+                  <MdArrowDropUp size="20" />
+                )}
+              </span>
+            </div>
+
             {showlinks ? (
               <div className="flex flex-col -ml-[20px] mt-[-5px]">
                 <div className="text-gray-600 flex">
@@ -134,11 +138,14 @@ const MobileMenu = ({ lang, obj }) => {
               className="-ml-14"
               electionLinks={subElection}
               handleElectionLinks={handleElectionLinks}
+              lang={lang}
             />
             {/* </section> */}
           </DropdownMenuItem>
           <DropdownMenuSeparator />
-          <DropdownMenuItem>About</DropdownMenuItem>
+          <DropdownMenuItem>
+            {lang === "az" ? "Haqqinda" : "About"}
+          </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
@@ -156,13 +163,12 @@ const MobileMenu = ({ lang, obj }) => {
               href="/contact"
               onClick={() => inputElement.current.click()}
             >
-              Contact us
+              {lang === "az" ? "Əlaqə" : "Contact us"}
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem
             onSelect={(e) => e.preventDefault()}
-            className="flex flex-col"
             onClick={() => setSubTartar((ln) => !ln)}
           >
             <Link
@@ -171,7 +177,6 @@ const MobileMenu = ({ lang, obj }) => {
               // onClick={() => inputElement.current.click()}
             >
               <TartarSubLinks
-                className="-ml-14"
                 tlinks={subTartar}
                 handleTartarLinks={handleTartarLinks}
                 lang={lang}
@@ -179,7 +184,7 @@ const MobileMenu = ({ lang, obj }) => {
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
-          <DropdownMenuItem className="bg-gray-300 ">
+          <DropdownMenuItem className="bg-red-100 font-extrabold">
             <span className="font-bold w-full flex items-center justify-center">
               <div ref={inputElement}>Close</div>
             </span>

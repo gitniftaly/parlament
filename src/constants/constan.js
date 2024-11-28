@@ -1,22 +1,20 @@
 export const navContents = [
-  "Home",
-  "Info",
+  "News",
   "Regulations",
   "Elections",
   "About",
   "Contact Us",
-  "Tartar",
-  "Admin",
+  "State crimes",
+  "Home",
 ];
 export const urls = {
-  home: "/",
-  info: "/info",
+  info: "/news",
   "rules&regulations": "/regulation",
   elections: "/elections",
   about: "/about",
   contactus: "/contact",
   tartar: "/tartar",
-  admin: "/admin",
+  home: "/",
 };
 
 export const mediaObject = [

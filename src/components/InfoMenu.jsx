@@ -26,28 +26,32 @@ const InfoMenu = ({ text, lang }) => {
       {!iconView ? (
         <DropdownMenuContent>
           <DropdownMenuItem>
-            <Link alt="news" href={"/news"} onClick={(e) => onSelectIterm(e)}>
-              {lang === "azn" ? "Xəbərlər" : "News"}
+            <Link
+              alt="news"
+              href={"/news/newsLine"}
+              onClick={(e) => onSelectIterm(e)}
+            >
+              {lang === "az" ? "Xəbərlər Xətti" : "News line"}
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
               alt="announcements"
-              href={"/announcements"}
+              href={"/news/announcements"}
               onClick={(e) => onSelectIterm(e)}
             >
-              {lang === "azn" ? "Elanlar" : "Announcements"}
+              {lang === "az" ? "Elanlar" : "Announcements"}
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
               alt="decisions"
-              href={"/decisions"}
+              href={"/news/decisions"}
               onClick={(e) => onSelectIterm(e)}
             >
-              {lang === "azn" ? "Qərarlar" : "Decisions"}
+              {lang === "az" ? "Qərarlar" : "Decisions"}
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>
