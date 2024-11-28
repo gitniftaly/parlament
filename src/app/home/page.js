@@ -6,7 +6,6 @@ import AzxMemoazn from "@/pages/axpMemAzn";
 import AxpMemoEng from "@/pages/AxpMemoEng";
 import { ContextApi } from "@/contextapi/CreateContexApi";
 import { useContext } from "react";
-import UserSetLink from "@/pages/UserSetLink";
 
 const HomeContent = () => {
   const { lang } = useContext(ContextApi);
@@ -24,7 +23,7 @@ const HomeContent = () => {
           className="rounded-lg w-full h-auto"
         />
       </section>
-      <UserSetLink />
+
       {lang === "az" ? <AzxMemoazn /> : <AxpMemoEng />}
     </Container>
   );
