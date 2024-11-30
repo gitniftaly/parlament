@@ -1,13 +1,13 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { useState, useContext, useEffect } from "react";
+import { useState, useContext } from "react";
 import { adminAccessData } from "@/constants/adminAccess";
 import { ContextApi } from "@/contextapi/CreateContexApi";
 import { redirect } from "next/navigation";
 
 const Login = () => {
   const [admin, setAdmin] = useState({ user: "", password: "" });
-  const { adminAccess, setAdminAccess } = useContext(ContextApi);
+  const { setAdminAccess } = useContext(ContextApi);
 
   const handleAccess = (e) => {
     const { name, value } = e.target;
@@ -17,22 +17,28 @@ const Login = () => {
     }));
   };
 
-  useEffect(() => {
+  // useEffect(() => {
+  //   for (let n = 0; n < adminAccessData.length; n++) {
+  //     if (
+  //       adminAccessData[n].user === admin.user &&
+  //       adminAccessData[n].password === admin.password
+  //     ) {
+  //       setAdminAccess(true);
+  //       redirect("/admin/login/");
+  //     }
+  //   }
+  // }, [admin, setAdminAccess]);
+
+  const onSubmit = (e) => {
+    e.preventDefault();
     for (let n = 0; n < adminAccessData.length; n++) {
       if (
         adminAccessData[n].user === admin.user &&
         adminAccessData[n].password === admin.password
       ) {
         setAdminAccess(true);
+        redirect("/admin/login/");
       }
-    }
-  }, [admin, adminAccess, setAdminAccess]);
-
-  const onSubmit = (e) => {
-    e.preventDefault();
-
-    if (adminAccess) {
-      redirect("/admin/login/");
     }
     setAdmin({ user: "", password: "" });
   };
@@ -52,6 +58,7 @@ const Login = () => {
             placeholder="user name"
             type="text"
             onChange={(e) => handleAccess(e)}
+            autocomplete="off"
             className="h-8 w-80 border border-gray-300 rounded-lg px-2"
           />
         </div>
@@ -65,6 +72,7 @@ const Login = () => {
             placeholder="password"
             type="password"
             onChange={(e) => handleAccess(e)}
+            autocomplete="off"
             className="h-8 w-80 border border-gray-300 rounded-lg px-2 justify-end -pr-2"
           />
         </div>

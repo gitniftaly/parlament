@@ -44,10 +44,23 @@ const ElectionsLinks = ({ electionLinks, handleElectionLinks, lang }) => {
               >
                 <section className="flex justify-center items-center gap-1">
                   <FaCircle size="4" />
-                  <span>{lang === "az" ? "Seçki ili" : "Election Year"}</span>
+                  <span>{lang === "az" ? "Kandidatlar" : "Candidates"}</span>
                 </section>
               </Link>
             </div>
+            {/* <div className="flex  w-full">
+              <Link
+                className="hover:bg-gray-200 font-serif text-black"
+                href={"/elections/candidates"}
+                alt="electionyear"
+                onClick={(e) => handleElectionLinks(e)}
+              >
+                <section className="flex justify-center items-center gap-1">
+                  <FaCircle size="4" />
+                  <span>{lang === "az" ? "Kandidatlar" : "Candidates"}</span>
+                </section>
+              </Link>
+            </div> */}
           </div>
         ) : (
           ""
