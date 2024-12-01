@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const HomeContent = () => {
   const { lang, links } = useContext(ContextApi);
-  console.log("Links ", links);
+
   return (
     <Container
       className="sm:px-4 lg:px-0 flex-grow  bg-background h-dvh w-full 
