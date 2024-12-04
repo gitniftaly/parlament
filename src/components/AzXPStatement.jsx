@@ -18,7 +18,7 @@ const AzXPStatement = () => {
     >
       <div className="flex flex-col items-center justify-center mt-5 gap-[0.5px]">
         <header className="pb-3">
-          <h1 className="font-bold">AzXP Statement - Bəyanət</h1>
+          <h1 className="font-bold">AzXP Bəyannamə</h1>
         </header>
         <Image alt="s1" src={s1} width="700" height="auto" />
         <Image alt="s2" src={s2} width="700" height="auto" />

@@ -44,7 +44,9 @@ const ElectionsLinks = ({ electionLinks, handleElectionLinks, lang }) => {
               >
                 <section className="flex justify-center items-center gap-1">
                   <FaCircle size="4" />
-                  <span>{lang === "az" ? "Kandidatlar" : "Candidates"}</span>
+                  <span>
+                    {lang === "az" ? "Namizədlər 2024" : "Candidates 2024"}
+                  </span>
                 </section>
               </Link>
             </div>

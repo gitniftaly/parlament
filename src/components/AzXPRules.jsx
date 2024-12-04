@@ -22,7 +22,7 @@ const AzxpRules = () => {
     >
       <div className="flex flex-col items-center justify-center mt-5 gap-[0.5px]">
         <header className="pb-3">
-          <h1 className="font-bold">AzXP Regulations - Nizamnamə</h1>
+          <h1 className="font-bold">AzXP Nizamnamə</h1>
         </header>
         <Image alt="p1" src={p1} width="700" height="auto" />
         <Image alt="p2" src={p2} width="700" height="auto" />

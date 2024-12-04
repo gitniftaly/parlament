@@ -34,10 +34,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Container
-        className="flex flex-row justify-between h-32 
-                    sm:w-full rounded-t-md bg-nav-background"
-      >
+      <Container className="flex flex-row justify-between h-32 bg-gradient-to-r from-blue-900 via-red-800 to-green-900 sm:w-full rounded-t-md">
         <section className="flex items-center gap-2">
           <Image alt="azflag" src={logaaz} className="w-[60px] h-auto" />
           <article className="mt-1 text-white flex flex-col items-start">

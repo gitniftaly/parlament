@@ -29,7 +29,7 @@ const Rules = ({ text }) => {
               href={"/regulation/statement"}
               onClick={(e) => onSelectIterm(e)}
             >
-              AzXP statement - Bəyanət
+              AzXP Bəyannamə
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
@@ -39,7 +39,7 @@ const Rules = ({ text }) => {
               href={"/regulation/regulations"}
               onClick={(e) => onSelectIterm(e)}
             >
-              AzXP Regulations - Nizamnamə
+              AzXP Nizamnamə
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>

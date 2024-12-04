@@ -31,7 +31,7 @@ const InfoMenu = ({ text, lang }) => {
               href={"/news/newsLine"}
               onClick={(e) => onSelectIterm(e)}
             >
-              {lang === "az" ? "Xəbərlər Xətti" : "News line"}
+              {lang === "az" ? "Xəbərlər" : "News line"}
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />

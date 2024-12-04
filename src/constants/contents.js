@@ -9,7 +9,7 @@ export const navBarContentEng = {
   // admin: "Admin",
 };
 export const navBarContentAzn = {
-  info: "Xəbərlər",
+  info: "İnformasiya",
   rules: "Sənədlər",
   election: "Seçkilər",
   about: "Haqqında",

@@ -91,7 +91,7 @@ const MobileMenu = ({ lang, obj }) => {
             </div>
 
             {showlinks ? (
-              <div className="flex flex-col -ml-[20px] mt-[-5px]">
+              <div className="flex flex-col -ml-28 mt-[-5px]">
                 <div className="text-gray-600 flex">
                   <Image
                     alt="statement"
@@ -105,7 +105,7 @@ const MobileMenu = ({ lang, obj }) => {
                     alt="statement"
                     onClick={(e) => handleRules(e)}
                   >
-                    Statement - Bəyanət
+                    Bəyannamə
                   </Link>
                 </div>
                 <div
@@ -120,7 +120,7 @@ const MobileMenu = ({ lang, obj }) => {
                     className="-ml-[5px] mr-2 "
                   />
                   <Link href={"/regulation/regulations"} alt="regulations">
-                    Regulations - Nizamnamə
+                    Nizamnamə
                   </Link>
                 </div>
               </div>

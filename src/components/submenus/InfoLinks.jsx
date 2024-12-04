@@ -7,7 +7,7 @@ const InfoLinks = ({ infolinks, handleInfoLinks, lang }) => {
     <>
       <div className="w-full flex">
         <span className={`flex items-center`}>
-          {lang === "az" ? "Xəbərlər" : "News"}
+          {lang === "az" ? "İnformasiya" : "News"}
           {infolinks ? (
             <MdArrowDropDown size="20" />
           ) : (
@@ -28,7 +28,7 @@ const InfoLinks = ({ infolinks, handleInfoLinks, lang }) => {
               >
                 <section className="flex items-center gap-1">
                   <FaCircle size="4" />
-                  <span>{lang === "az" ? "Xəbərlər Xətti" : "NewsLine"}</span>
+                  <span>{lang === "az" ? "Xəbərlər" : "NewsLine"}</span>
                 </section>
               </Link>
             </div>

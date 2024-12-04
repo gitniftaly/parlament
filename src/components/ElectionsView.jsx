@@ -33,9 +33,7 @@ const ElectionsView = ({ text, lang }) => {
               href={"/elections/electioncommision"}
               onClick={(e) => onSelectIterm(e)}
             >
-              {lang === "az"
-                ? "Seçki komissiya üzvləri"
-                : "Election Commission"}
+              {lang === "az" ? "Seçki komissiyası" : "Election Commission"}
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
@@ -45,7 +43,7 @@ const ElectionsView = ({ text, lang }) => {
               href={"/elections/electionyear"}
               onClick={(e) => onSelectIterm(e)}
             >
-              {lang === "az" ? "Kandidatlar-2024" : "Candidates-2024"}
+              {lang === "az" ? "Namizədlər-2024" : "Candidates-2024"}
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>
