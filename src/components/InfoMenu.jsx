@@ -27,6 +27,7 @@ const InfoMenu = ({ text, lang }) => {
         <DropdownMenuContent>
           <DropdownMenuItem>
             <Link
+              className="sublinks"
               alt="news"
               href={"/news/newsLine"}
               onClick={(e) => onSelectIterm(e)}
@@ -37,6 +38,7 @@ const InfoMenu = ({ text, lang }) => {
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
+              className="sublinks"
               alt="announcements"
               href={"/news/announcements"}
               onClick={(e) => onSelectIterm(e)}
@@ -47,6 +49,7 @@ const InfoMenu = ({ text, lang }) => {
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
+              className="sublinks"
               alt="decisions"
               href={"/news/decisions"}
               onClick={(e) => onSelectIterm(e)}

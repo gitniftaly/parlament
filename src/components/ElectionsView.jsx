@@ -29,6 +29,7 @@ const ElectionsView = ({ text, lang }) => {
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
+              className="sublinks"
               alt="commission"
               href={"/elections/electioncommision"}
               onClick={(e) => onSelectIterm(e)}
@@ -39,6 +40,7 @@ const ElectionsView = ({ text, lang }) => {
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
+              className="sublinks"
               alt="election"
               href={"/elections/electionyear"}
               onClick={(e) => onSelectIterm(e)}

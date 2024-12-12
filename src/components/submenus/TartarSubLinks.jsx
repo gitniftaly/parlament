@@ -19,27 +19,44 @@ const TartarSubLinks = ({ tlinks, handleTartarLinks, lang }) => {
             <div className="text-gray-600 flex">
               <Link
                 className="hover:bg-gray-200 font-serif text-black"
-                href={"/tartar/active"}
+                href={"/tartar/ttorture"}
                 alt="active"
                 onClick={(e) => handleTartarLinks(e)}
               >
                 <section className="flex items-center gap-1">
                   <FaCircle size="4" />
-                  <span>{lang === "azn" ? "Activlər" : "Active"}</span>
+                  <span>
+                    {lang === "az" ? "Tərtər hadisələri" : "Tartar events"}
+                  </span>
                 </section>
               </Link>
             </div>
             <div className="text-gray-600 flex">
               <Link
                 className="hover:bg-gray-200 font-serif text-black"
-                href={"/tartar/late"}
+                href={"/tartar/nardaran"}
                 alt="late"
                 onClick={(e) => handleTartarLinks(e)}
               >
                 <section className="flex items-center gap-1">
                   <FaCircle size="4" />
                   <span>
-                    {lang === "azn" ? "Qətil olumuşlar" : "Not active"}
+                    {lang === "az" ? "Nardaran hadisələri" : "Nardarn events"}
+                  </span>
+                </section>
+              </Link>
+            </div>
+            <div className="text-gray-600 flex">
+              <Link
+                className="hover:bg-gray-200 font-serif text-black"
+                href={"/tartar/ganzha"}
+                alt="late"
+                onClick={(e) => handleTartarLinks(e)}
+              >
+                <section className="flex items-center gap-1">
+                  <FaCircle size="4" />
+                  <span>
+                    {lang === "az" ? "Gəncə hadisələri" : "Ganzha events"}
                   </span>
                 </section>
               </Link>

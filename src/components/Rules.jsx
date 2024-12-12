@@ -25,21 +25,23 @@ const Rules = ({ text }) => {
         <DropdownMenuContent>
           <DropdownMenuItem>
             <Link
+              className="sublinks"
               alt="statement"
               href={"/regulation/statement"}
               onClick={(e) => onSelectIterm(e)}
             >
-              AzXP Bəyannamə
+              Bəyannamə
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
+              className="sublinks"
               alt="regulation"
               href={"/regulation/regulations"}
               onClick={(e) => onSelectIterm(e)}
             >
-              AzXP Nizamnamə
+              Nizamnamə
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>

@@ -5,7 +5,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+@layer components {
+  .sublinks {
+    @apply font-serif text-black text-sm;
+  }
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -68,7 +72,6 @@ body {
   .page-background {
     background: "#93c5fd";
   }
-
   .tfont {
     font-family: "serif";
   }

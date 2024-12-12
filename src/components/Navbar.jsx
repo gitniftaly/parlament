@@ -17,6 +17,7 @@ import ElectionsView from "./ElectionsView";
 import { language } from "@/constants/contents";
 import TartarMenuDrop from "@/components/menudropdown/TartarMenuDrop";
 import { ContextApi } from "@/contextapi/CreateContexApi";
+import AboutSubLinks from "@/components/submenus/AboutSubLinks";
 
 const Navbar = () => {
   const [iconView] = useState(false);
@@ -74,6 +75,16 @@ const Navbar = () => {
                 ) : ind === 2 ? (
                   <div className="flex justify-center items-center">
                     <ElectionsView text={text} lang={lang} />
+                    {!iconView ? (
+                      <MdArrowDropUp size="20" />
+                    ) : (
+                      <MdArrowDropDown size="20" />
+                    )}
+                  </div>
+                ) : ind === 3 ? (
+                  <div className="flex justify-center items-center">
+                    <AboutSubLinks text={text} lang={lang} />
+
                     {!iconView ? (
                       <MdArrowDropUp size="20" />
                     ) : (

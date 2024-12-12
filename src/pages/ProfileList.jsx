@@ -14,6 +14,8 @@ const ProfileList = ({ data }) => {
             alt="pic1"
             width="70"
             height="70"
+            layout="responsive"
+            sizes="(max-width: 500px) 70px, 320px"
             className="rounded-full"
           />
         </section>

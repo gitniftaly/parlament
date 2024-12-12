@@ -1,10 +1,21 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 // import Candidates from "../candidates/page";
 import { candidates } from "@/constants/candidates";
-import CandidatesListView from "@/pages/CandidatesListView";
+// import CandidatesListView from "@/pages/CandidatesListView";
 import Container from "@/components/Container";
 import { useDebounce } from "@/utils/debounce";
+import dynamic from "next/dynamic";
+import { ClipLoader } from "react-spinners";
+
+const CandidatesListView = dynamic(() => import("@/pages/CandidatesListView"), {
+  ssr: false, // Optional: Disable server-side rendering for the component
+  loading: () => (
+    <p className="py-20 h-5 w-5">
+      <ClipLoader color="#36d7b7" />
+    </p>
+  ), // Optional: Display a loading indicator
+});
 
 const ElectionYear = () => {
   const [search, setSearch] = useState("");

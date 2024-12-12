@@ -27,7 +27,7 @@ const ElectionsLinks = ({ electionLinks, handleElectionLinks, lang }) => {
               >
                 <section className="flex items-center gap-1 flex-row">
                   <FaCircle size="4" />
-                  <span>
+                  <span className="sublinks">
                     {lang === "az"
                       ? "Seçki commisiyası"
                       : "Election Commission"}
@@ -37,7 +37,7 @@ const ElectionsLinks = ({ electionLinks, handleElectionLinks, lang }) => {
             </div>
             <div className="flex  w-full">
               <Link
-                className="hover:bg-gray-200 font-serif text-black"
+                className="hover:bg-gray-200 sublinks"
                 href={"/elections/electionyear"}
                 alt="electionyear"
                 onClick={(e) => handleElectionLinks(e)}

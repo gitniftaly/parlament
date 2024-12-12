@@ -6,8 +6,8 @@ const CandidatDeteails = ({ item }) => {
   return (
     <div className="sm:flex py-10 sm:gap-1">
       <div
-        className="h-[320px] w-[320px] border border-gray-300 flex justify-center 
-                       items-center rounded-lg p-4"
+        className="h-[350px] w-[350px] border border-gray-300 flex justify-center 
+                       items-center rounded-lg p-1"
       >
         <Image
           alt={item?.id}

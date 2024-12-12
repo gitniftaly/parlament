@@ -16,6 +16,7 @@ import Image from "next/image";
 import InfoLinks from "./submenus/InfoLinks";
 import ElectionsLinks from "./submenus/ElectionsLinks";
 import TartarSubLinks from "./submenus/TartarSubLinks";
+import AboutMobileSubs from "./submenus/AboutMobileSubs";
 
 const MobileMenu = ({ lang, obj }) => {
   const inputElement = React.useRef();
@@ -23,6 +24,7 @@ const MobileMenu = ({ lang, obj }) => {
   const [subInfo, setSubInfo] = useState(true);
   const [subElection, setSubElection] = useState(false);
   const [subTartar, setSubTartar] = useState(false);
+  const [subAbout, setAbout] = useState(false);
 
   const handleRules = (e) => {
     e.stopPropagation();
@@ -42,6 +44,11 @@ const MobileMenu = ({ lang, obj }) => {
   const handleTartarLinks = (e) => {
     e.stopPropagation();
     setSubTartar((hell) => !hell);
+    inputElement.current.click();
+  };
+  const handleAboutLinks = (e) => {
+    e.stopPropagation();
+    setAbout((hell) => !hell);
     inputElement.current.click();
   };
   return (
@@ -143,8 +150,17 @@ const MobileMenu = ({ lang, obj }) => {
             {/* </section> */}
           </DropdownMenuItem>
           <DropdownMenuSeparator />
-          <DropdownMenuItem>
-            {lang === "az" ? "Haqqinda" : "About"}
+          <DropdownMenuItem
+            onSelect={(e) => e.preventDefault()}
+            className="flex flex-col"
+            onClick={() => setAbout((ln) => !ln)}
+          >
+            <AboutMobileSubs
+              className=""
+              mlinks={subAbout}
+              handleAbout={handleAboutLinks}
+              lang={lang}
+            />
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem>

@@ -29,21 +29,34 @@ const TartarMenuDrop = ({ text, lang }) => {
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
+              className="sublinks"
               alt="active"
-              href={"/tartar/active"}
+              href={"/tartar/ttorture"}
               onClick={(e) => onSelectIterm(e)}
             >
-              {lang === "azn" ? "Activlər" : "Active"}
+              {lang === "az" ? "Tərtər hadisələri" : "Tartar evnets"}
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
+              className="sublinks"
               alt="late"
-              href={"/tartar/late"}
+              href={"/tartar/nardaran"}
               onClick={(e) => onSelectIterm(e)}
             >
-              {lang === "azn" ? "Qətil olunmuşlar" : "Not active"}
+              {lang === "az" ? "Nardaran hadisələri" : "Nardaran events"}
+            </Link>
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem>
+            <Link
+              className="sublinks"
+              alt="late"
+              href={"/tartar/ganzha"}
+              onClick={(e) => onSelectIterm(e)}
+            >
+              {lang === "az" ? "Gəncə hadisələri" : "Ganzha events"}
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>
