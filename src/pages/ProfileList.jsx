@@ -26,8 +26,11 @@ const ProfileList = ({ data }) => {
           >
             {data?.Adı}
           </p>
-          <p className="text-black ">{data?.İxtisas}</p>
-          <p>{data?.Ölkəsi}</p>
+          <div className="flex items-center justify-between">
+            <p className="text-black sublinks font-bold">{`Seçki nömrəsi `}</p>
+            <span className="font-bold font-serif mx-3 text-blue-700">{`#:${data?.canId}`}</span>
+          </div>
+          <p className="sublinks">{data?.Ölkəsi}</p>
         </section>
       </div>
     </div>

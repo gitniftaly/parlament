@@ -13,6 +13,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Almaniya",
     img: "/candidates/img001.jpg",
+    canId: 123,
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Rusiya, S-Pq",
     img: "/candidates/img002.jpg",
+    canId: 46,
   },
   {
     id: 3,
@@ -40,6 +42,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Almaniya",
     img: "/candidates/img003.jpg",
+    canId: 165,
   },
   {
     id: 4,
@@ -55,6 +58,7 @@ export const candidates = [
     PartiaÜzvi: "Musavat",
     Ölkəsi: "Almaniya",
     img: "/candidates/img004.jpg",
+    canId: 65,
   },
   {
     id: 5,
@@ -68,6 +72,7 @@ export const candidates = [
     AiləStatus: "Evli",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img005.jpg",
+    canId: 87,
   },
   {
     id: 6,
@@ -80,6 +85,7 @@ export const candidates = [
     AzVətOlubmu: "Bəli",
     Ölkəsi: "Ukrayna",
     img: "/candidates/img006.jpg",
+    canId: 132,
   },
   {
     id: 7,
@@ -95,6 +101,7 @@ export const candidates = [
     PartiaÜzvi: "ADR",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img007.jpg",
+    canId: 143,
   },
   {
     id: 8,
@@ -110,6 +117,7 @@ export const candidates = [
     PartiaÜzvi: "ADR",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img008.jpg",
+    canId: 11,
   },
   {
     id: 9,
@@ -122,6 +130,7 @@ export const candidates = [
     PartiaÜzvi: "AĞ-Partiya",
     Ölkəsi: "Rusiya",
     img: "/candidates/img009.jpg",
+    canId: 84,
   },
   {
     id: 10,
@@ -134,6 +143,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Gürcüstan, Tiflis",
     img: "/candidates/img010.jpg",
+    canId: 17,
   },
   {
     id: 11,
@@ -148,6 +158,7 @@ export const candidates = [
     AiləStatus: "Evli",
     Ölkəsi: "Rusiya",
     img: "/candidates/img011.jpg",
+    canId: 90,
   },
   {
     id: 12,
@@ -160,6 +171,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Bəlakən",
     img: "/candidates/img012.jpg",
+    canId: 159,
   },
   {
     id: 13,
@@ -175,6 +187,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Beyləqan",
     img: "/candidates/img013.jpg",
+    canId: 24,
   },
   {
     id: 14,
@@ -190,6 +203,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Rusiya ",
     img: "/candidates/img014.jpg",
+    canId: 75,
   },
   {
     id: 15,
@@ -201,6 +215,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Lənkəran",
     img: "/candidates/img015.jpg",
+    canId: 96,
   },
   {
     id: 16,
@@ -215,6 +230,7 @@ export const candidates = [
     AiləStatus: "Evli",
     Ölkəsi: "Norveç",
     img: "/candidates/img016.jpg",
+    canId: 145,
   },
   {
     id: 17,
@@ -227,6 +243,7 @@ export const candidates = [
     AzVətOlubmu: "Bəli",
     Ölkəsi: "Rusiya, Krasnoyarsk",
     img: "/candidates/img017.jpg",
+    canId: 104,
   },
   {
     id: 18,
@@ -240,6 +257,7 @@ export const candidates = [
     PartiaÜzvi: "ADR",
     Ölkəsi: "Azərbaycan, Zaqatala",
     img: "/candidates/img018.jpg",
+    canId: 82,
   },
   {
     id: 19,
@@ -252,6 +270,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Bərdə",
     img: "/candidates/img019.jpg",
+    canId: 36,
   },
   {
     id: 20,
@@ -267,6 +286,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img020.jpg",
+    canId: 99,
   },
   {
     id: 21,
@@ -282,6 +302,7 @@ export const candidates = [
     PartiaÜzvi: "ADR",
     Ölkəsi: "Azərbaycan, Naxçıvan",
     img: "/candidates/img021.jpg",
+    canId: 21,
   },
   {
     id: 22,
@@ -294,6 +315,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Fransa",
     img: "/candidates/img022.jpg",
+    canId: 81,
   },
   {
     id: 23,
@@ -309,6 +331,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "İngiltərə",
     img: "/candidates/img023.jpg",
+    canId: 100,
   },
   {
     id: 24,
@@ -323,6 +346,7 @@ export const candidates = [
     AiləStatus: "Evli",
     Ölkəsi: "Azərbaycan, Gəncə",
     img: "/candidates/img024.jpg",
+    canId: 121,
   },
   {
     id: 25,
@@ -338,6 +362,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img025.jpg",
+    canId: 88,
   },
   {
     id: 26,
@@ -350,6 +375,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Almaniya",
     img: "/candidates/img026.jpg",
+    canId: 109,
   },
   {
     id: 27,
@@ -365,6 +391,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img027.jpg",
+    canId: 34,
   },
   {
     id: 28,
@@ -380,6 +407,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Almaniya",
     img: "/candidates/img028.jpg",
+    canId: 129,
   },
   {
     id: 29,
@@ -395,6 +423,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img029.jpg",
+    canId: 150,
   },
   {
     id: 30,
@@ -407,6 +436,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Rusiya",
     img: "/candidates/img030.jpg",
+    canId: 163,
   },
   {
     id: 31,
@@ -422,6 +452,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Gədəbəy",
     img: "/candidates/img031.jpg",
+    canId: 93,
   },
   {
     id: 32,
@@ -437,6 +468,7 @@ export const candidates = [
     PartiaÜzvi: "AMMH",
     Ölkəsi: "Türkiyə",
     img: "/candidates/img032.jpg",
+    canId: 122,
   },
   {
     id: 33,
@@ -452,6 +484,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img033.jpg",
+    canId: 89,
   },
   {
     id: 34,
@@ -465,6 +498,7 @@ export const candidates = [
     PartiaÜzvi: "AMMH",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img034.jpg",
+    canId: 112,
   },
   {
     id: 35,
@@ -479,6 +513,7 @@ export const candidates = [
     AiləStatus: "Evli",
     Ölkəsi: "Azərbaycan, Ağdaş",
     img: "/candidates/img035.jpg",
+    canId: 94,
   },
   {
     id: 36,
@@ -492,6 +527,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbayan, Gədəbəy",
     img: "/candidates/img036.jpg",
+    canId: 45,
   },
   {
     id: 37,
@@ -507,6 +543,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "İsveç",
     img: "/candidates/img037.jpg",
+    canId: 162,
   },
   {
     id: 38,
@@ -522,6 +559,7 @@ export const candidates = [
     PartiaÜzvi: "ADR",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img038.jpg",
+    canId: 151,
   },
   {
     id: 39,
@@ -537,6 +575,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "İsveç",
     img: "/candidates/img039.jpg",
+    canId: 53,
   },
   {
     id: 40,
@@ -549,6 +588,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Rusiya, Moskva",
     img: "/candidates/img040.jpg",
+    canId: 118,
   },
   {
     id: 41,
@@ -562,6 +602,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan,Qazax",
     img: "/candidates/img041.jpg",
+    canId: 114,
   },
   {
     id: 42,
@@ -576,6 +617,7 @@ export const candidates = [
     PartiaÜzvi: "Müsavat",
     Ölkəsi: "Azərbaycan, Salyan",
     img: "/candidates/img042.jpg",
+    canId: 51,
   },
   {
     id: 43,
@@ -590,6 +632,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Tovuz",
     img: "/candidates/img043.jpg",
+    canId: 39,
   },
   {
     id: 44,
@@ -602,6 +645,7 @@ export const candidates = [
     AiləStatus: "Evli",
     Ölkəsi: "Azərbaycan, Gəncə",
     img: "/candidates/img044.jpg",
+    canId: 44,
   },
   {
     id: 45,
@@ -617,6 +661,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Almaniya",
     img: "/candidates/img045.jpg",
+    canId: 69,
   },
   {
     id: 46,
@@ -630,6 +675,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Rusiya, Moskva",
     img: "/candidates/img046.jpg",
+    canId: 30,
   },
   {
     id: 47,
@@ -643,6 +689,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img047.jpg",
+    canId: 137,
   },
   {
     id: 48,
@@ -658,6 +705,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Fizuli",
     img: "/candidates/img048.jpg",
+    canId: 73,
   },
   {
     id: 49,
@@ -672,6 +720,7 @@ export const candidates = [
     PartiaÜzvi: "AMMH",
     Ölkəsi: "Azərbaycan, Gəncə",
     img: "/candidates/img049.jpg",
+    canId: 7,
   },
   {
     id: 50,
@@ -686,6 +735,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Bərdə",
     img: "/candidates/img050.jpg",
+    canId: 42,
   },
   {
     id: 51,
@@ -701,6 +751,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Şirvan",
     img: "/candidates/img051.jpg",
+    canId: 60,
   },
   {
     id: 52,
@@ -716,6 +767,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaycan, Naxçıvan",
     img: "/candidates/img052.jpg",
+    canId: 130,
   },
   {
     id: 53,
@@ -729,6 +781,7 @@ export const candidates = [
     PartiaÜzvi: "AzerFreedom",
     Ölkəsi: "Rusiya, N.Novqorod",
     img: "/candidates/img053.jpg",
+    canId: 40,
   },
   {
     id: 54,
@@ -743,6 +796,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Daşkəsən",
     img: "/candidates/img054.jpg",
+    canId: 171,
   },
   {
     id: 55,
@@ -757,6 +811,7 @@ export const candidates = [
     PartiaÜzvi: "İnşaatçılar partiyası",
     Ölkəsi: "Y. Zelandiya",
     img: "/candidates/img055.jpg",
+    canId: 103,
   },
   {
     id: 56,
@@ -771,6 +826,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Rusiya, Moskva",
     img: "/candidates/img056.jpg",
+    canId: 146,
   },
   {
     id: 57,
@@ -784,6 +840,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Lənkəran",
     img: "/candidates/img057.jpg",
+    canId: 107,
   },
   {
     id: 58,
@@ -798,6 +855,7 @@ export const candidates = [
     PartiaÜzvi: "AMMH",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img058.jpg",
+    canId: 149,
   },
   {
     id: 59,
@@ -812,6 +870,7 @@ export const candidates = [
     PartiaÜzvi: "AMMH",
     Ölkəsi: "Fransa",
     img: "/candidates/img059.jpg",
+    canId: 56,
   },
   {
     id: 60,
@@ -826,6 +885,7 @@ export const candidates = [
     PartiaÜzvi: "ASDP",
     Ölkəsi: "Ukrayna",
     img: "/candidates/img060.jpg",
+    canId: 83,
   },
   {
     id: 61,
@@ -841,6 +901,7 @@ export const candidates = [
     PartiaÜzvi: "AXCP",
     Ölkəsi: "Azərbaycan, Goranboy",
     img: "/candidates/img061.jpg",
+    canId: 14,
   },
   {
     id: 62,
@@ -856,6 +917,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Ordubad",
     img: "/candidates/img062.jpg",
+    canId: 98,
   },
   {
     id: 63,
@@ -870,6 +932,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Qusar",
     img: "/candidates/img063.jpg",
+    canId: 37,
   },
   {
     id: 64,
@@ -885,6 +948,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Yevlax",
     img: "/candidates/img064.jpg",
+    canId: 57,
   },
   {
     id: 65,
@@ -900,6 +964,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img065.jpg",
+    canId: 110,
   },
   {
     id: 66,
@@ -915,6 +980,7 @@ export const candidates = [
     PartiaÜzvi: "Müsavat",
     Ölkəsi: "Azərbaycan, Yevlax",
     img: "/candidates/img066.jpg",
+    canId: 43,
   },
   {
     id: 67,
@@ -930,6 +996,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Hollandiya",
     img: "/candidates/img067.jpg",
+    canId: 35,
   },
   {
     id: 68,
@@ -943,6 +1010,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Ağdam",
     img: "/candidates/img068.jpg",
+    canId: 5,
   },
   {
     id: 69,
@@ -956,6 +1024,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Salyan",
     img: "/candidates/img069.jpg",
+    canId: 4,
   },
   {
     id: 70,
@@ -970,6 +1039,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Zaqatala",
     img: "/candidates/img070.jpg",
+    canId: 20,
   },
   {
     id: 71,
@@ -982,6 +1052,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Xaçmaz",
     img: "/candidates/img071.jpg",
+    canId: 135,
   },
   {
     id: 72,
@@ -997,6 +1068,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Rusiya",
     img: "/candidates/img072.jpg",
+    canId: 9,
   },
   {
     id: 73,
@@ -1012,6 +1084,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Rusiya",
     img: "/candidates/img073.jpg",
+    canId: 141,
   },
   {
     id: 74,
@@ -1027,6 +1100,7 @@ export const candidates = [
     PartiaÜzvi: "ADR",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img074.jpg",
+    canId: 3,
   },
   {
     id: 75,
@@ -1042,6 +1116,7 @@ export const candidates = [
     PartiaÜzvi: "KXCP",
     Ölkəsi: "Azərbaycan, Qazax",
     img: "/candidates/img075.jpg",
+    canId: 108,
   },
   {
     id: 76,
@@ -1054,6 +1129,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Salyan",
     img: "/candidates/img076.jpg",
+    canId: 22,
   },
   {
     id: 77,
@@ -1065,6 +1141,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Gəncə",
     img: "/candidates/img077.jpg",
+    canId: 117,
   },
   {
     id: 78,
@@ -1076,6 +1153,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Cəlilabad",
     img: "/candidates/img078.jpg",
+    canId: 13,
   },
   {
     id: 79,
@@ -1087,6 +1165,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Şabran",
     img: "/candidates/img079.jpg",
+    canId: 128,
   },
   {
     id: 80,
@@ -1098,6 +1177,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img080.jpg",
+    canId: 62,
   },
   {
     id: 81,
@@ -1111,6 +1191,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img081.jpg",
+    canId: 18,
   },
   {
     id: 82,
@@ -1123,6 +1204,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Qazax",
     img: "/candidates/img082.jpg",
+    canId: 48,
   },
   {
     id: 83,
@@ -1134,6 +1216,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img083.jpg",
+    canId: 125,
   },
   {
     id: 84,
@@ -1145,6 +1228,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img084.jpg",
+    canId: 72,
   },
   {
     id: 85,
@@ -1158,6 +1242,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Saatlı",
     img: "/candidates/img085.jpg",
+    canId: 116,
   },
   {
     id: 86,
@@ -1169,6 +1254,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Sabirabad",
     img: "/candidates/img086.jpg",
+    canId: 164,
   },
   {
     id: 87,
@@ -1181,6 +1267,7 @@ export const candidates = [
     AzVətOlubmu: "Bəli",
     Ölkəsi: "Rusiya, Moskva",
     img: "/candidates/img087.jpg",
+    canId: 19,
   },
   {
     id: 88,
@@ -1206,6 +1293,7 @@ export const candidates = [
     PartiaÜzvi: "AXCP",
     Ölkəsi: "Azərbaycan, Bəlakən",
     img: "/candidates/img089.jpg",
+    canId: 154,
   },
   {
     id: 90,
@@ -1218,6 +1306,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Kanada",
     img: "/candidates/img090.jpg",
+    canId: 131,
   },
   {
     id: 91,
@@ -1230,6 +1319,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Zərdab",
     img: "/candidates/img091.jpg",
+    canId: 59,
   },
   {
     id: 92,
@@ -1244,6 +1334,7 @@ export const candidates = [
     PartiaÜzvi: "AMMH",
     Ölkəsi: "Azərbaycan, Ağdaş",
     img: "/candidates/img092.jpg",
+    canId: 29,
   },
   {
     id: 93,
@@ -1256,6 +1347,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Cəbrayıl",
     img: "/candidates/img093.jpg",
+    canId: 156,
   },
   {
     id: 94,
@@ -1267,6 +1359,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Ağcabədi",
     img: "/candidates/img094.jpg",
+    canId: 28,
   },
   {
     id: 95,
@@ -1278,6 +1371,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Naftalan",
     img: "/candidates/img095.jpg",
+    canId: 152,
   },
   {
     id: 96,
@@ -1289,6 +1383,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Cəlilabad",
     img: "/candidates/img096.jpg",
+    canId: 74,
   },
   {
     id: 97,
@@ -1300,6 +1395,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Tovuz",
     img: "/candidates/img097.jpg",
+    canId: 66,
   },
   {
     id: 98,
@@ -1314,6 +1410,7 @@ export const candidates = [
     PartiaÜzvi: "AMMH",
     Ölkəsi: "Moldova",
     img: "/candidates/img098.jpg",
+    canId: 95,
   },
   {
     id: 99,
@@ -1327,6 +1424,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Şəki",
     img: "/candidates/img099.jpg",
+    canId: 140,
   },
   {
     id: 100,
@@ -1338,6 +1436,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Kürdəmir",
     img: "/candidates/img100.jpg",
+    canId: 133,
   },
   {
     id: 101,
@@ -1351,6 +1450,7 @@ export const candidates = [
     PartiaÜzvi: "AMMH",
     Ölkəsi: "Azərbaycan, Qazax",
     img: "/candidates/img101.jpg",
+    canId: 167,
   },
   {
     id: 102,
@@ -1365,6 +1465,7 @@ export const candidates = [
     PartiaÜzvi: "AMMH",
     Ölkəsi: "Almaniya",
     img: "/candidates/img102.jpg",
+    canId: 92,
   },
   {
     id: 103,
@@ -1378,6 +1479,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan, Şəki",
     img: "/candidates/img103.jpg",
+    canId: 86,
   },
   {
     id: 104,
@@ -1393,6 +1495,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Bərdə",
     img: "/candidates/img104.jpg",
+    canId: 113,
   },
   {
     id: 105,
@@ -1408,6 +1511,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Azərbaycan, Ağdaş",
     img: "/candidates/img105.jpg",
+    canId: 147,
   },
   {
     id: 106,
@@ -1421,6 +1525,7 @@ export const candidates = [
     AiləStatus: "Evli",
     Ölkəsi: "Ukrayna,Kiyev",
     img: "/candidates/img106.jpg",
+    canId: 172,
   },
   {
     id: 107,
@@ -1436,6 +1541,7 @@ export const candidates = [
     PartiaÜzvi: "Yoxdur",
     Ölkəsi: "Almaniya",
     img: "/candidates/img107.jpg",
+    canId: 144,
   },
   {
     id: 108,
@@ -1447,6 +1553,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Türkiyə",
     img: "/candidates/img108.jpg",
+    canId: 77,
   },
   {
     id: 109,
@@ -1458,6 +1565,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan",
     img: "/candidates/img109.jpg",
+    canId: 16,
   },
   {
     id: 110,
@@ -1469,6 +1577,7 @@ export const candidates = [
     AzVətOlubmu: "Var",
     Ölkəsi: "Azərbaycan",
     img: "/candidates/img110.jpg",
+    canId: 68,
   },
   {
     id: 111,
@@ -1481,6 +1590,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Ukrayna",
     img: "/candidates/img111.jpg",
+    canId: 173,
   },
   {
     id: 112,
@@ -1494,6 +1604,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Rusiya,Smolensk",
     img: "/candidates/img112.jpg",
+    canId: 138,
   },
   {
     id: 113,
@@ -1506,6 +1617,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Rusiya, N. Çelnı",
     img: "/candidates/img113.jpg",
+    canId: 31,
   },
   {
     id: 114,
@@ -1519,6 +1631,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Ukrayna, Vinnitsa",
     img: "/candidates/img114.jpg",
+    canId: 54,
   },
   {
     id: 115,
@@ -1532,6 +1645,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Almainiya",
     img: "/candidates/img115.jpg",
+    canId: 58,
   },
   {
     id: 116,
@@ -1545,6 +1659,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Hollandiya",
     img: "/candidates/img116.jpg",
+    canId: 161,
   },
   {
     id: 117,
@@ -1558,6 +1673,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Almaniya",
     img: "/candidates/img117.jpg",
+    canId: 136,
   },
   {
     id: 118,
@@ -1571,6 +1687,7 @@ export const candidates = [
     PartiaÜzvi: "Yox",
     Ölkəsi: "Azərbaican, Bakı",
     img: "/candidates/img118.jpg",
+    canId: 170,
   },
   {
     id: 119,
@@ -1586,6 +1703,7 @@ export const candidates = [
     PartiaÜzvi: "AMMN",
     Ölkəsi: "Azərbaican, Agdaş",
     img: "/candidates/img119.jpg",
+    canId: 71,
   },
   {
     id: 120,
@@ -1601,6 +1719,7 @@ export const candidates = [
     PartiaÜzvi: "AMMN",
     Ölkəsi: "İsveç",
     img: "/candidates/img120.jpg",
+    canId: 27,
   },
   {
     id: 121,
@@ -1616,6 +1735,7 @@ export const candidates = [
     PartiaÜzvi: "AXCP",
     Ölkəsi: "Alamaniya",
     img: "/candidates/img121.jpg",
+    canId: 12,
   },
   {
     id: 122,
@@ -1631,6 +1751,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaijan",
     img: "/candidates/img122.jpg",
+    canId: 1,
   },
   {
     id: 123,
@@ -1646,6 +1767,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaijan, Bakı",
     img: "/candidates/img123.jpg",
+    canId: 134,
   },
   {
     id: 124,
@@ -1661,6 +1783,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaijan, İsmayıllı",
     img: "/candidates/img124.jpg",
+    canId: 97,
   },
   {
     id: 125,
@@ -1676,6 +1799,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Rusiya, S-Pg",
     img: "/candidates/img125.jpg",
+    canId: 101,
   },
   {
     id: 126,
@@ -1691,6 +1815,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Rusiya, Smolensk",
     img: "/candidates/img126.jpg",
+    canId: 67,
   },
   {
     id: 127,
@@ -1706,6 +1831,7 @@ export const candidates = [
     PartiaÜzvi: "Musavat",
     Ölkəsi: "Azerbaycan, Qubadlı",
     img: "/candidates/img127.jpg",
+    canId: 78,
   },
   {
     id: 128,
@@ -1721,6 +1847,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Belçika",
     img: "/candidates/img128.jpg",
+    canId: 153,
   },
   {
     id: 129,
@@ -1736,6 +1863,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan, Agdaş",
     img: "/candidates/img129.jpg",
+    canId: 70,
   },
   {
     id: 130,
@@ -1751,6 +1879,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan, Agdaş",
     img: "/candidates/img130.jpg",
+    canId: 142,
   },
   {
     id: 131,
@@ -1766,6 +1895,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img131.jpg",
+    canId: 6,
   },
   {
     id: 132,
@@ -1781,6 +1911,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Hollandiya",
     img: "/candidates/img132.jpg",
+    canId: 160,
   },
   {
     id: 133,
@@ -1796,6 +1927,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan, Yardımlı",
     img: "/candidates/img133.jpg",
+    canId: 111,
   },
   {
     id: 134,
@@ -1811,6 +1943,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan, Mingəçevir",
     img: "/candidates/img134.jpg",
+    canId: 10,
   },
   {
     id: 135,
@@ -1826,6 +1959,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Rusiya",
     img: "/candidates/img135.jpg",
+    canId: 80,
   },
   {
     id: 136,
@@ -1841,6 +1975,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan, Gəncə",
     img: "/candidates/img136.jpg",
+    canId: 76,
   },
   {
     id: 137,
@@ -1856,6 +1991,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Belarus",
     img: "/candidates/img137.jpg",
+    canId: 157,
   },
   {
     id: 138,
@@ -1871,6 +2007,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan",
     img: "/candidates/img138.jpg",
+    canId: 174,
   },
   {
     id: 139,
@@ -1886,6 +2023,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan",
     img: "/candidates/img139.jpg",
+    canId: 91,
   },
   {
     id: 140,
@@ -1901,6 +2039,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Almaniya",
     img: "/candidates/img140.jpg",
+    canId: 61,
   },
   {
     id: 141,
@@ -1916,6 +2055,7 @@ export const candidates = [
     PartiaÜzvi: "AXCP",
     Ölkəsi: "Azərbaycan",
     img: "/candidates/img141.jpg",
+    canId: 169,
   },
   {
     id: 142,
@@ -1931,6 +2071,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Rusiya, S-Pb",
     img: "/candidates/img142.jpg",
+    canId: 79,
   },
   {
     id: 143,
@@ -1946,6 +2087,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img143.jpg",
+    canId: 124,
   },
   {
     id: 144,
@@ -1961,6 +2103,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "ABŞ",
     img: "/candidates/img144.jpg",
+    canId: 119,
   },
   {
     id: 145,
@@ -1976,6 +2119,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Ukraina",
     img: "/candidates/img145.jpg",
+    canId: 15,
   },
   {
     id: 146,
@@ -1991,6 +2135,7 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Estoniya",
     img: "/candidates/img146.jpg",
+    canId: 2,
   },
   {
     id: 147,
@@ -2006,5 +2151,438 @@ export const candidates = [
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan",
     img: "/candidates/img147.jpg",
+    canId: 41,
+  },
+  {
+    id: 148,
+    Adı: "Qurban Budaqlı İlqar oğlu",
+    Təvəllüd: "6/27/2001",
+    DogYer: "Beylaqan",
+    Təhsil: "Orta",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Beylagan",
+    img: "/candidates/img148.jpg",
+    canId: 23,
+  },
+  {
+    id: 149,
+    Adı: "Səxavət Cabbarov Ağaşirin oğlu",
+    Təvəllüd: "6/15/1978",
+    DogYer: "Agdaş",
+    Təhsil: "Ali",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Agdaş",
+    img: "/candidates/img149.jpg",
+    canId: 25,
+  },
+  {
+    id: 150,
+    Adı: "Emil Camalov Musa oğlu",
+    Təvəllüd: "10/31/1981",
+    DogYer: "Bakı",
+    Təhsil: "Ali",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "YAP",
+    Ölkəsi: "ABŞ",
+    img: "/candidates/img150.jpg",
+    canId: 26,
+  },
+  {
+    id: 151,
+    Adı: "Yaşar Cəfərov Tahir oğlu",
+    Təvəllüd: "10/31/1981",
+    DogYer: "Goranboy",
+    Təhsil: "Ali",
+    İxtisas: "Mühəndis",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Russiya, Moskva",
+    img: "/candidates/img151.jpg",
+    canId: 32,
+  },
+  {
+    id: 152,
+    Adı: "ArifəCəfərova Arif qızı",
+    Təvəllüd: "11/2/1975",
+    DogYer: "Bakı",
+    Təhsil: "Ali",
+    İxtisas: "İnşatçı",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Bakı",
+    img: "/candidates/img152.jpg",
+    canId: 33,
+  },
+  {
+    id: 153,
+    Adı: "İdris Əhmədov Faxrəddin oğlu",
+    Təvəllüd: "4/23/1986",
+    DogYer: "Beylaqan",
+    Təhsil: "Orta",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Beylaqan",
+    img: "/candidates/img153.jpg",
+    canId: 38,
+  },
+  {
+    id: 154,
+    Adı: "Elman Əliyev Yaqub oğlu",
+    Təvəllüd: "7/1/1963",
+    DogYer: "Bakı",
+    Təhsil: "Orta",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Fransa",
+    img: "/candidates/img154.jpg",
+    canId: 47,
+  },
+  {
+    id: 155,
+    Adı: "Namiq Əliyev Soltan oğlu",
+    Təvəllüd: "3/10/1957",
+    DogYer: "Kürdəmir",
+    Təhsil: "Ali",
+    İxtisas: "İqtisadcı",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Russiya",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Russiya",
+    img: "/candidates/img155.jpg",
+    canId: 49,
+  },
+  {
+    id: 156,
+    Adı: "Ruslan Əliyev Rasim oğlu",
+    Təvəllüd: "11/12/2001",
+    DogYer: "Russiya",
+    Təhsil: "Ali",
+    İxtisas: "Aviasiya",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Russiya",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Fransa",
+    img: "/candidates/img156.jpg",
+    canId: 50,
+  },
+  {
+    id: 157,
+    Adı: "Rəfail Emçiyev Nizami oğlu",
+    Təvəllüd: "3/8/1987",
+    DogYer: "Balakən",
+    Təhsil: "Orta",
+    İxtisas: "Hərbi",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan",
+    img: "/candidates/img157.jpg",
+    canId: 52,
+  },
+  {
+    id: 158,
+    Adı: "Elmira Extibarova Nüsrət qızı",
+    Təvəllüd: "3/8/1987",
+    DogYer: "Rusiya",
+    Təhsil: "Orta",
+    İxtisas: "Tibb",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Bakı",
+    img: "/candidates/img158.jpg",
+    canId: 55,
+  },
+  {
+    id: 159,
+    Adı: "Etibar Hacıyev Polad oğlu",
+    Təvəllüd: "1/25/1967",
+    DogYer: "Yevlax",
+    Təhsil: "Orta",
+    İxtisas: "Sürücü",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Rusiya",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Rusiya",
+    img: "/candidates/img159.jpg",
+    canId: 63,
+  },
+  {
+    id: 160,
+    Adı: "Nurlan Hacıyev Elman oğlu",
+    Təvəllüd: "10/25/1988",
+    DogYer: "Quba",
+    Təhsil: "Orta",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Rusiya",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Rusiya, Volqaqrad",
+    img: "/candidates/img160.jpg",
+    canId: 64,
+  },
+  {
+    id: 161,
+    Adı: "Nəsirəddin Kərəmov Yunus oğlu",
+    Təvəllüd: "2/25/1950",
+    DogYer: "Saatlı",
+    Təhsil: "Ali",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Saatlı",
+    img: "/candidates/img161.jpg",
+    canId: 85,
+  },
+  {
+    id: 162,
+    Adı: "Şakir Məmmədov Məhəmmədəli oğlu",
+    Təvəllüd: "4/1/1960",
+    DogYer: "Agstafa",
+    Təhsil: "Ali",
+    İxtisas: "Juranlist",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Sumqait",
+    img: "/candidates/img162.jpg",
+    canId: 101,
+  },
+  {
+    id: 163,
+    Adı: "Leyla Məmmədova Abbasqulu qızı",
+    Təvəllüd: "2/19/1971",
+    DogYer: "Naxçvan",
+    Təhsil: "Ali",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Bakı",
+    img: "/candidates/img163.jpg",
+    canId: 105,
+  },
+  {
+    id: 164,
+    Adı: "Dilarə Miriyeva Qəzənfər qızı",
+    Təvəllüd: "7/1/1959",
+    DogYer: "Tovus",
+    Təhsil: "Ali",
+    İxtisas: "Juranlist",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "AMMH",
+    Ölkəsi: "Azərbaycan, Bakı",
+    img: "/candidates/img164.jpg",
+    canId: 106,
+  },
+  {
+    id: 165,
+    Adı: "Firuzə Namazova Şahin qızı",
+    Təvəllüd: "7/21/1995",
+    DogYer: "Qəbələ",
+    Təhsil: "Orta",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Beylaqan",
+    img: "/candidates/img165.jpg",
+    canId: 115,
+  },
+  {
+    id: 166,
+    Adı: "Fərhad Orucov Bayram oğlu",
+    Təvəllüd: "9/15/1967",
+    DogYer: "Gədəbəy",
+    Təhsil: "Orta",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Rusiya",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "AMMH",
+    Ölkəsi: "Rusiya",
+    img: "/candidates/img166.jpg",
+    canId: 120,
+  },
+  {
+    id: 167,
+    Adı: "Məcid Qasımov Kamal oğlu",
+    Təvəllüd: "1/31/1987",
+    DogYer: "Qazax",
+    Təhsil: "Orta",
+    İxtisas: "Hərbi",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan,Şəmkir",
+    img: "/candidates/img167.jpg",
+    canId: 126,
+  },
+  {
+    id: 168,
+    Adı: "Tamam Qasımzadə Rüstəm qızı",
+    Təvəllüd: "8/12/1998",
+    DogYer: "Bakı",
+    Təhsil: "Orta",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Bakı",
+    img: "/candidates/img168.jpg",
+    canId: 127,
+  },
+  {
+    id: 169,
+    Adı: "Kamil Rəşidov Cabbar oğlu",
+    Təvəllüd: "7/15/1944",
+    DogYer: "Gəbələ",
+    Təhsil: "Ali",
+    İxtisas: "Kimyaçı",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Azərbaycan, Bakı",
+    img: "/candidates/img169.jpg",
+    canId: 139,
+  },
+  {
+    id: 170,
+    Adı: "Validə Sarracova  Ələkbər qızı",
+    Təvəllüd: "1/28/1966",
+    DogYer: "Daşkəsən",
+    Təhsil: "Orta",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Rusiya",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Rusiya",
+    img: "/candidates/img170.jpg",
+    canId: 148,
+  },
+  {
+    id: 171,
+    Adı: "Əli Şirvani Alməmməd oğlu",
+    Təvəllüd: "12/14/1965",
+    DogYer: "Cəlilabad",
+    Təhsil: "Ali",
+    İxtisas: "Sahibkar",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Rusiya",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Rusiya, Uxta",
+    img: "/candidates/img171.jpg",
+    canId: 155,
+  },
+  {
+    id: 172,
+    Adı: "Haqverdi Tapdıqov Hüseyn oğlu",
+    Təvəllüd: "8/5/1952",
+    DogYer: "Kürdəmir",
+    Təhsil: "Ali",
+    İxtisas: "Pedaqoq",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Azərbaycan",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "AxƏd",
+    Ölkəsi: "Azərbaycan",
+    img: "/candidates/img172.jpg",
+    canId: 158,
+  },
+  {
+    id: 173,
+    Adı: "Rəbiyyə Xanlarova Əli qızı",
+    Təvəllüd: "6/6/1960",
+    DogYer: "Bakı",
+    Təhsil: "Orta",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Avstriya",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "",
+    Ölkəsi: "Avstriya",
+    img: "/candidates/img173.jpg",
+    canId: 166,
+  },
+  {
+    id: 174,
+    Adı: "Xələfov Məhəmməd Molla oğlu",
+    Təvəllüd: "7/1/1958",
+    DogYer: "Ucar",
+    Təhsil: "Orta",
+    İxtisas: "",
+    Fəaliyyət: "",
+    Vətəndaşlıq: "Avstriya",
+    AzVətOlubmu: "Var",
+    AiləStatus: "",
+    PartiaÜzvi: "AxƏd",
+    Ölkəsi: "Azərbaycan, Ucar",
+    img: "/candidates/img174.jpg",
+    canId: 168,
   },
 ];
