@@ -2219,7 +2219,7 @@ export const candidates = [
   },
   {
     id: 152,
-    Adı: "ArifəCəfərova Arif qızı",
+    Adı: "Arifə Cəfərova Arif qızı",
     Təvəllüd: "11/2/1975",
     DogYer: "Bakı",
     Təhsil: "Ali",
@@ -2493,7 +2493,7 @@ export const candidates = [
     id: 169,
     Adı: "Kamil Rəşidov Cabbar oğlu",
     Təvəllüd: "7/15/1944",
-    DogYer: "Gəbələ",
+    DogYer: "Qəbələ",
     Təhsil: "Ali",
     İxtisas: "Kimyaçı",
     Fəaliyyət: "",
