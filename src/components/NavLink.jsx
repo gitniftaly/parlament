@@ -12,7 +12,7 @@ const NavLink = ({ text, url, className, onClick, ...props }) => {
         className={clsx(
           `${
             param === url
-              ? "underline underline-offset-8 decoration-2 decoration-slate-500 rounded-lg"
+              ? "underline underline-offset-8 decoration-2 decoration-white rounded-lg"
               : ""
           }`,
           className

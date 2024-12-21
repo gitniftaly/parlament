@@ -15,7 +15,7 @@ export const navBarContentAzn = {
   about: "Haqqında",
   contactus: "Əlaqə",
   tartar: "Dövləti cinayətlər",
-  home: "Giriş",
+  home: "Ön səhifə",
   // admin: "Admin",
 };
 

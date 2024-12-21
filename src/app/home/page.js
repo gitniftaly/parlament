@@ -7,7 +7,6 @@ import AxpMemoEng from "@/pages/AxpMemoEng";
 import { ContextApi } from "@/contextapi/CreateContexApi";
 import { useContext } from "react";
 import Link from "next/link";
-// import UserSetLink from "@/pages/UserSetLink";
 
 const HomeContent = () => {
   const { lang, links } = useContext(ContextApi);
@@ -36,7 +35,17 @@ const HomeContent = () => {
           </span>
         </Link>
       )}
-      {lang === "az" ? <AzxMemoazn /> : <AxpMemoEng />}
+      <div className="hidden sm:flex sm:flex-row p-1 gap-1">
+        <div className="rounded-xl shadow-lg border border-gray-200 w-full h-auto">
+          <AzxMemoazn />
+        </div>
+        <div className="rounded-xl shadow-lg border border-gray-200 w-full h-auto">
+          <AxpMemoEng />
+        </div>
+      </div>
+      <div className="sm:hidden">
+        {lang === "az" ? <AzxMemoazn /> : <AxpMemoEng />}
+      </div>
     </Container>
   );
 };

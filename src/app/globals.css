@@ -72,6 +72,9 @@ body {
   .page-background {
     background: "#93c5fd";
   }
+  .nav-background {
+    background: "#6495ED";
+  }
   .tfont {
     font-family: "serif";
   }

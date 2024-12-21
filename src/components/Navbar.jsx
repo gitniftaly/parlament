@@ -30,88 +30,25 @@ const Navbar = () => {
   }, [lang]);
 
   const MenuIcon = () => (
-    <FiMenu size={40} className="text-gray-200 cursor-pointer relative" />
+    <FiMenu size={35} className="text-gray-200 cursor-pointer relative" />
   );
 
   return (
     <>
-      <Container className="flex flex-row justify-between h-32 bg-gradient-to-r from-blue-900 via-red-800 to-green-900 sm:w-full rounded-t-md">
-        <section className="flex items-center gap-2">
+      <Container className="flex flex-col justify-between h-32 sm:w-full rounded-t-md bg-nav-background">
+        <div className="flex  w-full  p-1 justify-between items-center mt-3 ">
           <Image alt="azflag" src={logaaz} className="w-[60px] h-auto" />
-          <article className="mt-1 text-white flex flex-col items-start">
-            <div className="tracking-wider font-bold">Azərbaycan</div>
-            <div className="tracking-wider font-bold">Xalq</div>
-            <div className="tracking-wider font-bold">Parlamenti</div>
-          </article>
-        </section>
+          <div className="flex flex-col sm:full">
+            <article className=" text-white text-xl ml-5 sm:ml-0 flex font-bold font-serif sm:text-2xl sm:tracking-wide">
+              Azərbaycan Xalq Parlamenti
+            </article>
+            <article className=" text-white ml-5 sm:flex text-italicized font-serif text-sm sm:text-xl sm:tracking-wide">
+              {`People's Parliament of Azerbaijan`}
+            </article>
+          </div>
 
-        <section
-          className="hidden sm:w-[570px] sm:flex flex-1
-             justify-between items-center h-8 m-auto
-             font-serif font-normal mx-20"
-        >
-          {content.map((text, ind) => (
-            <NavLink
-              key={ind}
-              text={
-                ind === 1 ? (
-                  <div className="flex justify-center items-center">
-                    <Rules text={text} />
-                    {!iconView ? (
-                      <MdArrowDropUp size="20" />
-                    ) : (
-                      <MdArrowDropDown size="20" />
-                    )}
-                  </div>
-                ) : ind === 0 ? (
-                  <div className="flex justify-center items-center">
-                    <InfoMenu text={text} lang={lang} />
-                    {!iconView ? (
-                      <MdArrowDropUp size="20" />
-                    ) : (
-                      <MdArrowDropDown size="20" />
-                    )}
-                  </div>
-                ) : ind === 2 ? (
-                  <div className="flex justify-center items-center">
-                    <ElectionsView text={text} lang={lang} />
-                    {!iconView ? (
-                      <MdArrowDropUp size="20" />
-                    ) : (
-                      <MdArrowDropDown size="20" />
-                    )}
-                  </div>
-                ) : ind === 3 ? (
-                  <div className="flex justify-center items-center">
-                    <AboutSubLinks text={text} lang={lang} />
-
-                    {!iconView ? (
-                      <MdArrowDropUp size="20" />
-                    ) : (
-                      <MdArrowDropDown size="20" />
-                    )}
-                  </div>
-                ) : ind === 5 ? (
-                  <div className="flex justify-center items-center">
-                    <TartarMenuDrop text={text} lang={lang} />
-                    {!iconView ? (
-                      <MdArrowDropUp size="20" />
-                    ) : (
-                      <MdArrowDropDown size="20" />
-                    )}
-                  </div>
-                ) : (
-                  text
-                )
-              }
-              url={hrefList[ind]}
-              className="font-normal"
-            />
-          ))}
-        </section>
-        <section className="flex h-8 items-center justify-center m-auto w-12">
           <select
-            className="bg-nav-background h-8 w-12 rounded-md border border-white"
+            className="bg-nav-background h-8 rounded-md border border-white text-white"
             onChange={(e) => setLang(e.target.value)}
           >
             <option value="az" defaultValue>
@@ -119,24 +56,88 @@ const Navbar = () => {
             </option>
             <option value="en">en</option>
           </select>
-        </section>
-        <section className="p-3 hidden sm:flex h-20  my-auto">
+
           <Image
             alt="flaq"
             src={flag}
             width="60"
             height="auto"
-            className="rounded-md border border-blue-600"
+            className="rounded-md border border-blue-600 hidden sm:flex"
           />
-        </section>
+        </div>
+        <div className="flex w-full justify-between items-center">
+          <section
+            className="hidden sm:w-full sm:flex
+             justify-between items-center h-8 sm:mb-3
+             font-serif font-normal mx-20"
+          >
+            {content.map((text, ind) => (
+              <NavLink
+                key={ind}
+                text={
+                  ind === 1 ? (
+                    <div className="flex justify-center items-center">
+                      <Rules text={text} />
+                      {!iconView ? (
+                        <MdArrowDropUp size="20" />
+                      ) : (
+                        <MdArrowDropDown size="20" />
+                      )}
+                    </div>
+                  ) : ind === 0 ? (
+                    <div className="flex justify-center items-center">
+                      <InfoMenu text={text} lang={lang} />
+                      {!iconView ? (
+                        <MdArrowDropUp size="20" />
+                      ) : (
+                        <MdArrowDropDown size="20" />
+                      )}
+                    </div>
+                  ) : ind === 2 ? (
+                    <div className="flex justify-center items-center">
+                      <ElectionsView text={text} lang={lang} />
+                      {!iconView ? (
+                        <MdArrowDropUp size="20" />
+                      ) : (
+                        <MdArrowDropDown size="20" />
+                      )}
+                    </div>
+                  ) : ind === 3 ? (
+                    <div className="flex justify-center items-center">
+                      <AboutSubLinks text={text} lang={lang} />
 
-        <section
-          className="items-center  flex relative mx-[8px]
-                    justify-center sm:hidden text-gray-400 
-                  "
-        >
-          <MobileMenu lang={lang} obj={<MenuIcon />} />
-        </section>
+                      {!iconView ? (
+                        <MdArrowDropUp size="20" />
+                      ) : (
+                        <MdArrowDropDown size="20" />
+                      )}
+                    </div>
+                  ) : ind === 5 ? (
+                    <div className="flex justify-center items-center">
+                      <TartarMenuDrop text={text} lang={lang} />
+                      {!iconView ? (
+                        <MdArrowDropUp size="20" />
+                      ) : (
+                        <MdArrowDropDown size="20" />
+                      )}
+                    </div>
+                  ) : (
+                    text
+                  )
+                }
+                url={hrefList[ind]}
+                className="font-normal"
+              />
+            ))}
+          </section>
+
+          <section
+            className="mb-14 h-8 w-[395px] flex  justify-end px-1 z-30
+                     sm:hidden text-gray-400 absolute"
+          >
+            <MobileMenu lang={lang} obj={<MenuIcon />} />
+          </section>
+        </div>
       </Container>
     </>
   );

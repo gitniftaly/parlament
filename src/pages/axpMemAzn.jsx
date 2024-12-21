@@ -4,7 +4,7 @@ const axpMemAzn = () => {
   return (
     <div className="flex relative py-5 ">
       <section
-        className="flex flex-grow flex-col bg-orange-100 shadow-lg
+        className="flex flex-grow flex-col bg-white shadow-lg
                             px-1 rounded-md"
       >
         <header className="flex flex-col mt-4 justify-center items-center">
