@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logaaz from "../../images/logaaz.png";
+import logaaz from "../../images/qerb.jpg";
 import flag from "../../images/flag.png";
 import NavLink from "./NavLink";
 import { FiMenu } from "react-icons/fi";
@@ -35,9 +35,13 @@ const Navbar = () => {
 
   return (
     <>
-      <Container className="flex flex-col justify-between h-32 sm:w-full rounded-t-md bg-nav-background">
-        <div className="flex  w-full  p-1 justify-between items-center mt-3 ">
-          <Image alt="azflag" src={logaaz} className="w-[60px] h-auto" />
+      <Container className="flex flex-col justify-between h-32 sm:h-36 sm:w-full rounded-t-md bg-nav-background">
+        <div className="flex  w-full  justify-between items-center mt-3 ">
+          <Image
+            alt="azflag"
+            src={logaaz}
+            className="w-[60px]  sm:w-[75px] h-auto z-20"
+          />
           <div className="flex flex-col sm:full">
             <article className=" text-white text-xl ml-5 sm:ml-0 flex font-bold font-serif sm:text-2xl sm:tracking-wide">
               Azərbaycan Xalq Parlamenti
@@ -48,7 +52,7 @@ const Navbar = () => {
           </div>
 
           <select
-            className="bg-nav-background h-8 rounded-md border border-white text-white"
+            className="bg-nav-background h-8 rounded-md border border-white text-white mr-2 sm:mr-0"
             onChange={(e) => setLang(e.target.value)}
           >
             <option value="az" defaultValue>
@@ -65,7 +69,7 @@ const Navbar = () => {
             className="rounded-md border border-blue-600 hidden sm:flex"
           />
         </div>
-        <div className="flex w-full justify-between items-center">
+        <div className="flex w-full justify-between items-center -mt-2">
           <section
             className="hidden sm:w-full sm:flex
              justify-between items-center h-8 sm:mb-3

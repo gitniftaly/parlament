@@ -8,7 +8,7 @@ const axpMemAzn = () => {
                             px-1 rounded-md"
       >
         <header className="flex flex-col mt-4 justify-center items-center">
-          <h1 className="font-bold">
+          <h1 className="font-bold px-2">
             Azərbaycan Xalq Parlamentinin Yaradılması: Demokratiya Üçün Yeni Bir
             Başlıq
           </h1>

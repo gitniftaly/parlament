@@ -7,6 +7,8 @@ import AxpMemoEng from "@/pages/AxpMemoEng";
 import { ContextApi } from "@/contextapi/CreateContexApi";
 import { useContext } from "react";
 import Link from "next/link";
+import Video from "next-video";
+import vid from "/videos/vid.mp4";
 
 const HomeContent = () => {
   const { lang, links } = useContext(ContextApi);
@@ -16,6 +18,17 @@ const HomeContent = () => {
       className="sm:px-4 lg:px-0 flex-grow  bg-background h-dvh w-full 
                           rounded-t-xl -mt-2 overflow-y-scroll"
     >
+      <div
+        className="absolute h-auto  z-40 flex w-[360px] mt-32 bg-white 
+                       ml-5 sm:w-[600px] sm:ml-40 sm:mt-72"
+      >
+        <Video
+          src={vid}
+          className="w-[360px] h-[360px]"
+          width="400"
+          height={400}
+        />
+      </div>
       <section className="flex justify-center mt-3">
         <Image
           alt="mmad"

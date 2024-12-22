@@ -8,7 +8,7 @@ const AxpMemoEng = () => {
                             px-1 rounded-md"
       >
         <header className="flex flex-col mt-4 justify-center items-center">
-          <h1 className="font-bold">
+          <h1 className="font-bold px-2">
             Formation of the People’s Parliament of Azerbaijan: A New Chapter
             for Democracy
           </h1>
