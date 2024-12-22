@@ -28,12 +28,12 @@ const HomeContent = () => {
         </header>
       </div>
       <div
-        className="h-auto flex flex-col z-40 gap-2 w-[360px]  mt-20
-                 bg-white ml-5 sm:w-[600px] justify-between sm:ml-[300px] "
+        className="h-auto flex flex-col z-40 gap-12 w-[360px]  mt-20
+                 bg-background ml-5 sm:w-[600px] justify-between sm:ml-[300px] "
       >
         <Link
           href="https://pollforall.com/p3omgynq"
-          className="font-bold text-xl sm:text-2xl flex justify-center text-red-900 animate-pulse p-3"
+          className="font-bold text-xl sm:text-2xl flex justify-center bg-green-700 text-white animate-pulse p-3"
         >
           Səs vermək üçün bu linki açın
         </Link>
