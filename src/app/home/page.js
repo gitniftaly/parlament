@@ -1,18 +1,18 @@
 "use client";
 import Container from "@/components/Container";
-import Image from "next/image";
-import mammd from "../../../public/mammd.png";
-import AzxMemoazn from "@/pages/axpMemAzn";
-import AxpMemoEng from "@/pages/AxpMemoEng";
-import { ContextApi } from "@/contextapi/CreateContexApi";
-import { useContext } from "react";
+// import Image from "next/image";
+// import mammd from "../../../public/mammd.png";
+// import AzxMemoazn from "@/pages/axpMemAzn";
+// import AxpMemoEng from "@/pages/AxpMemoEng";
+// import { ContextApi } from "@/contextapi/CreateContexApi";
+// import { useContext } from "react";
 import Link from "next/link";
 
 import Video from "next-video";
 import vid2 from "/videos/vid.mp4";
 
 const HomeContent = () => {
-  const { lang, links } = useContext(ContextApi);
+  // const { lang, links } = useContext(ContextApi);
 
   return (
     <Container
@@ -53,7 +53,7 @@ const HomeContent = () => {
           className="rounded-lg w-full h-auto"
         />
       </section> */}
-      {links.name !== "" && (
+      {/* {links.name !== "" && (
         <Link
           href={links.url}
           className="flex absolute animate-pulse text-white bg-black items-center mt-2 w-[400px] px-2 h-7 border border-gray-400 z-20 rounded-md"
@@ -62,7 +62,7 @@ const HomeContent = () => {
             {links.name}
           </span>
         </Link>
-      )}
+      )} */}
       {/* <div className="hidden sm:flex sm:flex-row p-1 gap-1">
         <div className="rounded-xl shadow-lg border border-gray-200 w-full h-auto">
           <AzxMemoazn />
