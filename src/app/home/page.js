@@ -7,8 +7,9 @@ import AxpMemoEng from "@/pages/AxpMemoEng";
 import { ContextApi } from "@/contextapi/CreateContexApi";
 import { useContext } from "react";
 import Link from "next/link";
+
 import Video from "next-video";
-import vid from "/videos/vid.mp4";
+import vid2 from "/videos/vid.mp4";
 
 const HomeContent = () => {
   const { lang, links } = useContext(ContextApi);
@@ -18,12 +19,15 @@ const HomeContent = () => {
       className="sm:px-4 lg:px-0 flex-grow  bg-background h-dvh w-full 
                           rounded-t-xl -mt-2 overflow-y-scroll"
     >
-      <div
-        className="absolute h-auto  z-40 flex w-[360px] mt-32 bg-white 
-                       ml-5 sm:w-[600px] sm:ml-40 sm:mt-72"
-      >
+      <div className="absolute h-auto flex flex-col z-40 gap-2 w-[360px] mt-20 bg-white ml-5 sm:w-[600px] sm:ml-40 sm:mt-56">
+        <Link
+          href="https://pollforall.com/p3omgynq"
+          className="font-bold text-xl sm:text-2xl flex justify-center text-red-900 animate-pulse p-3"
+        >
+          Səs vermək üçün bu linki açın
+        </Link>
         <Video
-          src={vid}
+          src={vid2}
           className="w-[360px] h-[360px]"
           width="400"
           height={400}
