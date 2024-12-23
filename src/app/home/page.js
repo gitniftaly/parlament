@@ -23,7 +23,7 @@ const HomeContent = () => {
         <header>
           <h1>
             Azərbaycan Xalq Parlamentinə seçki həftəsi 23.12.2024 - 29.12.2024
-            tarixlərind
+            tarixlərində
           </h1>
         </header>
       </div>
