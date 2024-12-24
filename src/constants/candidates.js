@@ -724,7 +724,7 @@ export const candidates = [
   },
   {
     id: 50,
-    Adı: "Validə Əhmədova Gəncəli qızı",
+    Adı: "Validə Əhmədova Gəncalı qızı",
     Təvəllüd: "5/22/1967",
     DogYer: "Laçın ",
     Təhsil: "Orta",
@@ -739,7 +739,7 @@ export const candidates = [
   },
   {
     id: 51,
-    Adı: "Ruslan Fərzəliyev Sədrəddin oğlu",
+    Adı: "Ruslan Fərzəliyev Sadəddin oğlu",
     Təvəllüd: "6/11/1990",
     DogYer: "Sabirabad",
     Təhsil: "Orta",
@@ -936,7 +936,7 @@ export const candidates = [
   },
   {
     id: 64,
-    Adı: "Aliyə Eyvazova Musa qızı",
+    Adı: "Ailə Eyvazova Musa qızı",
     Təvəllüd: "3/27/1955",
     DogYer: "Yevlax",
     Təhsil: "Ali",
@@ -1043,7 +1043,7 @@ export const candidates = [
   },
   {
     id: 71,
-    Adı: "Əfqan Ramazanov Aleksandr oğlu",
+    Adı: "Əfqan Ramazanov Aleksandroviç",
     Təvəllüd: "7/26/1979",
     DogYer: "Xaçmaz",
     Təhsil: "Orta",
@@ -1286,7 +1286,7 @@ export const candidates = [
     id: 89,
     Adı: "Bilal Şirinov Mollaəli oğlu",
     Təvəllüd: "3/12/1956",
-    DogYer: "Bəlakən",
+    DogYer: "Balakən",
     Təhsil: "Orta",
     Vətəndaşlıq: "Azərbaycan",
     AzVətOlubmu: "Var",
@@ -1363,7 +1363,7 @@ export const candidates = [
   },
   {
     id: 95,
-    Adı: "Mirqafur Seyidi Mirsədrəddin oğlu",
+    Adı: "Mirqafir Seyidi Mirsədrəddin oğlu",
     Təvəllüd: "8/24/1955",
     DogYer: "Naftalan",
     Təhsil: "Ali",
@@ -1499,7 +1499,7 @@ export const candidates = [
   },
   {
     id: 105,
-    Adı: "Fariz Şarifov Məhəmmədəli oğlu",
+    Adı: "Fariz Şərifov Məhəmmədəli oğlu",
     Təvəllüd: "12/22/1957",
     DogYer: "Ağdaş",
     Təhsil: "Ali",
@@ -1515,7 +1515,7 @@ export const candidates = [
   },
   {
     id: 106,
-    Adı: "Oruc Yusifov İbrahim oölu",
+    Adı: "Oruc Yusifov İbrahim oğlu",
     Təvəllüd: "1/22/1962",
     DogYer: "Ağstafa",
     Təhsil: "Ali",
@@ -1575,7 +1575,7 @@ export const candidates = [
     Təhsil: "Orta",
     Vətəndaşlıq: "Azərbaycan",
     AzVətOlubmu: "Var",
-    Ölkəsi: "Azərbaycan",
+    Ölkəsi: "Azərbaycan, Xaçmaz",
     img: "/candidates/img110.jpg",
     canId: 68,
   },
@@ -1635,7 +1635,7 @@ export const candidates = [
   },
   {
     id: 115,
-    Adı: "Əziz Əzizov Məhəmməd oğlu",
+    Adı: "Əziz Əzizov Məmmədəli oğlu",
     Təvəllüd: "7/18/1971",
     DogYer: "Şirvan",
     Təhsil: "Orta",

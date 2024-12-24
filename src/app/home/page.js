@@ -16,10 +16,10 @@ const HomeContent = () => {
 
   return (
     <Container
-      className="sm:px-4 lg:px-0 flex flex-col  bg-background h-dvh w-full 
-                          rounded-t-xl -mt-2 overflow-y-scroll"
+      className="sm:px-4 lg:px-0 flex flex-col  bg-background h-dvh 
+                          rounded-t-xl -mt-2 overflow-y-scroll gap-9 items-center"
     >
-      <div className="font-bold font-sans sm:text-2xl p-5 sm:mt-20 flex justify-center">
+      <div className="font-bold font-sans sm:text-2xl p-5">
         <header>
           <h1>
             Azərbaycan Xalq Parlamentinə seçki həftəsi 23.12.2024 - 29.12.2024
@@ -27,22 +27,16 @@ const HomeContent = () => {
           </h1>
         </header>
       </div>
-      <div
-        className="h-auto flex flex-col z-40 gap-12 w-[360px]  mt-20
-                 bg-background ml-5 sm:w-[600px] justify-between sm:ml-[300px] "
-      >
+      <div className="sm:w-[768px] w-[360px]">
         <Link
           href="https://pollforall.com/p3omgynq"
           className="font-bold text-xl sm:text-2xl flex justify-center bg-green-700 text-white animate-pulse p-3"
         >
           Səs vermək üçün bu linki açın
         </Link>
-        <Video
-          src={vid2}
-          className="w-[360px] h-[360px]"
-          width="400"
-          height={400}
-        />
+      </div>
+      <div className="flex sm:w-[768px] w-[360px]">
+        <Video src={vid2} className="" />
       </div>
       {/* <section className="flex justify-center mt-3">
         <Image
