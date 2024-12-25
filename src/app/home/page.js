@@ -7,12 +7,30 @@ import Container from "@/components/Container";
 // import { ContextApi } from "@/contextapi/CreateContexApi";
 // import { useContext } from "react";
 import Link from "next/link";
-
+import { useEffect } from "react";
 import Video from "next-video";
 import vid2 from "/videos/vid.mp4";
+import { getItem, setItem } from "@/utils/localStore";
+import useContextApi from "@/contextapi/useContextApi";
 
 const HomeContent = () => {
   // const { lang, links } = useContext(ContextApi);
+
+  const { visitorCount, setVisitorCount, VISITOR } = useContextApi();
+
+  useEffect(() => {
+    const res = async () => {
+      const item = await getItem(VISITOR);
+      if (item) {
+        let count = item;
+        setItem("visitor", ++count);
+        setVisitorCount(count);
+      } else {
+        setItem(VISITOR, 1);
+      }
+    };
+    res();
+  }, [VISITOR, setVisitorCount]);
 
   return (
     <Container
@@ -21,9 +39,13 @@ const HomeContent = () => {
     >
       <div className="font-bold font-sans sm:text-2xl p-5">
         <header>
+          <h1 className="text-orange-900 font-bold gap-4 flex  text-lg">
+            Sayıta baxış:
+            <span className="text-blue-600">{visitorCount}</span>
+          </h1>
           <h1>
             Azərbaycan Xalq Parlamentinə seçki həftəsi 23.12.2024 - 29.12.2024
-            tarixlərində
+            tarixlərində.
           </h1>
         </header>
       </div>
