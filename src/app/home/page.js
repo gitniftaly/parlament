@@ -39,10 +39,10 @@ const HomeContent = () => {
     >
       <div className="font-bold font-sans sm:text-2xl p-5">
         <header>
-          <h1 className="text-orange-900 font-bold gap-4 flex  text-lg">
+          {/* <h1 className="text-orange-900 font-bold gap-4 flex  text-lg">
             Sayıta baxış:
             <span className="text-blue-600">{visitorCount}</span>
-          </h1>
+          </h1> */}
           <h1>
             Azərbaycan Xalq Parlamentinə seçki həftəsi 23.12.2024 - 29.12.2024
             tarixlərində.
