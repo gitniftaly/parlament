@@ -1,7 +1,8 @@
 "use client";
 import Image from "next/image";
-import logaaz from "../../images/qerb.jpg";
-import flag from "../../images/flag.png";
+import flag from "../../images/qerb.jpg";
+import logaaz from "../../images/pt.png";
+// import flag from "../../images/flag.png";
 import NavLink from "./NavLink";
 import { FiMenu } from "react-icons/fi";
 import { urls } from "@/constants/constan";
@@ -66,7 +67,7 @@ const Navbar = () => {
             src={flag}
             width="60"
             height="auto"
-            className="rounded-md border border-blue-600 hidden sm:flex"
+            className="rounded-md  hidden sm:flex"
           />
         </div>
         <div className="flex w-full justify-between items-center -mt-2">
