@@ -25,7 +25,14 @@ const HomeContent = () => {
         <h1 className="font-bold mb-5">
           Azxp parlamentinə seçilmiş xalq vəkilləri.
         </h1>
-        {iframeSrc && <iframe src={iframeSrc} width="100%" height="700px" />}
+        {iframeSrc && (
+          <iframe
+            src={iframeSrc}
+            width="100%"
+            height="700px"
+            title="Səs vermənin nətiəcələri"
+          />
+        )}
       </div>
 
       {/* <section className="flex m-auto mt-3 sm:w-full sm:h-auto">
