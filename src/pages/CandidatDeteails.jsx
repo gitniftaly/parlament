@@ -10,7 +10,7 @@ const CandidatDeteails = ({ item }) => {
                        items-center rounded-lg p-1"
       >
         <Image
-          alt={item?.id}
+          alt={item?.idn}
           src={item?.img}
           height={340}
           width={340}

@@ -49,6 +49,17 @@ const UserInfo = ({ item }) => {
         <span>Yaşadıgı Ölkə</span>
         <span>{item?.Ölkəsi}</span>
       </div>
+      {/* {item.vote ? (
+        <>
+          <hr className=" border-gray-300 border-inherit w-[300px] mt-1" />
+          <div className="h-5 flex w-[300px] justify-between">
+            <span>Səs alıb </span>
+            <span>{item?.vote}</span>
+          </div>
+        </>
+      ) : (
+        ""
+      )} */}
     </div>
   );
 };

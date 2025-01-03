@@ -4,6 +4,7 @@ export const navContents = [
   "Elections",
   "About",
   "Contact Us",
+  "Deputies",
   "State crimes",
   "Home",
 ];
@@ -13,6 +14,7 @@ export const urls = {
   elections: "/elections",
   about: "/about",
   contactus: "/contact",
+  deputies: "/deputies",
   tartar: "/tartar",
   home: "/",
 };

@@ -1,6 +1,7 @@
 "use client";
 import { createContext, useEffect, useState } from "react";
 import { getItem, removeItem } from "@/utils/localStore";
+import { deputies2024 } from "@/constants/deputies2024";
 export const ContextApi = createContext();
 
 export const AppContextApi = ({ children }) => {
@@ -10,6 +11,8 @@ export const AppContextApi = ({ children }) => {
   const VISITOR = "visitor";
   const [links, setLinks] = useState({ name: "", url: "" });
   const [visitorCount, setVisitorCount] = useState("");
+
+  const dep2024 = deputies2024.sort((a, b) => (a.vote < b.vote ? 1 : -1));
 
   useEffect(() => {
     const data = getItem(STOREKEY);
@@ -36,6 +39,7 @@ export const AppContextApi = ({ children }) => {
         VISITOR,
         visitorCount,
         setVisitorCount,
+        dep2024,
       }}
     >
       {children}

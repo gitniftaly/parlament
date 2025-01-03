@@ -5,6 +5,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+.active {
+  @apply block py-2 pl-3 pr-4 text-white bg-orange-700 rounded md:bg-transparent md:text-orange-700 md:p-0 underline;
+}
 @layer components {
   .sublinks {
     @apply font-serif text-black text-sm;

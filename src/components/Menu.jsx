@@ -9,7 +9,7 @@ const Menu = () => {
 
   const mobMenu = () => {
     return (
-      <div
+      (<div
         className="p-5 grid grid-cols-1  sm:hidden absolute -mt-12 
                   gap-3 h-[450px] w-[300px] m-4 bg-gray-400
                   border-inherit border rounded-md"
@@ -57,7 +57,7 @@ const Menu = () => {
             Close
           </h1>
         </div>
-      </div>
+      </div>)
     );
   };
   return open ? mobMenu() : "";

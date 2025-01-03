@@ -19,6 +19,7 @@ import { language } from "@/constants/contents";
 import TartarMenuDrop from "@/components/menudropdown/TartarMenuDrop";
 import { ContextApi } from "@/contextapi/CreateContexApi";
 import AboutSubLinks from "@/components/submenus/AboutSubLinks";
+import DepDropdownMenue from "./deputies/DeputiesDropdown";
 
 const Navbar = () => {
   const [iconView] = useState(false);
@@ -118,6 +119,15 @@ const Navbar = () => {
                       )}
                     </div>
                   ) : ind === 5 ? (
+                    <div className="flex justify-center items-center">
+                      <DepDropdownMenue text={text} lang={lang} />
+                      {!iconView ? (
+                        <MdArrowDropUp size="20" />
+                      ) : (
+                        <MdArrowDropDown size="20" />
+                      )}
+                    </div>
+                  ) : ind === 6 ? (
                     <div className="flex justify-center items-center">
                       <TartarMenuDrop text={text} lang={lang} />
                       {!iconView ? (

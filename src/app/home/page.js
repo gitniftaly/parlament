@@ -2,39 +2,19 @@
 import Container from "@/components/Container";
 // import Image from "next/image";
 // import mammd from "../../../public/mammd.png";
-// import AzxMemoazn from "@/pages/axpMemAzn";
-// import AxpMemoEng from "@/pages/AxpMemoEng";
+import AzxMemoazn from "@/pages/axpMemAzn";
+import AxpMemoEng from "@/pages/AxpMemoEng";
 // import Link from "next/link";
-// import useContextApi from "@/contextapi/useContextApi";
-import { useEffect, useState } from "react";
-const HomeContent = () => {
-  // const { lang, links } = useContextApi();
-  const url = "https://pollforall.com/p3omgynq";
-  const [iframeSrc, setIframeSrc] = useState("");
+import useContextApi from "@/contextapi/useContextApi";
 
-  useEffect(() => {
-    setIframeSrc(url);
-  }, [url]);
+const HomeContent = () => {
+  const { lang } = useContextApi();
 
   return (
     <Container
-      className="sm:px-4 lg:px-0 flex flex-col h-dvh  bg-background  justify-center
-                          rounded-t-xl -mt-2 overflow-y-scroll items-center"
+      className="flex flex-col  bg-background  justify-center
+    rounded-t-xl -mt-2 overflow-y-scroll items-center"
     >
-      <div className="sm:w-[500px] w-[400px]  sm:[500px] -mt-20 flex flex-col items-center justify-center">
-        <h1 className="font-bold mb-5">
-          Azxp parlamentinə seçilmiş xalq vəkilləri.
-        </h1>
-        {iframeSrc && (
-          <iframe
-            src={iframeSrc}
-            width="100%"
-            height="700px"
-            title="Səs vermənin nətiəcələri"
-          />
-        )}
-      </div>
-
       {/* <section className="flex m-auto mt-3 sm:w-full sm:h-auto">
         <Image
           alt="mmad"
@@ -53,8 +33,8 @@ const HomeContent = () => {
             {links.name}
           </span>
         </Link>
-      )} */}
-      {/* <div className="hidden sm:flex sm:flex-row p-1 gap-1">
+      )}  */}
+      <div className="hidden sm:flex sm:flex-row p-1 gap-1">
         <div className="rounded-xl shadow-lg border border-gray-200 w-full h-auto">
           <AzxMemoazn />
         </div>
@@ -62,9 +42,9 @@ const HomeContent = () => {
           <AxpMemoEng />
         </div>
       </div>
-      <div className="sm:hidden">
+      <div className="sm:hidden flex">
         {lang === "az" ? <AzxMemoazn /> : <AxpMemoEng />}
-      </div> */}
+      </div>
     </Container>
   );
 };

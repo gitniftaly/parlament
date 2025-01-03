@@ -1,23 +1,23 @@
 "use client";
 import { useEffect, useState } from "react";
-// import Candidates from "../candidates/page";
 import { candidates } from "@/constants/candidates";
-// import CandidatesListView from "@/pages/CandidatesListView";
 import Container from "@/components/Container";
 import { useDebounce } from "@/utils/debounce";
 import dynamic from "next/dynamic";
 import { ClipLoader } from "react-spinners";
+import useContextApi from "@/contextapi/useContextApi";
 
 const CandidatesListView = dynamic(() => import("@/pages/CandidatesListView"), {
-  ssr: false, // Optional: Disable server-side rendering for the component
+  ssr: false,
   loading: () => (
     <p className="py-20 h-5 w-5">
       <ClipLoader color="#36d7b7" />
     </p>
-  ), // Optional: Display a loading indicator
+  ),
 });
 
 const ElectionYear = () => {
+  const { lang } = useContextApi();
   const [search, setSearch] = useState("");
   const [data, setData] = useState(candidates);
 
@@ -30,9 +30,14 @@ const ElectionYear = () => {
   }, [setData, debValue]);
 
   return (
-    <Container className="h-dvh bg-background rounded-xl -mt-2 flex justify-center">
-      <div className="fixed m-5 bg-background">
-        <span className="font-bold p-2">Search</span>
+    <Container className="h-dvh bg-background rounded-xl -mt-2 flex justify-center flex-col items-center">
+      <div className="flex font-bold font-serif flex-wrap py-3 px-2">
+        Azərbaycan Xalq Parlamentinə namizədlər 2024.
+      </div>
+      <div className=" bg-background">
+        <span className="font-bold p-2">
+          {lang === "az" ? "Axtaış" : "Search"}
+        </span>
         <span>
           <input
             type="search"
@@ -43,7 +48,7 @@ const ElectionYear = () => {
           />
         </span>
       </div>
-      <CandidatesListView candidates={data} />
+      <CandidatesListView candidates={data} source="can" />
     </Container>
   );
 };

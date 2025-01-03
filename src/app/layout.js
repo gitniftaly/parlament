@@ -6,9 +6,7 @@ import Script from "next/script";
 
 import Container from "@/components/Container";
 import { AppContextApi } from "@/contextapi/CreateContexApi";
-// import { CSPostHogProvider } from "@/providers/ph-provider";
-// import PostHogPageView from "@/components/posthog/post-hog-page-view";
-// import { Suspense } from "react";
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -24,6 +22,7 @@ export const metadata = {
   title: "Az xalq parlamenti",
   description: "People and parliament are one solid mass.",
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -46,18 +45,13 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-100 -mt-0 min-h-dvh`}
       >
-        {/* <CSPostHogProvider> */}
         <AppContextApi>
           <Container className="py-1">
             <Navbar className="w-[570px] flex bg-red-200" />
-            {/* <Suspense fallback={null}>
-                <PostHogPageView />
-              </Suspense> */}
             {children}
             <Footer />
           </Container>
         </AppContextApi>
-        {/* </CSPostHogProvider> */}
       </body>
     </html>
   );
