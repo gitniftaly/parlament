@@ -17,7 +17,6 @@ import InfoLinks from "./submenus/InfoLinks";
 import ElectionsLinks from "./submenus/ElectionsLinks";
 import TartarSubLinks from "./submenus/TartarSubLinks";
 import AboutMobileSubs from "./submenus/AboutMobileSubs";
-import DepMobilSubLink from "./submenus/deputies/DepMobilSubLink";
 
 const MobileMenu = ({ lang, obj }) => {
   const inputElement = React.useRef();
@@ -26,7 +25,6 @@ const MobileMenu = ({ lang, obj }) => {
   const [subElection, setSubElection] = useState(false);
   const [subTartar, setSubTartar] = useState(false);
   const [subAbout, setAbout] = useState(false);
-  const [subDep, setDep] = useState(false);
 
   const handleRules = (e) => {
     e.stopPropagation();
@@ -53,11 +51,7 @@ const MobileMenu = ({ lang, obj }) => {
     setAbout((hell) => !hell);
     inputElement.current.click();
   };
-  const handleDepLinks = (e) => {
-    e.stopPropagation();
-    setDep((hell) => !hell);
-    inputElement.current.click();
-  };
+
   return (
     <>
       <DropdownMenu className="">
@@ -187,23 +181,6 @@ const MobileMenu = ({ lang, obj }) => {
               onClick={() => inputElement.current.click()}
             >
               {lang === "az" ? "Əlaqə" : "Contact us"}
-            </Link>
-          </DropdownMenuItem>
-          <DropdownMenuSeparator />
-          <DropdownMenuItem
-            onSelect={(e) => e.preventDefault()}
-            onClick={() => setDep((ln) => !ln)}
-          >
-            <Link
-              alt="dep"
-              href=""
-              // onClick={() => inputElement.current.click()}
-            >
-              <DepMobilSubLink
-                dlinks={subDep}
-                handleDepLinks={handleDepLinks}
-                lang={lang}
-              />
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />

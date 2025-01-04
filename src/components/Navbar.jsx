@@ -19,7 +19,6 @@ import { language } from "@/constants/contents";
 import TartarMenuDrop from "@/components/menudropdown/TartarMenuDrop";
 import { ContextApi } from "@/contextapi/CreateContexApi";
 import AboutSubLinks from "@/components/submenus/AboutSubLinks";
-import DepDropdownMenue from "./deputies/DeputiesDropdown";
 
 const Navbar = () => {
   const [iconView] = useState(false);
@@ -37,12 +36,12 @@ const Navbar = () => {
 
   return (
     <>
-      <Container className="flex flex-col justify-between h-32 sm:h-36 sm:w-full rounded-t-md bg-nav-background">
+      <Container className="flex flex-col justify-between h-32 sm:h-52 sm:w-full rounded-t-md bg-nav-background">
         <div className="flex  w-full  justify-between items-center mt-3 ">
           <Image
             alt="azflag"
             src={logaaz}
-            className="w-[60px]  sm:w-[75px] h-auto z-20"
+            className="w-[60px]  sm:w-[100px] h-auto z-20"
           />
           <div className="flex flex-col sm:full">
             <article className=" text-white text-xl ml-5 sm:ml-0 flex font-bold font-serif sm:text-2xl sm:tracking-wide">
@@ -66,7 +65,7 @@ const Navbar = () => {
           <Image
             alt="flaq"
             src={flag}
-            width="60"
+            width="100"
             height="auto"
             className="rounded-md  hidden sm:flex"
           />
@@ -119,15 +118,6 @@ const Navbar = () => {
                       )}
                     </div>
                   ) : ind === 5 ? (
-                    <div className="flex justify-center items-center">
-                      <DepDropdownMenue text={text} lang={lang} />
-                      {!iconView ? (
-                        <MdArrowDropUp size="20" />
-                      ) : (
-                        <MdArrowDropDown size="20" />
-                      )}
-                    </div>
-                  ) : ind === 6 ? (
                     <div className="flex justify-center items-center">
                       <TartarMenuDrop text={text} lang={lang} />
                       {!iconView ? (

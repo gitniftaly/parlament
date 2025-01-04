@@ -1,11 +1,12 @@
+import CandidatesList from "@/pages/CandidatesList";
 import React from "react";
 
-const Deputies = () => {
+const page = () => {
   return (
-    <div className="h-dvh bg-background -mt-2 rounded-xl">
-      Deputies goes here
-    </div>
+    <main className="h-dvh bg-background flex rounded-t-2xl -mt-2 ">
+      <CandidatesList />
+    </main>
   );
 };
 
-export default Deputies;
+export default page;

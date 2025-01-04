@@ -75,7 +75,7 @@ const AboutSubLinks = ({ text, lang }) => {
             <Link
               className="sublinks"
               alt="election"
-              href={"/about/deputies"}
+              href={"/about/deputies/deputies2024"}
               onClick={(e) => onSelectIterm(e)}
             >
               {lang === "az" ? "Deputatlar" : "Deputies"}

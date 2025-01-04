@@ -18,17 +18,14 @@ const ProfileList = ({ data }) => {
             className="rounded-full"
           />
         </section>
-        <section className="flex flex-col">
+        <section className="flex flex-col mt-3">
           <p
             className="font-bold font-serif text-italicized truncate
           overflow-ellipsis overflow-hidden whitespace-nowrap sm:max-w-fit max-w-72"
           >
             {data?.Adı}
           </p>
-          <div className="flex items-center justify-between">
-            <p className="text-black sublinks font-bold">{`Seçki nömrəsi `}</p>
-            <span className="font-bold font-serif mx-3 text-blue-700">{`#:${data?.canId}`}</span>
-          </div>
+
           <p className="sublinks flex justify-between">
             <span>{data?.Ölkəsi}</span>&nbsp;&nbsp;&nbsp;
             <span className="font-bold">{data?.vote + " səslə"}</span>

@@ -77,7 +77,7 @@ const AboutMobileSubs = ({ mlinks, handleAbout, lang }) => {
             <div className="text-gray-600 flex">
               <Link
                 className="hover:bg-gray-200 font-serif text-black"
-                href={"/about/deputies"}
+                href={"/about/deputies/deputies2024"}
                 alt="late"
                 onClick={(e) => handleAbout(e)}
               >
