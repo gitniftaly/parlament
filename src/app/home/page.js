@@ -1,50 +1,156 @@
-"use client";
 import Container from "@/components/Container";
-// import Image from "next/image";
-// import mammd from "../../../public/mammd.png";
-import AzxMemoazn from "@/pages/axpMemAzn";
-import AxpMemoEng from "@/pages/AxpMemoEng";
-// import Link from "next/link";
-import useContextApi from "@/contextapi/useContextApi";
+import Image from "next/image";
+import mammd from "../../../public/mammd.png";
+import Link from "next/link";
+import azxp from "../../../public/azxp.jpg";
+import join from "../../../public/comeTogether.jpg";
+import aba from "../../../public/aba.jpg";
+import azxpComing from "../../../public/azxpComing.jpg";
 
 const HomeContent = () => {
-  const { lang } = useContextApi();
-
   return (
     <Container
       className="flex flex-col  bg-background  justify-center
-    rounded-t-xl -mt-2 overflow-y-scroll items-center"
+    rounded-t-xl -mt-2 overflow-y-scroll items-center h-auto gap-3"
     >
-      {/* <section className="flex m-auto mt-3 sm:w-full sm:h-auto">
+      <section
+        className="flex m-auto mt-3 h-[100px] sm:w-full rounded-xl sm:px-2
+                w-[400px] sm:h-auto"
+      >
         <Image
           alt="mmad"
           src={mammd}
-          height={400}
+          height={300}
           width={300}
-          className="flex rounded-lg w-full h-[100px] sm:h-[200px]"
+          layout="responsive"
+          className="flex rounded-lg w-full h-[170px]"
         />
-      </section> */}
-      {/* {links.name !== "" && (
-        <Link
-          href={links.url}
-          className="flex absolute animate-pulse text-white bg-black items-center mt-2 w-[400px] px-2 h-7 border border-gray-400 z-20 rounded-md"
+      </section>
+
+      <div className="flex-col flex sm:flex-row p-1 sm:gap-1 gap-3 sm:h-[220px] h-[460px] items-center mb-10">
+        <div
+          className=" flex flex-col rounded-xl shadow-xl border border-gray-300 w-full h-[280px]
+                      items-center sm:h-[200px]"
         >
-          <span className="max-w-44 hover:max-w-64 overflow-ellipsis overflow-hidden whitespace-nowrap">
-            {links.name}
-          </span>
-        </Link>
-      )}  */}
-      <div className="hidden sm:flex sm:flex-row p-1 gap-1">
-        <div className="rounded-xl shadow-lg border border-gray-200 w-full h-auto">
-          <AzxMemoazn />
+          <header>
+            <h1 className="font-bold py-1">Azxp yaranması</h1>
+          </header>
+          <Link href="/about/aboutazxp" className="px-2">
+            <span>
+              Avtoritar idarəçiliyə qarşı çıxmaq və demokratik idarəetməni bərpa
+              etmək məqsədilə Azərbaycan vətəndaşları Azərbaycan Xalq
+              Parlamentinin (AzXP) təsis edildiyini elan etdilər. Bu cəsarətli
+              təşəbbüs demokratik ənənələrin bərpasını, insan hüquqlarının
+              müdafiəsini və sistematik korrupsiyanın aradan qaldırılmasını
+              hədəfləyir. Milli və beynəlxalq səviyyədə diqqət çəkən AzXP,
+              demokratik Azərbaycan uğrunda mübarizəsində qlobal həmrəylik
+              çağırışı edir...
+            </span>
+          </Link>
         </div>
-        <div className="rounded-xl shadow-lg border border-gray-200 w-full h-auto">
-          <AxpMemoEng />
+        <div
+          className="flex flex-col rounded-xl shadow-xl border border-gray-300 w-full 
+        sm:h-[200px] h-[270px] items-center"
+        >
+          <header>
+            <h1 className="font-bold py-1">The configuration of PPA</h1>
+          </header>
+          <Link href="/about/aboutazxp" className="px-2">
+            <span>
+              In a significant move to counter decades of authoritarian rule and
+              advocate for democratic governance, Azerbaijani citizens have
+              announced the formation of the People’s Parliament of Azerbaijan
+              (PPA). This bold initiative aims to restore democratic traditions,
+              promote human rights, and dismantle systemic corruption. Drawing
+              national and international attention, the PPA calls for global
+              solidarity in its quest for a democratic Azerbaijan...
+            </span>
+          </Link>
         </div>
       </div>
-      <div className="sm:hidden flex">
-        {lang === "az" ? <AzxMemoazn /> : <AxpMemoEng />}
-      </div>
+      <section
+        className="flex flex-col sm:flex-row w-full gap-1 sm:gap-1 h-[350px] 
+                      mt-10 sm:mt-0 sm:h-[300px] mb-60 justify-around px-1"
+      >
+        <div className="flex flex-1 border border-gray-300 h-[100px] shadow-sm  rounded-md items-center sm:h-[210px]">
+          <Link
+            href="https://www.youtube.com/watch?v=5ZVqBN9Cxfs"
+            className="flex items-center flex-col"
+          >
+            <div className="w-full h-10 font-bold pl-24 mb-5">
+              <p>Birləşə bilərik</p>
+              <p>We can unite</p>
+            </div>
+            <Image
+              src={join}
+              alt="join"
+              width={300}
+              height={300}
+              className="hidden sm:flex h-[144px]"
+            />
+          </Link>
+        </div>
+        <div className="flex flex-1 border border-gray-300 h-[100px] shadow-sm rounded-md items-center sm:h-[210px]">
+          <Link
+            href="https://www.youtube.com/watch?v=Uf9Sb_Yjdmg"
+            className="flex items-center flex-col"
+          >
+            <div className="w-full h-10 font-bold pl-24 mb-5">
+              <p>Azxp qurulur</p>
+              <p>Azxp is built</p>
+            </div>
+            <Image
+              src={azxpComing}
+              alt="azxpComing"
+              width={300}
+              height={300}
+              className="hidden sm:flex"
+            />
+          </Link>
+        </div>
+        <div
+          className="flex flex-1 border border-gray-300 h-[100px] shadow-sm 
+                         rounded-md items-center sm:h-[210px]"
+        >
+          <Link
+            href="https://www.youtube.com/watch?v=sWuKJMCVHg8"
+            className="flex items-center flex-col"
+          >
+            <div className="w-full h-10 font-bold pl-24 mb-5">
+              <p>Səs namusdur</p>
+              <p>Voice is honor</p>
+            </div>
+            <Image
+              src={aba}
+              alt="aba"
+              width={300}
+              height={300}
+              className="hidden sm:flex h-[144px]"
+            />
+          </Link>
+        </div>
+        <div
+          className="flex flex-col flex-1 border border-gray-300 h-[100px] 
+           shadow-sm sm:h-[210px] rounded-md  items-center"
+        >
+          <Link
+            href="https://www.youtube.com/watch?v=Wa1JaPV7GEw"
+            className="flex items-center flex-col"
+          >
+            <div className="w-full h-10 font-bold pl-5 mb-5">
+              <p>Azxp elan günü</p>
+              <p>The Foundation day of PPA</p>
+            </div>
+            <Image
+              src={azxp}
+              alt="azxp"
+              width={300}
+              height={300}
+              className="hidden sm:flex"
+            />
+          </Link>
+        </div>
+      </section>
     </Container>
   );
 };

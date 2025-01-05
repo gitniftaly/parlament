@@ -2,7 +2,6 @@
 import Image from "next/image";
 import flag from "../../images/qerb.jpg";
 import logaaz from "../../images/pt.png";
-// import flag from "../../images/flag.png";
 import NavLink from "./NavLink";
 import { FiMenu } from "react-icons/fi";
 import { urls } from "@/constants/constan";
@@ -36,7 +35,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Container className="flex flex-col justify-between h-32 sm:h-52 sm:w-full rounded-t-md bg-nav-background">
+      <Container className="flex flex-col justify-between h-32 sm:h-48 sm:w-full rounded-t-md bg-nav-background">
         <div className="flex  w-full  justify-between items-center mt-3 ">
           <Image
             alt="azflag"
