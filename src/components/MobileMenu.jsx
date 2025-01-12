@@ -12,6 +12,7 @@ import Link from "next/link";
 
 import st from "../../images/statement/st.png";
 import rg from "../../images/rg.png";
+import { FcNook } from "react-icons/fc";
 import Image from "next/image";
 import InfoLinks from "./submenus/InfoLinks";
 import ElectionsLinks from "./submenus/ElectionsLinks";
@@ -129,6 +130,15 @@ const MobileMenu = ({ lang, obj }) => {
                   />
                   <Link href={"/regulation/regulations"} alt="regulations">
                     Nizamnamə
+                  </Link>
+                </div>
+                <div
+                  className="text-gray-600 flex"
+                  onClick={(e) => handleRules(e)}
+                >
+                  <FcNook size={16} />
+                  <Link href={"/regulation/regulations"} alt="regulations">
+                    Document Templetləri
                   </Link>
                 </div>
               </div>

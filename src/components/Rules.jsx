@@ -8,7 +8,7 @@ import {
 } from "./ui/dropdown-menu";
 import Link from "next/link";
 
-const Rules = ({ text }) => {
+const Rules = ({ text, lang }) => {
   const [iconView, setIconView] = useState(false);
   const onSelectIterm = () => {
     setIconView(true);
@@ -42,6 +42,17 @@ const Rules = ({ text }) => {
               onClick={(e) => onSelectIterm(e)}
             >
               Nizamnamə
+            </Link>
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem>
+            <Link
+              className="sublinks"
+              alt="Templates"
+              href={"/regulation/doctemplates"}
+              onClick={(e) => onSelectIterm(e)}
+            >
+              {lang === "az" ? "Document Templetləri" : "Document Templates"}
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>

@@ -21,7 +21,7 @@ const DeputiesListView = () => {
   }, [setData, dep2024, debValue]);
 
   return (
-    <Container className="h-dvh bg-background rounded-xl -mt-2 flex items-center justify-center flex-col">
+    <Container className="h-dvh bg-background rounded-xl -mt-2 flex items-center justify-start flex-col">
       <div className="flex font-bold font-serif flex-wrap py-3 px-2">
         Azərbaycan Xalq Parlamentinə seçilmiş 87 deputatın siyahısı.
       </div>

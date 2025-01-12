@@ -1,9 +1,6 @@
 import { useContext } from "react";
 import { ContextApi } from "./CreateContexApi";
 
-const useContextApi = () => {
-  const context = useContext(ContextApi);
-  return context;
-};
+const useContextApi = () => useContext(ContextApi);
 
 export default useContextApi;

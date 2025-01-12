@@ -30,7 +30,7 @@ const ElectionYear = () => {
   }, [setData, debValue]);
 
   return (
-    <Container className="h-dvh bg-background rounded-xl -mt-2 flex justify-center flex-col items-center">
+    <Container className="h-dvh bg-background rounded-xl -mt-2 flex justify-start flex-col items-center">
       <div className="flex font-bold font-serif flex-wrap py-3 px-2">
         Azərbaycan Xalq Parlamentinə namizədlər 2024.
       </div>
