@@ -1316,6 +1316,7 @@ export const deputies2024 = [
     Ölkəsi: "Azərbaycan, Bakı",
     img: "/candidates/img163.jpg",
     canId: 105,
+    vote: 10000,
   },
   {
     idn: 164,

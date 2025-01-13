@@ -5,8 +5,8 @@ const ProfileList = ({ data }) => {
   return (
     <div className="h-24 flex w-full sm:w-[500px] justify-center items-center ">
       <div
-        className="h- flex px-3  mt-3 bg-inherit shadow sm:shadow-md 
-                      rounded-lg gap-3 sm:gap-10 items-start w-full border border-gray-300"
+        className={`
+          h- flex px-3  mt-3 bg-inherit shadow sm:shadow-md rounded-lg gap-3 sm:gap-10 items-start w-full border ${parseInt(data?.id) === 163 ? " border-gray-900 border-2" : "border-gray-300"}`}
       >
         <section className="flex items-center justify-center h-full w-20 rounded-full bg-green-500">
           <Image
