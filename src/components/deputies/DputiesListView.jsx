@@ -23,7 +23,7 @@ const DeputiesListView = () => {
   return (
     <Container className="h-dvh bg-background rounded-xl -mt-2 flex items-center justify-start flex-col">
       <div className="flex font-bold font-serif flex-wrap py-3 px-2">
-        Azərbaycan Xalq Parlamentinə seçilmiş 87 deputatın siyahısı.
+        Azərbaycan Xalq Parlamentinə seçilmiş {data.length} deputatın siyahısı.
       </div>
       <div className=" bg-background">
         <span className="font-bold p-2">

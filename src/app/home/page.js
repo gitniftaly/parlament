@@ -1,12 +1,12 @@
 import Container from "@/components/Container";
 import Image from "next/image";
-// import mammd from "../../../public/mammd.png";
-// import Link from "next/link";
-// import azxp from "../../../public/azxp.jpg";
-// import join from "../../../public/comeTogether.jpg";
-// import aba from "../../../public/aba.jpg";
-// import azxpComing from "../../../public/azxpComing.jpg";
-import ll from "../../../public/leyla.jpg";
+import mammd from "../../../public/mammd.png";
+import Link from "next/link";
+import azxp from "../../../public/azxp.jpg";
+import join from "../../../public/comeTogether.jpg";
+import aba from "../../../public/aba.jpg";
+import azxpComing from "../../../public/azxpComing.jpg";
+import azxpfirst from "../../../public/azxpfirst.jpg";
 
 const HomeContent = () => {
   return (
@@ -14,44 +14,7 @@ const HomeContent = () => {
       className="flex flex-col  bg-background  justify-start
     rounded-t-xl -mt-2 overflow-y-scroll items-center h-dvh gap-3"
     >
-      <div
-        className="flex flex-col sm:w-full w-[400px] h-auto 
-      justify-center items-start sm:items-center sm:mt-10 mt-2"
-      >
-        <Image
-          src={ll}
-          alt="ll"
-          className="sm:w-[500px] w-[400px]  border border-gray-400 rounded-2xl"
-        />
-        <article className="mt-3 flex items-center flex-col gap-1">
-          <span className="font-bold">
-            Azərbaycan Xalq Parlamentinin deputatı Leyla Məmmədovanın vaxtsız
-            vəfatı ilə əlaqədar baş sağlığı mesajı.
-          </span>
-          <p className="font-serif px-3 mb-20">
-            <span className="font-bold">Leyla Məmmədova</span>, cəmiyyətimizdəki
-            fəaliyyətləri ilə yadda qalan, insanlara xidmət etməyə can atan bir
-            şəxsiyyət idi. Onun itirilməsi, yalnız ailəsi və yaxınları üçün
-            deyil, eyni zamanda bütün xalqımız üçün böyük bir itkidir. Hörmətli
-            <span className="font-bold"> Leyla Məmmədovanın</span> ailəsi və
-            yaxınlarına. Azərbaycan Xalq Parlamenti adından sizə dərin hüznlə
-            baş sağlığı veririk.{" "}
-            <span className="font-bold">Leyla Məmmədova</span>, cəmiyyətimizdəki
-            fəaliyyəti, insanlara olan sevgisi və qayğısı ilə hər zaman
-            xatırlanacaq. Onun mübariz ruhu, ədalətə olan inamı və insanlara
-            olan bağlılığı, bizlər üçün örnək olacaq. Leyla xanımın xatirəsi,
-            onun gördüyü işlər və cəmiyyətimizə qatdığı dəyər ilə daim
-            yaşayacaq. Bu ağır günlərdə sizə səbr və dözüm arzulayırıq.
-            Unutmayın ki, <span className="font-bold">Leyla Məmmədova</span>,
-            yalnız bir deputat deyil, eyni zamanda bir dost, bir ana və bir
-            insan olaraq, bizlərin qəlbində əbədi yaşayacaq.{" "}
-            <p>
-              <span className="font-bold">Başınız sağ olsun.</span>
-            </p>
-          </p>
-        </article>
-      </div>
-      {/* <section
+      <section
         className="flex m-auto mt-3 h-[100px] sm:w-full rounded-xl sm:px-2
                 w-[400px] sm:h-auto"
       >
@@ -107,88 +70,109 @@ const HomeContent = () => {
         </div>
       </div>
       <section
-        className="flex flex-col sm:flex-row w-full gap-1 sm:gap-1 h-[350px] 
-                      mt-10 sm:mt-0 sm:h-[300px] mb-60 justify-around px-1"
+        className="flex flex-col  w-full gap-3  h-full py-10
+                      mt-10 sm:mt-0 sm:h-full mb-60 justify-around items-center px-1"
       >
-        <div className="flex flex-1 border border-gray-300 h-[100px] shadow-sm  rounded-md items-center sm:h-[210px]">
+        <div className="flex flex-1 border border-gray-300 h-[200px] shadow-sm  rounded-md items-center sm:h-[210px]">
           <Link
             href="https://www.youtube.com/watch?v=5ZVqBN9Cxfs"
-            className="flex items-center flex-col"
+            className="flex items-center flex-col gap-2"
           >
-            <div className="w-full h-10 font-bold pl-24 mb-5">
-              <p>Birləşə bilərik</p>
-              <p>We can unite</p>
+            <div className="font-bold mt-1">
+              <p>Azxp brinci sesiyası</p>
             </div>
             <Image
-              src={join}
+              src={azxpfirst}
               alt="join"
               width={300}
               height={300}
-              className="hidden sm:flex h-[144px]"
+              className="sm:flex h-[144px] rounded-md"
             />
           </Link>
         </div>
-        <div className="flex flex-1 border border-gray-300 h-[100px] shadow-sm rounded-md items-center sm:h-[210px]">
-          <Link
-            href="https://www.youtube.com/watch?v=Uf9Sb_Yjdmg"
-            className="flex items-center flex-col"
+        <section className="flex flex-col sm:flex-row sm:h-[350px] gap-1">
+          <div
+            className="flex sm:flex-1 border border-gray-300 h-[200px] shadow-sm
+                             rounded-md items-center sm:h-[180px]"
           >
-            <div className="w-full h-10 font-bold pl-24 mb-5">
-              <p>Azxp qurulur</p>
-              <p>Azxp is built</p>
-            </div>
-            <Image
-              src={azxpComing}
-              alt="azxpComing"
-              width={300}
-              height={300}
-              className="hidden sm:flex"
-            />
-          </Link>
-        </div>
-        <div
-          className="flex flex-1 border border-gray-300 h-[100px] shadow-sm 
-                         rounded-md items-center sm:h-[210px]"
-        >
-          <Link
-            href="https://www.youtube.com/watch?v=sWuKJMCVHg8"
-            className="flex items-center flex-col"
+            <Link
+              href="https://www.youtube.com/watch?v=46gfXhy2q9E"
+              className="flex items-center flex-col gap-2"
+            >
+              <div className="font-bold sm:py-0 py-1">
+                <p>Birləşə bilərik</p>
+              </div>
+              <Image
+                src={join}
+                alt="join"
+                width={300}
+                height={300}
+                className="sm:flex rounded-md h-[144px]"
+              />
+            </Link>
+          </div>
+          <div
+            className="flex flex-col sm:flex-1 border border-gray-300 h-[200px] shadow-sm 
+           rounded-md items-center sm:h-[180px]"
           >
-            <div className="w-full h-10 font-bold pl-24 mb-5">
-              <p>Səs namusdur</p>
-              <p>Voice is honor</p>
-            </div>
-            <Image
-              src={aba}
-              alt="aba"
-              width={300}
-              height={300}
-              className="hidden sm:flex h-[144px]"
-            />
-          </Link>
-        </div>
-        <div
-          className="flex flex-col flex-1 border border-gray-300 h-[100px] 
-           shadow-sm sm:h-[210px] rounded-md  items-center"
-        >
-          <Link
-            href="https://www.youtube.com/watch?v=Wa1JaPV7GEw"
-            className="flex items-center flex-col"
+            <Link
+              href="https://www.youtube.com/watch?v=Uf9Sb_Yjdmg"
+              className="flex items-center flex-col gap-2"
+            >
+              <div className="font-bold ">
+                <p>Azxp qurulur</p>
+              </div>
+              <Image
+                src={azxpComing}
+                alt="azxpComing"
+                width={300}
+                height={300}
+                className=" sm:flex rounded-md sm:h-[144px]"
+              />
+            </Link>
+          </div>
+          <div
+            className="flex sm:flex-1 border border-gray-300 h-[180px] shadow-sm 
+                         rounded-md items-center sm:h-[180px]"
           >
-            <div className="w-full h-10 font-bold pl-5 mb-5">
-              <p>Azxp elan günü</p>
-              <p>The Foundation day of PPA</p>
-            </div>
-            <Image
-              src={azxp}
-              alt="azxp"
-              width={300}
-              height={300}
-              className="hidden sm:flex"
-            />
-          </Link>
-        </div>
-      </section> */}
+            <Link
+              href="https://www.youtube.com/watch?v=sWuKJMCVHg8"
+              className="flex items-center flex-col gap-2"
+            >
+              <div className="font-bold">
+                <p>Səs namusdur</p>
+              </div>
+              <Image
+                src={aba}
+                alt="aba"
+                width={300}
+                height={300}
+                className="sm:flex rounded-md sm:h-[144px]"
+              />
+            </Link>
+          </div>
+          <div
+            className="flex flex-col flex-1 border border-gray-300 h-[200px] 
+           shadow-sm sm:h-[180px] rounded-md  items-center"
+          >
+            <Link
+              href="https://www.youtube.com/watch?v=Wa1JaPV7GEw"
+              className="flex items-center flex-col gap-2"
+            >
+              <div className="font-bold">
+                <p>Azxp elan günü</p>
+              </div>
+              <Image
+                src={azxp}
+                alt="azxp"
+                width={300}
+                height={300}
+                className="sm:flex sm:h-[144px] rounded-md"
+              />
+            </Link>
+          </div>
+        </section>
+      </section>
     </Container>
   );
 };
