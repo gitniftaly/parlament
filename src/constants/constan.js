@@ -27,17 +27,9 @@ export const mediaObject = [
     profile: "",
     url: "https://www.youtube.com/channel/UCSL9utPCeQPbfP2sooaaUBg",
   },
+
   {
     id: 2,
-    tv: "azad",
-    produser: "Tural Sadıglı",
-    since: "Since 2019",
-    info: "",
-    profile: "",
-    url: "https://www.youtube.com/c/AzadSoz",
-  },
-  {
-    id: 3,
     tv: "ayvaz",
     produser: "Ilqar Ayvazoglı",
     since: "Since 2023",
@@ -46,7 +38,7 @@ export const mediaObject = [
     url: "https://www.youtube.com/channel/UCFnIUjPKfLhS-wJO9pQkzdA",
   },
   {
-    id: 4,
+    id: 3,
     tv: "freedom",
     produser: "Qurban Mammadli",
     since: "Since 2018",
@@ -55,7 +47,7 @@ export const mediaObject = [
     url: "https://www.youtube.com/@AzerFreedomTV",
   },
   {
-    id: 5,
+    id: 4,
     tv: "voice",
     produser: "Elxan Nuriyev",
     since: "Since 2024",
@@ -64,7 +56,7 @@ export const mediaObject = [
     url: "https://www.youtube.com/@voiceofu91",
   },
   {
-    id: 6,
+    id: 5,
     tv: "xural",
     produser: "Əvəz Zeynallı",
     since: "Since 2018",
@@ -78,38 +70,33 @@ export const tvprodusers = ["man"];
 
 export const contacts = [
   { id: 1, media: "ABA TV", phones: [32333233, 32333233], email: "some email" },
+
   {
     id: 2,
-    media: "Azad söz",
-    phones: [32333233, 32333233],
-    email: "some email",
-  },
-  {
-    id: 3,
     media: "AzerFreedom TV",
     phones: [32333233, 32333233],
     email: "some email",
   },
   {
-    id: 4,
+    id: 3,
     media: "Xural TV",
     phones: [32333233, 32333233],
     email: "some email",
   },
   {
-    id: 5,
+    id: 4,
     media: "Voice of You TV",
     phones: [32333233, 32333233],
     email: "some email",
   },
   {
-    id: 6,
+    id: 5,
     media: "Eyvas Oglı TV",
     phones: [32333233, 32333233],
     email: "some email",
   },
   {
-    id: 7,
+    id: 6,
     media: "Osman Qızı TV",
     phones: [32333233, 32333233],
     email: "some email",

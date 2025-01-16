@@ -75,7 +75,8 @@ const HomeContent = () => {
       >
         <div className="flex flex-1 border border-gray-300 h-[200px] shadow-sm  rounded-md items-center sm:h-[210px]">
           <Link
-            href="https://www.youtube.com/watch?v=5ZVqBN9Cxfs"
+            target="_blank"
+            href="https://www.youtube.com/watch?v=46gfXhy2q9E"
             className="flex items-center flex-col gap-2"
           >
             <div className="font-bold mt-1">
@@ -96,7 +97,8 @@ const HomeContent = () => {
                              rounded-md items-center sm:h-[180px]"
           >
             <Link
-              href="https://www.youtube.com/watch?v=46gfXhy2q9E"
+              target="_blank"
+              href="https://www.youtube.com/watch?v=5ZVqBN9Cxfs"
               className="flex items-center flex-col gap-2"
             >
               <div className="font-bold sm:py-0 py-1">
@@ -117,6 +119,7 @@ const HomeContent = () => {
           >
             <Link
               href="https://www.youtube.com/watch?v=Uf9Sb_Yjdmg"
+              target="_blank"
               className="flex items-center flex-col gap-2"
             >
               <div className="font-bold ">
@@ -136,6 +139,7 @@ const HomeContent = () => {
                          rounded-md items-center sm:h-[180px]"
           >
             <Link
+              target="_blank"
               href="https://www.youtube.com/watch?v=sWuKJMCVHg8"
               className="flex items-center flex-col gap-2"
             >
@@ -156,6 +160,7 @@ const HomeContent = () => {
            shadow-sm sm:h-[180px] rounded-md  items-center"
           >
             <Link
+              target="_blank"
               href="https://www.youtube.com/watch?v=Wa1JaPV7GEw"
               className="flex items-center flex-col gap-2"
             >
