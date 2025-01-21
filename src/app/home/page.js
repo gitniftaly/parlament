@@ -7,6 +7,7 @@ import join from "../../../public/comeTogether.jpg";
 import aba from "../../../public/aba.jpg";
 import azxpComing from "../../../public/azxpComing.jpg";
 import azxpfirst from "../../../public/azxpfirst.jpg";
+import { TbHandClick } from "react-icons/tb";
 
 const HomeContent = () => {
   return (
@@ -30,11 +31,13 @@ const HomeContent = () => {
 
       <div className="flex-col flex sm:flex-row p-1 sm:gap-1 gap-3 sm:h-[220px] h-[460px] items-center mb-10">
         <div
-          className=" flex flex-col rounded-xl shadow-xl border border-gray-300 w-full h-[280px]
+          className=" flex flex-col rounded-xl shadow-md border border-gray-300 w-full h-[280px]
                       items-center sm:h-[200px]"
         >
           <header>
-            <h1 className="font-bold py-1">Azxp yaranması</h1>
+            <h1 className="font-bold py-1 flex gap-4 items-center">
+              Azxp yaranması <TbHandClick className="text-green-700" />
+            </h1>
           </header>
           <Link href="/about/aboutazxp" className="px-2">
             <span>
@@ -50,11 +53,14 @@ const HomeContent = () => {
           </Link>
         </div>
         <div
-          className="flex flex-col rounded-xl shadow-xl border border-gray-300 w-full 
+          className="flex flex-col rounded-xl shadow-md border border-gray-300 w-full 
         sm:h-[200px] h-[270px] items-center"
         >
           <header>
-            <h1 className="font-bold py-1">The configuration of PPA</h1>
+            <h1 className="font-bold py-1 flex items-center gap-4">
+              The configuration of PPA{" "}
+              <TbHandClick className="text-green-700" />
+            </h1>
           </header>
           <Link href="/about/aboutazxp" className="px-2">
             <span>
@@ -69,6 +75,53 @@ const HomeContent = () => {
           </Link>
         </div>
       </div>
+
+      <section className="flex sm:h-40 w-full flex-col sm:flex-row rounded-lg gap-2 mt-10 sm:-mt-5">
+        <article
+          className="w-full h-full flex flex-col border border-gray-300 shadow-md 
+                            items-center px-2 rounded-md"
+        >
+          <Link
+            href="/regulation/statement"
+            alt="azxpbnt"
+            className="flex flex-col items-center"
+          >
+            <header>
+              <h1 className="font-bold py-1 flex items-center gap-3">
+                Azərbaycan Xalq Parlamentinin Bəyanatı
+                <TbHandClick className="text-green-700" />
+              </h1>
+            </header>
+            <p>
+              1993-cü ildən Azərbaycanda hakimiyyəti ələ keçirmiş Əliyevlər
+              rejimi 30 ildən artıqdır ki, ölkədə anti milli siyasət yeritməklə
+              yanaşı, vətəndaşların hüquq və azadlıqlarını təmin etmir...
+            </p>
+          </Link>
+        </article>
+        <article className="w-full h-full border border-gray-300 shadow-md flex flex-col items-center px-2 rounded-md">
+          <Link
+            href="news/newsLine"
+            alt="azxpbnt"
+            className="flex flex-col items-center"
+          >
+            <header>
+              <h1 className="font-bold ">
+                <p className="flex gap-3 items-center">
+                  Azərbaycan Xalq Parlamentinin
+                  <TbHandClick className="text-green-700" />
+                </p>
+                <p>Azərbaycan respublikası Daxili İşlər Nazirliynə müraciət</p>
+              </h1>
+            </header>
+            <p>
+              18.01.2025-ci il tarixdə, İmişli rayonu ərazisində baş vermiş
+              avtomobil qəzası nəticəsində iki məktəbli uşağın vəfat etməsi...
+            </p>
+          </Link>
+        </article>
+      </section>
+
       <section
         className="flex flex-col  w-full gap-3  h-full py-10
                       mt-10 sm:mt-0 sm:h-full mb-60 justify-around items-center px-1"
