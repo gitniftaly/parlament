@@ -125,7 +125,10 @@ const HomeContent = () => {
           <Link href="about/discipline" alt="azxpbnt" className="flex flex-col">
             <header>
               <h1 className="font-bold flex flex-col items-center">
-                <p className="flex items-end">Azərbaycan Xalq Parlamenti</p>
+                <p className="flex items-center gap-2">
+                  Azərbaycan Xalq Parlamenti
+                  <TbHandClick className="text-green-700" />
+                </p>
                 <p className="flex items-end">
                   İntizam komissiyasının üzviləri
                 </p>

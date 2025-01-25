@@ -21,7 +21,7 @@ const page = () => {
       </div>
       <div className="border border-gray-300 rounded-lg flex h-16 w-[400px] sm:w-[780px] mt-5 justify-center items-center font-bold">
         <Link
-          href="/AzXP-REQLAMENTİ.pdf"
+          href="/reglament.pdf"
           target="_blank"
           className="flex items-center gap-4"
         >
