@@ -77,6 +77,40 @@ const AboutMobileSubs = ({ mlinks, handleAbout, lang }) => {
             <div className="text-gray-600 flex">
               <Link
                 className="hover:bg-gray-200 font-serif text-black"
+                href={"/about/discipline"}
+                alt="late"
+                onClick={(e) => handleAbout(e)}
+              >
+                <section className="flex items-center gap-1">
+                  <FaCircle size="4" />
+                  <span>
+                    {lang === "az"
+                      ? "İntizam Komissiyası"
+                      : "Discipline commision"}
+                  </span>
+                </section>
+              </Link>
+            </div>
+            <div className="text-gray-600 flex">
+              <Link
+                className="hover:bg-gray-200 font-serif text-black"
+                href={"/about/counterteam"}
+                alt="late"
+                onClick={(e) => handleAbout(e)}
+              >
+                <section className="flex items-center gap-1">
+                  <FaCircle size="4" />
+                  <span>
+                    {lang === "az"
+                      ? "Hesablayıcı Komissiyası"
+                      : "Counter commision"}
+                  </span>
+                </section>
+              </Link>
+            </div>
+            <div className="text-gray-600 flex">
+              <Link
+                className="hover:bg-gray-200 font-serif text-black"
                 href={"/about/deputies/deputies2024"}
                 alt="late"
                 onClick={(e) => handleAbout(e)}

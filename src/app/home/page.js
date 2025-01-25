@@ -7,6 +7,7 @@ import join from "../../../public/comeTogether.jpg";
 import aba from "../../../public/aba.jpg";
 import azxpComing from "../../../public/azxpComing.jpg";
 import azxpfirst from "../../../public/azxpfirst.jpg";
+import azxpsecond from "../../../public/azxpsecond.jpg";
 import { TbHandClick } from "react-icons/tb";
 
 const HomeContent = () => {
@@ -106,7 +107,7 @@ const HomeContent = () => {
             className="flex flex-col items-center"
           >
             <header>
-              <h1 className="font-bold ">
+              <h1 className="font-bold flex items-center flex-col">
                 <p className="flex gap-3 items-center">
                   Azərbaycan Xalq Parlamentinin
                   <TbHandClick className="text-green-700" />
@@ -120,30 +121,71 @@ const HomeContent = () => {
             </p>
           </Link>
         </article>
+        <article className="w-full h-full border border-gray-300 shadow-md flex flex-col items-center px-2 rounded-md">
+          <Link href="about/discipline" alt="azxpbnt" className="flex flex-col">
+            <header>
+              <h1 className="font-bold flex flex-col items-center">
+                <p className="flex items-end">Azərbaycan Xalq Parlamenti</p>
+                <p className="flex items-end">
+                  İntizam komissiyasının üzviləri
+                </p>
+              </h1>
+            </header>
+            <p className="flex mt-3">
+              12 yanvar 2025 il tarixli toplantısının qərarı #:1
+            </p>
+          </Link>
+        </article>
       </section>
 
       <section
         className="flex flex-col  w-full gap-3  h-full py-10
                       mt-10 sm:mt-0 sm:h-full mb-60 justify-around items-center px-1"
       >
-        <div className="flex flex-1 border border-gray-300 h-[200px] shadow-sm  rounded-md items-center sm:h-[210px]">
-          <Link
-            target="_blank"
-            href="https://www.youtube.com/watch?v=46gfXhy2q9E"
-            className="flex items-center flex-col gap-2"
+        <section className="flex sm:flex-row flex-col gap-2">
+          <div
+            className="flex flex-1 border border-gray-300 h-[200px] shadow-sm 
+                           rounded-md items-center sm:h-[190px]"
           >
-            <div className="font-bold mt-1">
-              <p>Azxp brinci sesiyası</p>
-            </div>
-            <Image
-              src={azxpfirst}
-              alt="join"
-              width={300}
-              height={300}
-              className="sm:flex h-[144px] rounded-md"
-            />
-          </Link>
-        </div>
+            <Link
+              target="_blank"
+              href="https://www.youtube.com/watch?v=46gfXhy2q9E"
+              className="flex items-center flex-col gap-2 sm:h-[200px] sm:py-3"
+            >
+              <div className="font-bold mt-1">
+                <p>Azxp brinci sesiyası</p>
+              </div>
+              <Image
+                src={azxpfirst}
+                alt="join"
+                width={300}
+                height={300}
+                className="sm:flex h-[144px] rounded-md"
+              />
+            </Link>
+          </div>
+          <div
+            className="flex border border-gray-300 h-[200px] shadow-sm 
+                           rounded-md items-center sm:h-[190px]"
+          >
+            <Link
+              target="_blank"
+              href="https://www.youtube.com/watch?v=vushV9NS1R8&t=7693s"
+              className="flex items-center flex-col gap-2 sm:h-[200px] sm:py-3"
+            >
+              <div className="font-bold mt-1">
+                <p>Azxp ikinci sesiyası</p>
+              </div>
+              <Image
+                src={azxpsecond}
+                alt="join"
+                width={300}
+                height={300}
+                className="sm:flex h-[144px] rounded-md"
+              />
+            </Link>
+          </div>
+        </section>
         <section className="flex flex-col sm:flex-row sm:h-[350px] gap-1">
           <div
             className="flex sm:flex-1 border border-gray-300 h-[200px] shadow-sm

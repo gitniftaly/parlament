@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const ImagePage = ({ alt, src, width, height, className }) => {
+const ImagePage = ({ alt, src, width, height, className, layout }) => {
   return (
     <Image
       src={src}
@@ -8,6 +8,7 @@ const ImagePage = ({ alt, src, width, height, className }) => {
       width={width}
       height={height}
       className={className}
+      layout={layout}
     />
   );
 };

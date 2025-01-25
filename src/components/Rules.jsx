@@ -41,7 +41,7 @@ const Rules = ({ text, lang }) => {
               href={"/regulation/regulations"}
               onClick={(e) => onSelectIterm(e)}
             >
-              Nizamnamə
+              Nizamnamə | Reqlament
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />

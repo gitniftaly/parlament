@@ -12,7 +12,7 @@ import Link from "next/link";
 
 import st from "../../images/statement/st.png";
 import rg from "../../images/rg.png";
-import { FcNook } from "react-icons/fc";
+
 import Image from "next/image";
 import InfoLinks from "./submenus/InfoLinks";
 import ElectionsLinks from "./submenus/ElectionsLinks";
@@ -100,14 +100,14 @@ const MobileMenu = ({ lang, obj }) => {
             </div>
 
             {showlinks ? (
-              <div className="flex flex-col -ml-28 mt-[-5px]">
+              <div className="flex flex-col mt-[-5px]">
                 <div className="text-gray-600 flex">
                   <Image
                     alt="statement"
                     src={st}
                     width="16"
                     height="16"
-                    className="-ml-[5px] mr-2 "
+                    className="-ml-[15px] mr-2 "
                   />
                   <Link
                     href={"/regulation/statement"}
@@ -126,13 +126,13 @@ const MobileMenu = ({ lang, obj }) => {
                     src={rg}
                     width="16"
                     height="16"
-                    className="-ml-[5px] mr-2 "
+                    className="-ml-[15px] mr-2 "
                   />
                   <Link href={"/regulation/regulations"} alt="regulations">
-                    Nizamnamə
+                    Nizamnamə | Reqlament
                   </Link>
                 </div>
-                <div
+                {/* <div
                   className="text-gray-600 flex"
                   onClick={(e) => handleRules(e)}
                 >
@@ -140,7 +140,7 @@ const MobileMenu = ({ lang, obj }) => {
                   <Link href={"/regulation/regulations"} alt="regulations">
                     Document Templetləri
                   </Link>
-                </div>
+                </div> */}
               </div>
             ) : (
               ""

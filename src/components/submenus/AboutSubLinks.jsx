@@ -75,6 +75,28 @@ const AboutSubLinks = ({ text, lang }) => {
             <Link
               className="sublinks"
               alt="election"
+              href={"/about/discipline"}
+              onClick={(e) => onSelectIterm(e)}
+            >
+              {lang === "az" ? "İntizam Komissiyası" : "Discipline commision"}
+            </Link>
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem>
+            <Link
+              className="sublinks"
+              alt="election"
+              href={"/about/counterteam"}
+              onClick={(e) => onSelectIterm(e)}
+            >
+              {lang === "az" ? "Hesablayıcı Komissiyası" : "Counter commision"}
+            </Link>
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem>
+            <Link
+              className="sublinks"
+              alt="election"
               href={"/about/deputies/deputies2024"}
               onClick={(e) => onSelectIterm(e)}
             >

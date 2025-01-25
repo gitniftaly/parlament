@@ -12,7 +12,6 @@ const Contact = () => {
         <div className="font-mono">
           <div>+46 76 050 30 38</div>
           <div>+46 70 776 03 03</div>
-          <div>+49 163 226 88 86</div>
         </div>
       </section>
       <section className="flex justify-center py-5 w-[400px] m-auto gap-5">
