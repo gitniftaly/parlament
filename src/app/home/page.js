@@ -83,7 +83,7 @@ const HomeContent = () => {
                             items-center px-2 rounded-md"
         >
           <Link
-            href="/regulation/statement"
+            href="/documents/statement"
             alt="azxpbnt"
             className="flex flex-col items-center"
           >

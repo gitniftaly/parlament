@@ -29,18 +29,18 @@ export const discipline = [
 export const votingCommission = [
   {
     name: "Rasim Alizada",
-    imgLink: "/candidates/img156.jpg",
+    imgLink: "/serviceteam/rasalizade.jpg",
     phone: "+7 (921) 956-14-72",
   },
   {
     name: "Kəmalə Mehdiyeva",
-    imgLink: "/candidates/img050.jpg",
-    phone: "7 (985) 287-26-39",
+    imgLink: "/serviceteam/kmehdiyva.jpg",
+    phone: "+7 (985) 287-26-39",
   },
 
   {
     name: "Cavansir Abbasov",
-    imgLink: "/candidates/img038.jpg",
+    imgLink: "/serviceteam/cabbasov.jpg",
     phone: "+994 55 460 45 14",
   },
   {
@@ -50,17 +50,17 @@ export const votingCommission = [
   },
   {
     name: "Şəmsəddin Cəmiyev",
-    imgLink: "/candidates/img014.jpg",
-    phone: "46 79-341 57 09",
+    imgLink: "/serviceteam/şcamiyev.jpg",
+    phone: "+46 79-341 57 09",
   },
   {
     name: "Bəxtiyar Ismayilov",
-    imgLink: "/candidates/img014.jpg",
+    imgLink: "/serviceteam/bismaylov.jpg",
     phone: "+994 50 250 76 08",
   },
   {
     name: "Fikrət Qəhramanov",
-    imgLink: "/candidates/img014.jpg",
+    imgLink: "/serviceteam/fqahramanov.jpg",
     phone: "tel:+994 70 544 05 40",
   },
 ];

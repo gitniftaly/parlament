@@ -9,7 +9,7 @@ const Menu = () => {
 
   const mobMenu = () => {
     return (
-      (<div
+      <div
         className="p-5 grid grid-cols-1  sm:hidden absolute -mt-12 
                   gap-3 h-[450px] w-[300px] m-4 bg-gray-400
                   border-inherit border rounded-md"
@@ -33,10 +33,10 @@ const Menu = () => {
                 <>
                   {text}
                   <div className="flex flex-col px-5 text-whte/50 font-normal py-1">
-                    <Link alt="statement" href={"/regulation/statement"}>
+                    <Link alt="statement" href={"/documents/statement"}>
                       <span className="font-white text-sm">AzXP statement</span>
                     </Link>
-                    <Link alt="regulation" href={"/regulation/regulations"}>
+                    <Link alt="documents" href={"/documents/regulations"}>
                       <span className="font-white text-sm">
                         AzXP Regulations
                       </span>
@@ -57,7 +57,7 @@ const Menu = () => {
             Close
           </h1>
         </div>
-      </div>)
+      </div>
     );
   };
   return open ? mobMenu() : "";

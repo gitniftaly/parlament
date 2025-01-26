@@ -1,3 +1,4 @@
+import Header from "@/components/reuseblescomp/Header";
 import Link from "next/link";
 // import bnma1 from "../../../../public/azxpbnma/bnma1.jpg";
 import { TbHandClick } from "react-icons/tb";
@@ -10,6 +11,17 @@ const page = () => {
   // );
   return (
     <div className="flex flex-col h-dvh bg-background rounded-t-2xl -mt-2 sm:[780px] items-center gap-4 mb-20 sm:mb-0">
+      <Header text="Sənədlər bölməsi" className="mt-4" />
+      <div className="border border-gray-300 rounded-lg flex h-16 w-[400px] sm:w-[780px] mt-5 justify-center items-center font-bold">
+        <Link
+          href="/azxpethicrules.pdf"
+          target="_blank"
+          className="flex gap-4 items-center"
+        >
+          AzXP Etik kodeksi
+          <TbHandClick className=" text-green-700" />
+        </Link>
+      </div>
       <div className="border border-gray-300 rounded-lg flex h-16 w-[400px] sm:w-[780px] mt-5 justify-center items-center font-bold">
         <Link
           href="/decisions.pdf"
@@ -20,9 +32,13 @@ const page = () => {
         </Link>
       </div>
       <div className="border border-gray-300 rounded-md flex flex-col sm:w-[600px] items-center sm:mb-0 overflow-auto">
-        <header className="py-2">
+        {/* <header className="py-2">
           <h1 className="font-bold">Azərbaycan Xalq Parlamentinin Bəyanati</h1>
-        </header>
+        </header> */}
+        <Header
+          text="Azərbaycan Xalq Parlamentinin Bəyanati"
+          className="py-2"
+        />
         <p className="indent-4 px-2 font-sans">
           1993-cü ildən Azərbaycanda hakimiyyəti ələ keçirmiş Əliyevlər rejimi
           30 ildən artıqdır ki, ölkədə anti milli siyasət yeritməklə yanaşı,

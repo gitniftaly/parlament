@@ -4,10 +4,10 @@ import React from "react";
 const Sublinks = () => {
   return (
     <main className="grid grid-cols-1 text-blue-900 font-mono">
-      <Link alt="statement" href={"/regulation/statement"}>
+      <Link alt="statement" href={"/documents/statement"}>
         AzXP statement - Bəyanət
       </Link>
-      <Link alt="regulation" href={"/regulation/regulations"}>
+      <Link alt="documents" href={"/documents/regulations"}>
         AzXP Regulations - Nizamnamə
       </Link>
     </main>

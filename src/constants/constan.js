@@ -9,7 +9,7 @@ export const navContents = [
 ];
 export const urls = {
   info: "/news",
-  "rules&regulations": "/regulation",
+  "rules&regulations": "/documents",
   elections: "/elections",
   about: "/about",
   contactus: "/contact",

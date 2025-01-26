@@ -110,11 +110,11 @@ const MobileMenu = ({ lang, obj }) => {
                     className="-ml-[15px] mr-2 "
                   />
                   <Link
-                    href={"/regulation/statement"}
+                    href={"/documents/statement"}
                     alt="statement"
                     onClick={(e) => handleRules(e)}
                   >
-                    Bəyannamə
+                    Bəyannamə | Etik kodeksi
                   </Link>
                 </div>
                 <div
@@ -128,8 +128,23 @@ const MobileMenu = ({ lang, obj }) => {
                     height="16"
                     className="-ml-[15px] mr-2 "
                   />
-                  <Link href={"/regulation/regulations"} alt="regulations">
+                  <Link href={"/documents/regulations"} alt="regulations">
                     Nizamnamə | Reqlament
+                  </Link>
+                </div>
+                <div
+                  className="text-gray-600 flex"
+                  onClick={(e) => handleRules(e)}
+                >
+                  <Image
+                    alt="archive"
+                    src={rg}
+                    width="16"
+                    height="16"
+                    className="-ml-[15px] mr-2 "
+                  />
+                  <Link href={"/documents/archive"} alt="archive">
+                    Arxiv
                   </Link>
                 </div>
                 {/* <div
@@ -137,7 +152,7 @@ const MobileMenu = ({ lang, obj }) => {
                   onClick={(e) => handleRules(e)}
                 >
                   <FcNook size={16} />
-                  <Link href={"/regulation/regulations"} alt="regulations">
+                  <Link href={"/documents/regulations"} alt="regulations">
                     Document Templetləri
                   </Link>
                 </div> */}

@@ -27,18 +27,18 @@ const Rules = ({ text, lang }) => {
             <Link
               className="sublinks"
               alt="statement"
-              href={"/regulation/statement"}
+              href={"/documents/statement"}
               onClick={(e) => onSelectIterm(e)}
             >
-              Bəyannamə
+              Bəyannamə | Etik kodeksi
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem>
             <Link
               className="sublinks"
-              alt="regulation"
-              href={"/regulation/regulations"}
+              alt="documents"
+              href={"/documents/regulations"}
               onClick={(e) => onSelectIterm(e)}
             >
               Nizamnamə | Reqlament
@@ -48,8 +48,19 @@ const Rules = ({ text, lang }) => {
           <DropdownMenuItem>
             <Link
               className="sublinks"
+              alt="archive"
+              href={"/documents/archive"}
+              onClick={(e) => onSelectIterm(e)}
+            >
+              {lang === "az" ? "Arxiv" : "Archive"}
+            </Link>
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem>
+            <Link
+              className="sublinks"
               alt="Templates"
-              href={"/regulation/doctemplates"}
+              href={"/documents/doctemplates"}
               onClick={(e) => onSelectIterm(e)}
             >
               {lang === "az" ? "Document Templetləri" : "Document Templates"}

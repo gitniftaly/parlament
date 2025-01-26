@@ -1,11 +1,7 @@
-import React from "react";
+import ElectionCommision from "@/components/about/ElectionCommision";
 
 const Eleccommision = () => {
-  return (
-    <div className="h-dvh bg-background -mt-2 rounded-xl">
-      ElectionCommision is here
-    </div>
-  );
+  return <ElectionCommision />;
 };
 
 export default Eleccommision;

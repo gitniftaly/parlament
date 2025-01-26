@@ -1,4 +1,17 @@
-// "use client";
+import React from "react";
+
+const page = () => {
+  return (
+    <div className="flex h-dvh w-full bg-background rounded-t-2xl -mt-2">
+      <article className="flex w-full mt-10 justify-center font-bold text-orange-700">
+        <p> it is comming soon!</p>
+      </article>
+    </div>
+  );
+};
+
+export default page;
+
 // import Image from "next/image";
 // // import temp from "../../../../public/Docdoc.docx";
 // import Link from "next/link";

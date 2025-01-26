@@ -81,7 +81,7 @@ const Navbar = () => {
                 text={
                   ind === 1 ? (
                     <div className="flex justify-center items-center">
-                      <Rules text={text} />
+                      <Rules text={text} lang={lang} />
                       {!iconView ? (
                         <MdArrowDropUp size="20" />
                       ) : (
