@@ -11,13 +11,14 @@ const ElectionCommision = () => {
         </h1>
       </header>
       <div
-        className="flex sm:flex-row flex-col sm:w-full sm:grid sm:grid-cols-3 w-[400px] sm:gap-0 gap-1 mb-10 
-                  items-center sm:items-start overflow-auto sm:h-[810px]"
+        className="flex sm:flex-row flex-col sm:w-full sm:grid sm:grid-cols-3 w-[400px] sm:gap-0  
+                  items-center sm:items-start sm:h-full overflow-auto"
       >
         {votingCommission.map((data) => (
           <Portret data={data} key={data.name} />
         ))}
       </div>
+      <div className="w-full h-[100px] sm:h-[50px]"></div>
     </Container>
   );
 };

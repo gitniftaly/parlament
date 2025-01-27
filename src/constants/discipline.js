@@ -18,7 +18,7 @@ export const discipline = [
   {
     name: "Eldar Həmidov",
     imgLink: "/candidates/img004.jpg",
-    phone: "+7 (914) 174-34-34",
+    phone: "+49 173 907 1018",
   },
   {
     name: "İlqar Hüseyinli",
@@ -61,7 +61,7 @@ export const votingCommission = [
   {
     name: "Fikrət Qəhramanov",
     imgLink: "/serviceteam/fqahramanov.jpg",
-    phone: "tel:+994 70 544 05 40",
+    phone: "+994 70 544 05 40",
   },
 ];
 
@@ -89,6 +89,6 @@ export const counterTeam = [
   {
     name: "Eldar Həmidov",
     imgLink: "/candidates/img004.jpg",
-    phone: "+7 (914) 174-34-34",
+    phone: "+49 173 907 1018",
   },
 ];
