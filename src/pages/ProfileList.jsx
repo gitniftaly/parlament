@@ -3,12 +3,12 @@ import React from "react";
 
 const ProfileList = ({ data }) => {
   return (
-    <div className="h-24 flex w-full sm:w-[500px] justify-center items-center ">
-      <div
-        className={`
-          h- flex px-3  mt-3 bg-inherit shadow sm:shadow-md rounded-lg gap-3 sm:gap-10 items-start w-full border border-gray-300}`}
-      >
-        <section className="flex items-center justify-center h-full w-20 rounded-full bg-green-500">
+    <div
+      className="h-24 flex w-full sm:w-[500px] items-start rounded-lg border border-gray-300 
+                    mt-1 shadow-md sm:mt-2"
+    >
+      <div className=" flex px-3  mt-2 bg-inherit  gap-3 sm:gap-10  w-full h-auto">
+        <section className="flex items-start h-full w-20 rounded-full bg-green-500">
           <Image
             src={data?.img}
             alt="pic1"

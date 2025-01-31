@@ -60,10 +60,10 @@ const Rules = ({ text, lang }) => {
             <Link
               className="sublinks"
               alt="Templates"
-              href={"/documents/doctemplates"}
+              href={"/documents/ebooks"}
               onClick={(e) => onSelectIterm(e)}
             >
-              {lang === "az" ? "Document Templetləri" : "Document Templates"}
+              {lang === "az" ? "Electron kitablar" : "EBooks"}
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>

@@ -18,6 +18,7 @@ import InfoLinks from "./submenus/InfoLinks";
 import ElectionsLinks from "./submenus/ElectionsLinks";
 import TartarSubLinks from "./submenus/TartarSubLinks";
 import AboutMobileSubs from "./submenus/AboutMobileSubs";
+import { FcNook } from "react-icons/fc";
 
 const MobileMenu = ({ lang, obj }) => {
   const inputElement = React.useRef();
@@ -147,15 +148,15 @@ const MobileMenu = ({ lang, obj }) => {
                     Arxiv
                   </Link>
                 </div>
-                {/* <div
-                  className="text-gray-600 flex"
+                <div
+                  className="text-gray-600 flex gap-2 -ml-4"
                   onClick={(e) => handleRules(e)}
                 >
                   <FcNook size={16} />
-                  <Link href={"/documents/regulations"} alt="regulations">
-                    Document Templetləri
+                  <Link href={"/documents/ebooks"} alt="regulations">
+                    Electron kitablar
                   </Link>
-                </div> */}
+                </div>
               </div>
             ) : (
               ""
