@@ -2,7 +2,6 @@ import React from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-import { TbHandClick } from "react-icons/tb";
 
 const Book = ({ data }) => {
   return (
