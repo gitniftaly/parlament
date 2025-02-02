@@ -8,6 +8,7 @@ import aba from "../../../public/aba.jpg";
 import azxpComing from "../../../public/azxpComing.jpg";
 import azxpfirst from "../../../public/azxpfirst.jpg";
 import azxpsecond from "../../../public/azxpsecond.jpg";
+import azxpfour from "../../../public/azxp4.jpg";
 import { TbHandClick } from "react-icons/tb";
 
 const HomeContent = () => {
@@ -181,6 +182,27 @@ const HomeContent = () => {
               </div>
               <Image
                 src={azxpsecond}
+                alt="join"
+                width={300}
+                height={300}
+                className="sm:flex h-[144px] rounded-md"
+              />
+            </Link>
+          </div>
+          <div
+            className="flex border border-gray-300 h-[200px] shadow-sm 
+                           rounded-md items-center sm:h-[190px]"
+          >
+            <Link
+              target="_blank"
+              href="https://www.youtube.com/watch?v=Jda4Erz2J-c"
+              className="flex items-center flex-col gap-2 sm:h-[200px] sm:py-3"
+            >
+              <div className="font-bold mt-1">
+                <p>Azxp dördüncü sesiyası</p>
+              </div>
+              <Image
+                src={azxpfour}
                 alt="join"
                 width={300}
                 height={300}

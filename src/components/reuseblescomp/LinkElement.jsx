@@ -12,7 +12,7 @@ const LinkElement = ({ link, alt, title, date, className }) => {
       target="_blank"
       className={clsx("border border-gray-300 rounded-md", className)}
     >
-      <ImagePage src={parlament} width={50} height={50} alt="parlament" />
+      <ImagePage src={parlament} width={50} height={50} alt={alt} />
       <div className="flex flex-col">
         <div className="font-thin">{date}</div>
         <div className="text-blue-800">{title}</div>
