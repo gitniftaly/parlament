@@ -7,6 +7,7 @@ export const ebooks = [
     year: "2022",
     imgUrl: "/ebooks/andaluniya.jpg",
     pdfUrl: "/ebooks/andaluniya.pdf",
+    qr: "/ebooks/qr/abidqafar.jpg",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const ebooks = [
     year: "2024",
     imgUrl: "/ebooks/angeldeath.jpg",
     pdfUrl: "/ebooks/deathofangel.pdf",
+    qr: "/ebooks/qr/abidqafar.jpg",
   },
   {
     id: 3,
@@ -25,5 +27,26 @@ export const ebooks = [
     year: "2020",
     imgUrl: "/ebooks/tiran.jpg",
     pdfUrl: "/ebooks/tiran.pdf",
+    qr: "/ebooks/qr/isasadig.jpg",
+  },
+  {
+    id: 4,
+    titleAz: "Demokratiya dərsləri",
+    titleEn: "Democracy Lessons",
+    author: "Ataxan Əbilov",
+    year: "2018",
+    imgUrl: "/ebooks/democracylessens.jpg",
+    pdfUrl: "/ebooks/democrascylessons2018.pdf",
+    qr: "/ebooks/qr/ataxan.jpg",
+  },
+  {
+    id: 5,
+    titleAz: "Azərbaycan Avropa ailəsində",
+    titleEn: "Azerbaijan in the European family",
+    author: "Ataxan Əbilov",
+    year: "2018",
+    imgUrl: "/ebooks/azevrope.jpg",
+    pdfUrl: "/ebooks/azerbaijanevropafamily.pdf",
+    qr: "/ebooks/qr/ataxan.jpg",
   },
 ];

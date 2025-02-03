@@ -47,7 +47,7 @@ const Navbar = () => {
               Azərbaycan Xalq Parlamenti
             </article>
             <article className=" text-white ml-5 sm:flex text-italicized font-serif text-sm sm:text-xl sm:tracking-wide">
-              {`People's Parliament of Azerbaijan`}
+              {`Azerbaijan Popular Parliament`}
             </article>
           </div>
 

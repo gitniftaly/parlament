@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Book = ({ data }) => {
   return (
-    <div className="h-[150px] sm:w-[780px] border-b shadow-md border-gray-300 rounded-lg max-w-lg mx-auto p-2 flex gap-4">
+    <div className="h-[150px] sm:w-[780px] relative border-b shadow-md border-gray-300 rounded-lg max-w-lg mx-auto p-2 flex gap-4">
       <Link href={data.pdfUrl} target="_blank" className="flex gap-5">
         <Image
           src={data.imgUrl}
@@ -29,6 +29,13 @@ const Book = ({ data }) => {
           </div>
         </article>
       </Link>
+      <Image
+        src={data.qr}
+        alt={data.title}
+        className="w-[70px] h-[70px] absolute top-0 right-0 mt-2 mr-1"
+        width={70}
+        height={70}
+      />
     </div>
   );
 };

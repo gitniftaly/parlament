@@ -68,10 +68,10 @@ const HomeContent = () => {
             <span>
               In a significant move to counter decades of authoritarian rule and
               advocate for democratic governance, Azerbaijani citizens have
-              announced the formation of the People’s Parliament of Azerbaijan
-              (PPA). This bold initiative aims to restore democratic traditions,
+              announced the formation of the Azerbaijan Popular Parliament
+              (APP). This bold initiative aims to restore democratic traditions,
               promote human rights, and dismantle systemic corruption. Drawing
-              national and international attention, the PPA calls for global
+              national and international attention, the APP calls for global
               solidarity in its quest for a democratic Azerbaijan...
             </span>
           </Link>
