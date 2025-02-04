@@ -60,7 +60,7 @@ const HomeContent = () => {
         >
           <header>
             <h1 className="font-bold py-1 flex items-center gap-4">
-              The configuration of PPA{" "}
+              The configuration of APP{" "}
               <TbHandClick className="text-green-700" />
             </h1>
           </header>

@@ -5,7 +5,7 @@ import { ebooks } from "@/constants/ebooks";
 
 const Ebooks = () => {
   return (
-    <Container className="w-full bg-background -mt-2 rounded-t-2xl h-dvh py-5">
+    <Container className="w-full bg-background -mt-2 rounded-t-2xl h-dvh py-5 overflow-auto">
       {ebooks.map((data, ind) => (
         <Book data={data} key={ind} />
       ))}

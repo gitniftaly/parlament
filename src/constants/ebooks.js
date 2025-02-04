@@ -49,4 +49,14 @@ export const ebooks = [
     pdfUrl: "/ebooks/azerbaijanevropafamily.pdf",
     qr: "/ebooks/qr/ataxan.jpg",
   },
+  {
+    id: 6,
+    titleAz: "Qaçaq Şamil",
+    titleEn: "Fugitive Shamil",
+    author: "Sahib Camal",
+    year: "2021",
+    imgUrl: "/ebooks/shamil.jpg",
+    pdfUrl: "/ebooks/fugitive.pdf",
+    qr: "/ebooks/qr/azxpqr.jpg",
+  },
 ];
