@@ -1,4 +1,5 @@
 import React from "react";
+import { status } from "@/constants/status";
 
 const UserInfo = ({ item }) => {
   return (
@@ -49,6 +50,29 @@ const UserInfo = ({ item }) => {
         <span>Yaşadıgı Ölkə</span>
         <span>{item?.Ölkəsi}</span>
       </div>
+      {status.map((obj) => {
+        if (obj.id === item?.idn) {
+          return (
+            <div
+              className="font-bold mt-5 shadow-md w-full flex flex-col items-center"
+              key={item.idn}
+            >
+              <p>{obj.aztxt}</p>
+              <p>{obj.entxt}</p>
+            </div>
+          );
+        } else {
+          return "";
+        }
+      })}
+      {/* {status[item?.id] ? (
+        <div className="font-bold mt-5 shadow-md">
+          <p>{status[item?.id].aztxt}</p>
+          <p>{status[item?.id].entxt}</p>
+        </div>
+      ) : (
+        ""
+      )} */}
       {/* {item.vote ? (
         <>
           <hr className=" border-gray-300 border-inherit w-[300px] mt-1" />

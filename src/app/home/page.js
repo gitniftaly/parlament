@@ -1,14 +1,6 @@
 import Container from "@/components/Container";
 import Image from "next/image";
-import mammd from "../../../public/mammd.png";
 import Link from "next/link";
-import azxp from "../../../public/azxp.jpg";
-import join from "../../../public/comeTogether.jpg";
-import aba from "../../../public/aba.jpg";
-import azxpComing from "../../../public/azxpComing.jpg";
-import azxpfirst from "../../../public/azxpfirst.jpg";
-import azxpsecond from "../../../public/azxpsecond.jpg";
-import azxpfour from "../../../public/azxp4.jpg";
 import { TbHandClick } from "react-icons/tb";
 
 const HomeContent = () => {
@@ -23,7 +15,7 @@ const HomeContent = () => {
       >
         <Image
           alt="mmad"
-          src={mammd}
+          src="/mammd.png"
           height={300}
           width={300}
           layout="responsive"
@@ -160,7 +152,7 @@ const HomeContent = () => {
                 <p>Azxp brinci sesiyası</p>
               </div>
               <Image
-                src={azxpfirst}
+                src="/azxpfirst.jpg"
                 alt="join"
                 width={300}
                 height={300}
@@ -181,7 +173,7 @@ const HomeContent = () => {
                 <p>Azxp ikinci sesiyası</p>
               </div>
               <Image
-                src={azxpsecond}
+                src="/azxpsecond.jpg"
                 alt="join"
                 width={300}
                 height={300}
@@ -202,7 +194,7 @@ const HomeContent = () => {
                 <p>Azxp dördüncü sesiyası</p>
               </div>
               <Image
-                src={azxpfour}
+                src="/azxp4.jpg"
                 alt="join"
                 width={300}
                 height={300}
@@ -225,7 +217,7 @@ const HomeContent = () => {
                 <p>Birləşə bilərik</p>
               </div>
               <Image
-                src={join}
+                src="/comeTogether.jpg"
                 alt="join"
                 width={300}
                 height={300}
@@ -246,7 +238,7 @@ const HomeContent = () => {
                 <p>Azxp qurulur</p>
               </div>
               <Image
-                src={azxpComing}
+                src="/azxpComing.jpg"
                 alt="azxpComing"
                 width={300}
                 height={300}
@@ -267,7 +259,7 @@ const HomeContent = () => {
                 <p>Səs namusdur</p>
               </div>
               <Image
-                src={aba}
+                src="/aba.jpg"
                 alt="aba"
                 width={300}
                 height={300}
@@ -288,7 +280,7 @@ const HomeContent = () => {
                 <p>Azxp elan günü</p>
               </div>
               <Image
-                src={azxp}
+                src="/azxp.jpg"
                 alt="azxp"
                 width={300}
                 height={300}
