@@ -2,7 +2,7 @@ import Container from "@/components/Container";
 import Image from "next/image";
 import Link from "next/link";
 import { TbHandClick } from "react-icons/tb";
-
+import AzxpSession from "@/components/reuseblescomp/AzxpSession";
 const HomeContent = () => {
   return (
     <Container
@@ -135,159 +135,55 @@ const HomeContent = () => {
       </section>
 
       <section
-        className="flex flex-col  w-full gap-3  h-full py-10
-                      mt-10 sm:mt-0 sm:h-full mb-60 justify-around items-center px-1"
+        className="flex w-full gap-3  h-full py-10
+                      mt-[500px] sm:mt-0 sm:h-full justify-around items-center px-1"
       >
-        <section className="flex sm:flex-row flex-col gap-2">
-          <div
-            className="flex flex-1 border border-gray-300 h-[200px] shadow-sm 
-                           rounded-md items-center sm:h-[190px]"
-          >
-            <Link
-              target="_blank"
-              href="https://www.youtube.com/watch?v=46gfXhy2q9E"
-              className="flex items-center flex-col gap-2 sm:h-[200px] sm:py-3"
-            >
-              <div className="font-bold mt-1">
-                <p>Azxp brinci sesiyası</p>
-              </div>
-              <Image
-                src="/azxpfirst.jpg"
-                alt="join"
-                width={300}
-                height={300}
-                className="sm:flex h-[144px] rounded-md"
-              />
-            </Link>
-          </div>
-          <div
-            className="flex border border-gray-300 h-[200px] shadow-sm 
-                           rounded-md items-center sm:h-[190px]"
-          >
-            <Link
-              target="_blank"
-              href="https://www.youtube.com/watch?v=vushV9NS1R8&t=7693s"
-              className="flex items-center flex-col gap-2 sm:h-[200px] sm:py-3"
-            >
-              <div className="font-bold mt-1">
-                <p>Azxp ikinci sesiyası</p>
-              </div>
-              <Image
-                src="/azxpsecond.jpg"
-                alt="join"
-                width={300}
-                height={300}
-                className="sm:flex h-[144px] rounded-md"
-              />
-            </Link>
-          </div>
-          <div
-            className="flex border border-gray-300 h-[200px] shadow-sm 
-                           rounded-md items-center sm:h-[190px]"
-          >
-            <Link
-              target="_blank"
-              href="https://www.youtube.com/watch?v=Jda4Erz2J-c"
-              className="flex items-center flex-col gap-2 sm:h-[200px] sm:py-3"
-            >
-              <div className="font-bold mt-1">
-                <p>Azxp dördüncü sesiyası</p>
-              </div>
-              <Image
-                src="/azxp4.jpg"
-                alt="join"
-                width={300}
-                height={300}
-                className="sm:flex h-[144px] rounded-md"
-              />
-            </Link>
-          </div>
-        </section>
-        <section className="flex flex-col sm:flex-row sm:h-[350px] gap-1">
-          <div
-            className="flex sm:flex-1 border border-gray-300 h-[200px] shadow-sm
-                             rounded-md items-center sm:h-[180px]"
-          >
-            <Link
-              target="_blank"
-              href="https://www.youtube.com/watch?v=5ZVqBN9Cxfs"
-              className="flex items-center flex-col gap-2"
-            >
-              <div className="font-bold sm:py-0 py-1">
-                <p>Birləşə bilərik</p>
-              </div>
-              <Image
-                src="/comeTogether.jpg"
-                alt="join"
-                width={300}
-                height={300}
-                className="sm:flex rounded-md h-[144px]"
-              />
-            </Link>
-          </div>
-          <div
-            className="flex flex-col sm:flex-1 border border-gray-300 h-[200px] shadow-sm 
-           rounded-md items-center sm:h-[180px]"
-          >
-            <Link
-              href="https://www.youtube.com/watch?v=Uf9Sb_Yjdmg"
-              target="_blank"
-              className="flex items-center flex-col gap-2"
-            >
-              <div className="font-bold ">
-                <p>Azxp qurulur</p>
-              </div>
-              <Image
-                src="/azxpComing.jpg"
-                alt="azxpComing"
-                width={300}
-                height={300}
-                className=" sm:flex rounded-md sm:h-[144px]"
-              />
-            </Link>
-          </div>
-          <div
-            className="flex sm:flex-1 border border-gray-300 h-[180px] shadow-sm 
-                         rounded-md items-center sm:h-[180px]"
-          >
-            <Link
-              target="_blank"
-              href="https://www.youtube.com/watch?v=sWuKJMCVHg8"
-              className="flex items-center flex-col gap-2"
-            >
-              <div className="font-bold">
-                <p>Səs namusdur</p>
-              </div>
-              <Image
-                src="/aba.jpg"
-                alt="aba"
-                width={300}
-                height={300}
-                className="sm:flex rounded-md sm:h-[144px]"
-              />
-            </Link>
-          </div>
-          <div
-            className="flex flex-col flex-1 border border-gray-300 h-[200px] 
-           shadow-sm sm:h-[180px] rounded-md  items-center"
-          >
-            <Link
-              target="_blank"
-              href="https://www.youtube.com/watch?v=Wa1JaPV7GEw"
-              className="flex items-center flex-col gap-2"
-            >
-              <div className="font-bold">
-                <p>Azxp elan günü</p>
-              </div>
-              <Image
-                src="/azxp.jpg"
-                alt="azxp"
-                width={300}
-                height={300}
-                className="sm:flex sm:h-[144px] rounded-md"
-              />
-            </Link>
-          </div>
+        <section className="grid sm:grid-cols-4 gap-2">
+          <AzxpSession
+            src="/azxpfirst.jpg"
+            text="Azxp birinci sesiyası"
+            link="https://www.youtube.com/watch?v=46gfXhy2q9E"
+          />
+          <AzxpSession
+            src="/azxpsecond.jpg"
+            text="Azxp ikinci sesiyası"
+            link="https://www.youtube.com/watch?v=vushV9NS1R8&t=7693s"
+          />
+          <AzxpSession
+            src="/azxp4.jpg"
+            text="Azxp dördüncü sesiyası"
+            link="https://www.youtube.com/watch?v=Jda4Erz2J-c"
+          />
+          <AzxpSession
+            src="/azxpsessions/azxp5.jpg"
+            text="Azxp beşinci sesiyası"
+            link="https://www.youtube.com/live/ooN9WryX4Ow"
+          />
+          <AzxpSession
+            src="/azxpsessions/azxp5.jpg"
+            text="Azxp beşinci sesiyası"
+            link="https://www.youtube.com/live/ooN9WryX4Ow"
+          />
+          <AzxpSession
+            src="/comeTogether.jpg"
+            text="Azxp qurulur"
+            link="https://www.youtube.com/watch?v=5ZVqBN9Cxfs"
+          />
+          <AzxpSession
+            src="/azxpComing.jpg"
+            text="Birləşə bilərik"
+            link="https://www.youtube.com/watch?v=Uf9Sb_Yjdmg"
+          />
+          <AzxpSession
+            src="/aba.jpg"
+            text="Səs namusdur"
+            link="https://www.youtube.com/watch?v=sWuKJMCVHg8"
+          />
+          <AzxpSession
+            src="/azxp.jpg"
+            text="Azxp elan günü"
+            link="https://www.youtube.com/watch?v=Wa1JaPV7GEw"
+          />
         </section>
       </section>
     </Container>
