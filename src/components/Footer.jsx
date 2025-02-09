@@ -7,10 +7,7 @@ import { socialmedia } from "@/constants/socialmedia";
 
 const Footer = () => {
   return (
-    <Container
-      className="bg-blue-900 w-full rounded-t-xl relative 
-                         bottom-2 -m-2"
-    >
+    <Container className="bg-blue-900 w-full rounded-t-xl relative bottom-2">
       <div className="m-auto flex flex-col">
         <div className="flex flex-row justify-end items-center">
           <header className="flex flex-1 text-white ">

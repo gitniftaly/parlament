@@ -1,7 +1,7 @@
 // import {unusedImports} from "eslint-plugin-unused-imports";
 
 {
-  "extends": ["next/core-web-vitals", "eslint:recommended"]
+  "extends": ["next/babel", "next/core-web-vitals", "eslint:recommended"]
 }
 
 // export default [{

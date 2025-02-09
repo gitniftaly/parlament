@@ -135,8 +135,8 @@ const HomeContent = () => {
       </section>
 
       <section
-        className="flex w-full gap-3  h-full py-10
-                      mt-[500px] sm:mt-0 sm:h-full justify-around items-center px-1"
+        className="flex w-full gap-3  h-full sm:py-0
+                       sm:mt-0 sm:h-full justify-around items-start px-1"
       >
         <section className="grid sm:grid-cols-4 gap-2">
           <AzxpSession
@@ -154,11 +154,7 @@ const HomeContent = () => {
             text="Azxp dördüncü sesiyası"
             link="https://www.youtube.com/watch?v=Jda4Erz2J-c"
           />
-          <AzxpSession
-            src="/azxpsessions/azxp5.jpg"
-            text="Azxp beşinci sesiyası"
-            link="https://www.youtube.com/live/ooN9WryX4Ow"
-          />
+
           <AzxpSession
             src="/azxpsessions/azxp5.jpg"
             text="Azxp beşinci sesiyası"
