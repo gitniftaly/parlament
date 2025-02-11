@@ -59,4 +59,14 @@ export const ebooks = [
     pdfUrl: "/ebooks/fugitive.pdf",
     qr: "/ebooks/qr/azxpqr.jpg",
   },
+  {
+    id: 7,
+    titleAz: "Mən Dərdimi Sevirəm",
+    titleEn: "I love my pain",
+    author: "Sahib Camal",
+    year: "2021",
+    imgUrl: "/ebooks/ilovemypain.jpg",
+    pdfUrl: "/ebooks/ilovemypain.pdf",
+    qr: "/ebooks/qr/azxpqr.jpg",
+  },
 ];
