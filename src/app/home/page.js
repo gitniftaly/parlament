@@ -24,12 +24,12 @@ const HomeContent = () => {
       </section>
       <section
         className="flex justify-center sm:h-[50px] sm:px-0 h-20 px-2 w-full bg-blue-300 
-                             mx-auto rounded-lg "
+                             mx-auto rounded-lg animate-pulse"
       >
         <Link
           href="/news/decisions"
           alt="secki"
-          className="flex flex-col items-center"
+          className="flex flex-col items-center "
         >
           <p className="flex font-bold gap-2 items-center">
             Parlamentə namizədliyinizi necə verə bilərsiz!
