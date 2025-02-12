@@ -2,7 +2,7 @@ import React from "react";
 
 const AzxpProtocol25 = () => {
   return (
-    <div className="flex flex-col h-auto  mx-auto sm:w-[780px] w-[400px] px-1">
+    <div className="flex flex-col h-auto  mx-auto sm:w-[780px] rounded-t-xl w-[400px] px-1 bg-white">
       <header className="flex justify-center py-3">
         <h1 className="font-bold">
           AzXP Seçki Komissiyasının iclasının 25Ni Protokolundan ÇIXARIŞ:

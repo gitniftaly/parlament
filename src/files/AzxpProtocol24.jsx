@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const AzxpProtocol24 = () => {
   return (
-    <div className="flex h-auto -mt-2 rounded-2xl py-3 w-full bg-background px-2 flex-col gap-3 sm:overflow-y-auto">
+    <div className="flex h-auto w-full rounded-2xl py-3 px-2 flex-col gap-3">
       <div className="w-full h-auto  flex justify-center items-center px-2 flex-col">
         <div className="flex flex-col justify-center items-center">
           <p>

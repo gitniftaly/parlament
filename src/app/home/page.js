@@ -7,7 +7,7 @@ const HomeContent = () => {
   return (
     <Container
       className="flex flex-col  bg-background  justify-start
-    rounded-t-xl -mt-2 overflow-y-scroll items-center h-dvh gap-3"
+    rounded-t-xl -mt-2 overflow-y-scroll items-center h-full gap-3"
     >
       <section
         className="flex m-auto mt-3 h-[100px] sm:w-full rounded-xl sm:px-2
@@ -22,8 +22,28 @@ const HomeContent = () => {
           className="flex rounded-lg w-full h-[170px]"
         />
       </section>
-
-      <div className="flex-col flex sm:flex-row p-1 sm:gap-1 gap-3 sm:h-[220px] h-[460px] items-center mb-10">
+      <section
+        className="flex justify-center sm:h-[50px] sm:px-0 h-20 px-2 w-full bg-blue-300 
+                             mx-auto rounded-lg "
+      >
+        <Link
+          href="/news/decisions"
+          alt="secki"
+          className="flex flex-col items-center"
+        >
+          <p className="flex font-bold gap-2 items-center">
+            Parlamentə namizədliyinizi necə verə bilərsiz!
+            <span>
+              <TbHandClick className="text-black" />
+            </span>
+          </p>
+          <p>
+            Xalq vəkili olmag üçün nədən başlamalısan? Seçki komisiyası bəyan
+            edir.
+          </p>
+        </Link>
+      </section>
+      <div className="flex-col flex sm:flex-row p-1 sm:gap-1 gap-3 sm:h-[220px] h-[460px] items-center mb-1">
         <div
           className=" flex flex-col rounded-xl shadow-md border border-gray-300 w-full h-[280px]
                       items-center sm:h-[200px]"
@@ -70,7 +90,7 @@ const HomeContent = () => {
         </div>
       </div>
 
-      <section className="flex sm:h-40 w-full flex-col sm:flex-row rounded-lg gap-2 mt-10 sm:-mt-5">
+      <section className="flex sm:h-40 w-full flex-col sm:flex-row rounded-lg gap-2 mt-20 sm:-mt-5">
         <article
           className="w-full h-full flex flex-col border border-gray-300 shadow-md 
                             items-center px-2 rounded-md"
@@ -135,7 +155,7 @@ const HomeContent = () => {
       </section>
 
       <section
-        className="flex w-full gap-3  h-full sm:py-0
+        className="flex w-full gap-3  h-full sm:py-0 sm:mb-2
                        sm:mt-0 sm:h-full justify-around items-start px-1"
       >
         <section className="grid sm:grid-cols-4 gap-2">
