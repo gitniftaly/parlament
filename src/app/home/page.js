@@ -3,12 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { TbHandClick } from "react-icons/tb";
 import AzxpSession from "@/components/reuseblescomp/AzxpSession";
+import Shortcuts from "@/files/Shortcuts";
+import Info from "@/files/Info";
+// import img1 from "/info.jpg";
 const HomeContent = () => {
   return (
     <Container
-      className="flex flex-col  bg-background  justify-start
+      className="flex flex-col  bg-background  justify-start relative
     rounded-t-xl -mt-2 overflow-y-scroll items-center h-full gap-3"
     >
+      <Info img="/info.jpg" />
       <section
         className="flex m-auto mt-3 h-[100px] sm:w-full rounded-xl sm:px-2
                 w-[400px] sm:h-auto"
@@ -43,7 +47,7 @@ const HomeContent = () => {
           </p>
         </Link>
       </section>
-      <div className="flex-col flex sm:flex-row p-1 sm:gap-1 gap-3 sm:h-[220px] h-[460px] items-center mb-1">
+      <div className="flex-col flex sm:flex-row p-1 sm:gap-1 gap-3 sm:h-[220px] h-[280px] items-center mb-1">
         <div
           className=" flex flex-col rounded-xl shadow-md border border-gray-300 w-full h-[280px]
                       items-center sm:h-[200px]"
@@ -60,14 +64,12 @@ const HomeContent = () => {
               Parlamentinin (AzXP) təsis edildiyini elan etdilər. Bu cəsarətli
               təşəbbüs demokratik ənənələrin bərpasını, insan hüquqlarının
               müdafiəsini və sistematik korrupsiyanın aradan qaldırılmasını
-              hədəfləyir. Milli və beynəlxalq səviyyədə diqqət çəkən AzXP,
-              demokratik Azərbaycan uğrunda mübarizəsində qlobal həmrəylik
-              çağırışı edir...
+              hədəfləyir...
             </span>
           </Link>
         </div>
         <div
-          className="flex flex-col rounded-xl shadow-md border border-gray-300 w-full 
+          className="hidden sm:flex flex-col rounded-xl shadow-md border border-gray-300 w-full 
         sm:h-[200px] h-[270px] items-center"
         >
           <header>
@@ -82,76 +84,17 @@ const HomeContent = () => {
               advocate for democratic governance, Azerbaijani citizens have
               announced the formation of the Azerbaijan Popular Parliament
               (APP). This bold initiative aims to restore democratic traditions,
-              promote human rights, and dismantle systemic corruption. Drawing
-              national and international attention, the APP calls for global
-              solidarity in its quest for a democratic Azerbaijan...
+              promote human rights, and dismantle systemic corruption...
             </span>
           </Link>
         </div>
       </div>
 
-      <section className="flex sm:h-40 w-full flex-col sm:flex-row rounded-lg gap-2 mt-20 sm:-mt-5">
-        <article
-          className="w-full h-full flex flex-col border border-gray-300 shadow-md 
-                            items-center px-2 rounded-md"
-        >
-          <Link
-            href="/documents/statement"
-            alt="azxpbnt"
-            className="flex flex-col items-center"
-          >
-            <header>
-              <h1 className="font-bold py-1 flex items-center gap-3">
-                Azərbaycan Xalq Parlamentinin Bəyanatı
-                <TbHandClick className="text-green-700" />
-              </h1>
-            </header>
-            <p>
-              1993-cü ildən Azərbaycanda hakimiyyəti ələ keçirmiş Əliyevlər
-              rejimi 30 ildən artıqdır ki, ölkədə anti milli siyasət yeritməklə
-              yanaşı, vətəndaşların hüquq və azadlıqlarını təmin etmir...
-            </p>
-          </Link>
-        </article>
-        <article className="w-full h-full border border-gray-300 shadow-md flex flex-col items-center px-2 rounded-md">
-          <Link
-            href="news/newsLine"
-            alt="azxpbnt"
-            className="flex flex-col items-center"
-          >
-            <header>
-              <h1 className="font-bold flex items-center flex-col">
-                <p className="flex gap-3 items-center">
-                  Azərbaycan Xalq Parlamentinin
-                  <TbHandClick className="text-green-700" />
-                </p>
-                <p>Azərbaycan respublikası Daxili İşlər Nazirliynə müraciət</p>
-              </h1>
-            </header>
-            <p>
-              18.01.2025-ci il tarixdə, İmişli rayonu ərazisində baş vermiş
-              avtomobil qəzası nəticəsində iki məktəbli uşağın vəfat etməsi...
-            </p>
-          </Link>
-        </article>
-        <article className="w-full h-full border border-gray-300 shadow-md flex flex-col items-center px-2 rounded-md">
-          <Link href="about/discipline" alt="azxpbnt" className="flex flex-col">
-            <header>
-              <h1 className="font-bold flex flex-col items-center">
-                <p className="flex items-center gap-2">
-                  Azərbaycan Xalq Parlamenti
-                  <TbHandClick className="text-green-700" />
-                </p>
-                <p className="flex items-end">
-                  İntizam komissiyasının üzviləri
-                </p>
-              </h1>
-            </header>
-            <p className="flex mt-3">
-              12 yanvar 2025 il tarixli toplantısının qərarı #:1
-            </p>
-          </Link>
-        </article>
+      <section className="sm:h-40 w-full flex flex-col">
+        <header className="mx-auto font-bold pb-2">
+          <h1>Sayitda qısa istiqamətlər!</h1>
+        </header>
+        <Shortcuts />
       </section>
 
       <section
@@ -179,6 +122,11 @@ const HomeContent = () => {
             src="/azxpsessions/azxp5.jpg"
             text="Azxp beşinci sesiyası"
             link="https://www.youtube.com/live/ooN9WryX4Ow"
+          />
+          <AzxpSession
+            src="/azxpsessions/azxp6.jpg"
+            text="Azxp altıncı sesiyası"
+            link="https://www.youtube.com/live/8zmk1Z90YVw"
           />
           <AzxpSession
             src="/comeTogether.jpg"

@@ -1,5 +1,4 @@
 /* eslint-disable no-irregular-whitespace */
-"use client";
 
 import Link from "next/link";
 

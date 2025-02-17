@@ -11,6 +11,22 @@ const Decisions = () => {
     <div className="flex min-h-dvh -mt-2 rounded-t-2xl overflow-x-hidden py-3 w-full bg-background px-2 gap-3">
       <section className="flex flex-col h-auto w-full gap-3">
         <LinkElement
+          link="/docpdf/listofcommittees.pdf"
+          alt="committees"
+          title="Azxp kommitələri"
+          date="16.02.2025"
+          target="_blank"
+          className="flex w-full gap-3 sm:w-[780px] mx-auto p-2 font-bold"
+        />
+        <LinkElement
+          link="/docpdf/azxpresolution.pdf"
+          alt="azxp_resolution"
+          title="Azxp ölkə krizisinə ittihamı"
+          date="16.02.2025"
+          target="_blank"
+          className="flex w-full gap-3 sm:w-[780px] mx-auto p-2 font-bold"
+        />
+        <LinkElement
           link="/docpdf/azxp_protokol_25.pdf"
           alt="azxp_protokol_25"
           title="Azxp_protokol_25"
