@@ -4,15 +4,13 @@ import Link from "next/link";
 import { TbHandClick } from "react-icons/tb";
 import AzxpSession from "@/components/reuseblescomp/AzxpSession";
 import Shortcuts from "@/files/Shortcuts";
-import Info from "@/files/Info";
-// import img1 from "/info.jpg";
+
 const HomeContent = () => {
   return (
     <Container
       className="flex flex-col  bg-background  justify-start relative
     rounded-t-xl -mt-2 overflow-y-scroll items-center h-full gap-3"
     >
-      <Info img="/info.jpg" />
       <section
         className="flex m-auto mt-3 h-[100px] sm:w-full rounded-xl sm:px-2
                 w-[400px] sm:h-auto"

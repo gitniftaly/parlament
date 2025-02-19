@@ -8,7 +8,10 @@ import { FcDownload } from "react-icons/fc";
 
 const Decisions = () => {
   return (
-    <div className="flex min-h-dvh -mt-2 rounded-t-2xl overflow-x-hidden py-3 w-full bg-background px-2 gap-3">
+    <div className="flex flex-col min-h-dvh -mt-2 rounded-t-2xl overflow-x-hidden py-3 w-full bg-background px-2 gap-3">
+      <header className="font-bold mx-auto py-2">
+        <h1>Informasiya qərarlar bölgəsi.</h1>
+      </header>
       <section className="flex flex-col h-auto w-full gap-3">
         <LinkElement
           link="/docpdf/listofcommittees.pdf"
