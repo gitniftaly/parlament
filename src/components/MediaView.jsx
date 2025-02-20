@@ -2,7 +2,8 @@ import clsx from "clsx";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-const MediaView = ({ tv, person, produser, since, url, className }) => {
+const MediaView = ({ tv, profile, produser, since, url, className }) => {
+  console.log("Profile: ", profile);
   return (
     <section
       className={clsx(
@@ -19,12 +20,13 @@ const MediaView = ({ tv, person, produser, since, url, className }) => {
       </div>
 
       <div className="flex flex-1 items-center justify-center flex-col">
-        <Link href={url}>
+        <Link href={url} className="rounded-lg">
           <Image
-            src={`/media/${person}.png`}
-            alt={person}
+            src={profile}
+            alt={produser}
             width="120"
             height="120"
+            className="rounded-lg flex"
           />
         </Link>
         <div className="py-2">{produser}</div>

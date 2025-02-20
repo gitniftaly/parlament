@@ -15,7 +15,7 @@ const Media = () => {
           since={media.since}
           produser={media.produser}
           url={media.url}
-          person={tvprodusers[0]}
+          profile={media.profile}
         />
       ))}
     </Container>
