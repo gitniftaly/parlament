@@ -9,6 +9,14 @@ const page = () => {
         <h1>Informasiya elanlar bölgəsi.</h1>
       </header>
       <LinkElement
+        link="/docpdf/economicsocialpolicy.pdf"
+        alt="economic"
+        title="İqtisadiyyat və Sosial Siyasət Komitəsi"
+        date="19.02.2025"
+        target="_blank"
+        className="flex w-full gap-3 sm:w-[780px] mx-auto p-2 font-bold"
+      />
+      <LinkElement
         link="/docpdf/educationhealthcommittee.pdf"
         alt="education"
         title="Təhsil və Səhiyyə Komitəsi"
