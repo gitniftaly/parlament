@@ -1,0 +1,42 @@
+export const committees = [
+  {
+    id: 1,
+    pdfLink: "/docpdf/politicalcommittee.pdf",
+    alt: "politic",
+    titleAz: "Siyasət Komitəsi",
+    titleEn: "",
+    date: "20.02.2025",
+  },
+  {
+    id: 2,
+    pdfLink: "/docpdf/economicsocialpolicy.pdf",
+    alt: "economic",
+    titleAz: "İqtisadiyyat və Sosial Siyasət Komitəsi",
+    titleEn: "",
+    date: "19.02.2025",
+  },
+  {
+    id: 3,
+    pdfLink: "/docpdf/educationhealthcommittee.pdf",
+    alt: "education",
+    titleAz: "Təhsil və Səhiyyə Komitəsi",
+    titleEn: "",
+    date: "17.02.2025",
+  },
+  {
+    id: 4,
+    pdfLink: "/docpdf/foreaignrelationships.pdf",
+    alt: "foraign",
+    titleAz: "Xarici Əlaqələr Komitəsi",
+    titleEn: "",
+    date: "18.02.2025",
+  },
+  {
+    id: 5,
+    pdfLink: "/docpdf/humansrightscomeettie.pdf",
+    alt: "humanrights",
+    titleAz: "İnsan Hüquqları Komitəsi",
+    titleEn: "",
+    date: "18.02.2025",
+  },
+];
