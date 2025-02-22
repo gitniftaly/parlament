@@ -39,4 +39,12 @@ export const committees = [
     titleEn: "",
     date: "18.02.2025",
   },
+  {
+    id: 6,
+    pdfLink: "/docpdf/lawandstatebuilding.pdf",
+    alt: "lawandstate",
+    titleAz: "Hüquq və Dövlət Quruculuğu Komitəsi",
+    titleEn: "",
+    date: "21.02.2025",
+  },
 ];
