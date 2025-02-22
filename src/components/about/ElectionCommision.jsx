@@ -7,7 +7,7 @@ const ElectionCommision = () => {
     <Container className="flex bg-background -mt-2 rounded-t-2xl h-dvh w-full flex-col items-center">
       <header className="">
         <h1 className="flex mt-5 font-bold font-sans items-center flex-col">
-          <p>Azərbaycan Xalq Parlamentinin seçki komissiyası</p>
+          <p>Azərbaycan Xalq Parlamenti Seçki Komissiyası</p>
         </h1>
       </header>
       <div

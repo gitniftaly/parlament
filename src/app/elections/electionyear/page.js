@@ -36,7 +36,7 @@ const ElectionYear = () => {
       </div>
       <div className=" bg-background">
         <span className="font-bold p-2">
-          {lang === "az" ? "Axtaış" : "Search"}
+          {lang === "az" ? "Axtarış" : "Search"}
         </span>
         <span>
           <input

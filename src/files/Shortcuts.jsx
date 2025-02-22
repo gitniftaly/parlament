@@ -6,13 +6,13 @@ const Shortcuts = () => {
     <div className="flex flex-col h-full justify-between items-start sm:flex-row gap-2">
       <section className="border border-gray-300 rounded-xl flex h-full w-full flex-col px-3 py-2 items-center">
         <Link href="documents/statement" alt="">
-          Azxp bəyannamə | Etik kodeksi
+          AzXP Bəyannamə | Etik kodeksi
         </Link>
         <Link href="documents/regulations" alt="">
-          Azxp Nizamnamə | Reqlament
+          AzXP Nizamnamə | Reqlament
         </Link>
         <Link href="/documents/archive" alt="">
-          Azxp Arxivi
+          AzXP Arxivi
         </Link>
         <Link href="/documents/ebooks" alt="kitab">
           Kitabxana
@@ -20,13 +20,13 @@ const Shortcuts = () => {
       </section>
       <section className="border border-gray-300 rounded-xl flex h-full w-full flex-col px-3 py-2 items-center">
         <Link href="/news/newsLine" alt="">
-          Azxp xəbərləri
+          AzXP xəbərləri
         </Link>
         <Link href="/news/announcements" alt="">
-          Azxp elanları
+          AzXP elanları
         </Link>
         <Link href="/news/decisions" alt="">
-          Azxp qərarları
+          AzXP qərarları
         </Link>
         <Link href="/documents/ebooks" alt="kitabxana">
           Kitabxana
@@ -34,13 +34,13 @@ const Shortcuts = () => {
       </section>
       <section className="border border-gray-300 rounded-xl flex h-full w-full flex-col px-3 py-2 items-center">
         <Link href="/about/counterteam" alt="">
-          Azxp hesablayıcı qrupu
+          AzXP Hesablama Komissiyası
         </Link>
         <Link href="/about/elccommision" alt="">
-          Azxp seçki komissiyası
+          AzXP Seçki Komissiyası
         </Link>
         <Link href="/about/discipline" alt="">
-          Azxp intizam komissiyası
+          AzXP İntizam Komissiyası
         </Link>
         <Link href="/documents/ebooks" alt="kitabxana">
           Kitabxana
@@ -48,10 +48,10 @@ const Shortcuts = () => {
       </section>
       <section className="border border-gray-300 rounded-xl flex h-full w-full flex-col px-3 py-2 items-center">
         <Link href="/docpdf/listofcommittees.pdf" alt="" target="_blank">
-          Azxp kommitələri
+          AzXP komitələri
         </Link>
         <Link href="/docpdf/azxpresolution.pdf" alt="" target="_blank">
-          Azxp Resolution
+          AzXP Resolution
         </Link>
 
         <Link href="/documents/ebooks" alt="kitabxana">

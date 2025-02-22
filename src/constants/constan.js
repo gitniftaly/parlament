@@ -31,7 +31,7 @@ export const mediaObject = [
   {
     id: 2,
     tv: "ayvaz",
-    produser: "Şahəddin Ayvazoglı",
+    produser: "Şahəddin Ayvazoğlu",
     since: "Since 2023",
     info: "",
     profile: "/candidates/img059.jpg",
@@ -52,7 +52,7 @@ export const mediaObject = [
     produser: "Elxan Nuriyev",
     since: "Since 2024",
     info: "",
-    profile: "/media/man.png",
+    profile: "/media/voiceofu.jpg",
     url: "https://www.youtube.com/@voiceofu91",
   },
   {

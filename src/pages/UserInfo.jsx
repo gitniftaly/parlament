@@ -4,7 +4,7 @@ import { status } from "@/constants/status";
 const UserInfo = ({ item }) => {
   return (
     <div
-      key={item?.id}
+      key={item?.idn}
       className=" flex flex-col w-[400px] h-96 border border-gray-300 
                 rounded-lg shadow-md px-2 items-center pb-2"
     >
@@ -55,7 +55,7 @@ const UserInfo = ({ item }) => {
           return (
             <div
               className="font-bold mt-5 shadow-md w-full flex flex-col items-center"
-              key={item.idn}
+              key={item.id}
             >
               <p>{obj.aztxt}</p>
               <p>{obj.entxt}</p>

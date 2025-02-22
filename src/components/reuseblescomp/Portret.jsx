@@ -12,7 +12,10 @@ const Portret = ({ data }) => {
         className="h-[300px] rounded-lg"
       />
       <article className="pl-3 font-bold py-1">
-        <p>{data.name}</p>
+        <p>
+          <span>{data.name}</span>.
+          <span className="ml-2 font-normal">{data.title}</span>
+        </p>
         <p>Phone: {data.phone}</p>
       </article>
     </div>

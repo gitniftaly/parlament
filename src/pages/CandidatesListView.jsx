@@ -7,7 +7,7 @@ const CandidatesListView = ({ candidates }) => {
   return (
     <div className="overflow-y-scroll">
       {candidates?.map((can) => (
-        <Link key={can.id} href={`/elections/electionyear/${can.id}`}>
+        <Link key={can.idn} href={`/elections/electionyear/${can.idn}`}>
           <ProfileList data={can} />
         </Link>
       ))}

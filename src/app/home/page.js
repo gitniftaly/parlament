@@ -102,33 +102,33 @@ const HomeContent = () => {
         <section className="grid sm:grid-cols-4 gap-2">
           <AzxpSession
             src="/azxpfirst.jpg"
-            text="Azxp birinci sesiyası"
+            text="Azxp birinci sessiyası"
             link="https://www.youtube.com/watch?v=46gfXhy2q9E"
           />
           <AzxpSession
             src="/azxpsecond.jpg"
-            text="Azxp ikinci sesiyası"
+            text="Azxp ikinci sessiyası"
             link="https://www.youtube.com/watch?v=vushV9NS1R8&t=7693s"
           />
           <AzxpSession
             src="/azxp4.jpg"
-            text="Azxp dördüncü sesiyası"
+            text="Azxp dördüncü sessiyası"
             link="https://www.youtube.com/watch?v=Jda4Erz2J-c"
           />
 
           <AzxpSession
             src="/azxpsessions/azxp5.jpg"
-            text="Azxp beşinci sesiyası"
+            text="Azxp beşinci sessiyası"
             link="https://www.youtube.com/live/ooN9WryX4Ow"
           />
           <AzxpSession
             src="/azxpsessions/azxp6.jpg"
-            text="Azxp altıncı sesiyası"
+            text="Azxp altıncı sessiyası"
             link="https://www.youtube.com/live/8zmk1Z90YVw"
           />
           <AzxpSession
             src="/comeTogether.jpg"
-            text="Azxp qurulur"
+            text="Azxp yaranması"
             link="https://www.youtube.com/watch?v=5ZVqBN9Cxfs"
           />
           <AzxpSession

@@ -1,6 +1,6 @@
 export const candidates = [
   {
-    id: 1,
+    idn: 1,
     Adı: "Abid Qafarov Abdin oğlu",
     Təvəllüd: "7/12/1981",
     DogYer: "Bakı",
@@ -16,7 +16,7 @@ export const candidates = [
     canId: 123,
   },
   {
-    id: 2,
+    idn: 2,
     Adı: "Aygün Ələsgərova Sabir qızı",
     Təvəllüd: "1/20/1972",
     DogYer: "Lənkəran",
@@ -32,7 +32,7 @@ export const candidates = [
     canId: 46,
   },
   {
-    id: 3,
+    idn: 3,
     Adı: "Cavanşir Xanlarov Məmməd oğlu",
     Təvəllüd: "3/1/1967",
     DogYer: "Bərdə",
@@ -45,7 +45,7 @@ export const candidates = [
     canId: 165,
   },
   {
-    id: 4,
+    idn: 4,
     Adı: "Eldar Həmidov Soltanhəmid oğlu",
     Təvəllüd: "4/3/1958",
     DogYer: "Ucar",
@@ -61,7 +61,7 @@ export const candidates = [
     canId: 65,
   },
   {
-    id: 5,
+    idn: 5,
     Adı: "Əli Kərimov Bəxtiyar oğlu",
     Təvəllüd: "6/1/1981",
     DogYer: "Bakı",
@@ -75,7 +75,7 @@ export const candidates = [
     canId: 87,
   },
   {
-    id: 6,
+    idn: 6,
     Adı: "Əli Quliyev Əhməd oğlu",
     Təvəllüd: "5/20/1962",
     DogYer: "Qubadlı",
@@ -88,7 +88,7 @@ export const candidates = [
     canId: 132,
   },
   // {
-  //   id: 7,
+  //   idn: 7,
   //   Adı: "Əlövsət Sadıqlı Əhəd oğlu",
   //   Təvəllüd: "2/3/1953",
   //   DogYer: "Ağdam",
@@ -104,7 +104,7 @@ export const candidates = [
   //   canId: 143,
   // },
   {
-    id: 8,
+    idn: 8,
     Adı: "Ənvər Ağamalızadə Yusif oğlu",
     Təvəllüd: "4/2/1953",
     DogYer: "Ermənistan",
@@ -120,7 +120,7 @@ export const candidates = [
     canId: 11,
   },
   {
-    id: 9,
+    idn: 9,
     Adı: "Faiq Kazımov Oruc oğlu",
     Təvəllüd: "12/29/1960",
     DogYer: "Şəmkir",
@@ -133,7 +133,7 @@ export const candidates = [
     canId: 84,
   },
   // {
-  //   id: 10,
+  //   idn: 10,
   //   Adı: "Frizman Bağırov Cavad oğlu",
   //   Təvəllüd: "12/21/1983",
   //   DogYer: "Göy-göl",
@@ -146,7 +146,7 @@ export const candidates = [
   //   canId: 17,
   // },
   {
-    id: 11,
+    idn: 11,
     Adı: "Fuad Mahmudov Əbülfət oğlu",
     Təvəllüd: "7/26/1976",
     DogYer: "Mingəçevir",
@@ -161,7 +161,7 @@ export const candidates = [
     canId: 90,
   },
   {
-    id: 12,
+    idn: 12,
     Adı: "Həsrət Telliyev Zeynal oğlu",
     Təvəllüd: "4/18/1960",
     DogYer: "Bəlakən",
@@ -174,7 +174,7 @@ export const candidates = [
     canId: 159,
   },
   {
-    id: 13,
+    idn: 13,
     Adı: "İlqar Budaqov Namaz oğlu",
     Təvəllüd: "3/25/1969",
     DogYer: "Beyləqan",
@@ -190,7 +190,7 @@ export const candidates = [
     canId: 24,
   },
   {
-    id: 14,
+    idn: 14,
     Adı: "İlqar Hüseynli Bəxtiyar oğlu",
     Təvəllüd: "2/4/1990",
     DogYer: "Bakı",
@@ -206,7 +206,7 @@ export const candidates = [
     canId: 75,
   },
   {
-    id: 15,
+    idn: 15,
     Adı: "İqbal Məmmədli İman oğlu",
     Təvəllüd: "11/10/1959",
     DogYer: "Lənkəran",
@@ -218,7 +218,7 @@ export const candidates = [
     canId: 96,
   },
   {
-    id: 16,
+    idn: 16,
     Adı: "İsa Sadıqov Nəzər oğlu",
     Təvəllüd: "6/24/1958",
     DogYer: "Gürcüstan",
@@ -233,7 +233,7 @@ export const candidates = [
     canId: 145,
   },
   {
-    id: 17,
+    idn: 17,
     Adı: "Kəmalə Məmmədova Seydi qızı",
     Təvəllüd: "3/22/1977",
     DogYer: "Şəki",
@@ -246,7 +246,7 @@ export const candidates = [
     canId: 104,
   },
   {
-    id: 18,
+    idn: 18,
     Adı: "Mübariz İsmayılov İsaq oğlu",
     Təvəllüd: "4/3/1966",
     DogYer: "Zaqatala",
@@ -260,7 +260,7 @@ export const candidates = [
     canId: 82,
   },
   {
-    id: 19,
+    idn: 19,
     Adı: "Müşviq Əhmədli Seymur oğlu",
     Təvəllüd: "11/12/1990",
     DogYer: "Bərdə",
@@ -273,7 +273,7 @@ export const candidates = [
     canId: 36,
   },
   {
-    id: 20,
+    idn: 20,
     Adı: "Natiq Məmmədov Aydın oğlu",
     Təvəllüd: "3/20/1974",
     DogYer: "Naxçıvan",
@@ -289,7 +289,7 @@ export const candidates = [
     canId: 99,
   },
   {
-    id: 21,
+    idn: 21,
     Adı: "Nurəddin Bayramov Məcid oğlu",
     Təvəllüd: "11/30/1958",
     DogYer: "Naxçıvan",
@@ -305,7 +305,7 @@ export const candidates = [
     canId: 21,
   },
   {
-    id: 22,
+    idn: 22,
     Adı: "Oqtay İskəndərli İskəndər oğlu",
     Təvəllüd: "2/3/1959",
     DogYer: "Göyçay",
@@ -318,7 +318,7 @@ export const candidates = [
     canId: 81,
   },
   {
-    id: 23,
+    idn: 23,
     Adı: "Qurban Məmmədov Cəlal oğlu",
     Təvəllüd: "4/2/1959",
     DogYer: "Naxçıvan",
@@ -334,7 +334,7 @@ export const candidates = [
     canId: 100,
   },
   {
-    id: 24,
+    idn: 24,
     Adı: "Ramiz Orucov Məcid oğlu",
     Təvəllüd: "5/1/1952",
     DogYer: "Gəncə",
@@ -349,7 +349,7 @@ export const candidates = [
     canId: 121,
   },
   {
-    id: 25,
+    idn: 25,
     Adı: "Razim Kərimov Əyyub oğlu",
     Təvəllüd: "9/24/1972",
     DogYer: "Neftçala",
@@ -365,7 +365,7 @@ export const candidates = [
     canId: 88,
   },
   // {
-  //   id: 26,
+  //   idn: 26,
   //   Adı: "Rəhim Mirzəyev Mirzəağa oğlu",
   //   Təvəllüd: "4/28/1970",
   //   DogYer: "Masallı",
@@ -379,7 +379,7 @@ export const candidates = [
   // },
 
   {
-    id: 28,
+    idn: 28,
     Adı: "Rövşən Qəmbər Yunis oğlu",
     Təvəllüd: "6/3/1951",
     DogYer: "Füzuli",
@@ -395,7 +395,7 @@ export const candidates = [
     canId: 129,
   },
   {
-    id: 29,
+    idn: 29,
     Adı: "Rza Səfərsoy Əli oğlu",
     Təvəllüd: "5/6/1976",
     DogYer: "Salyan",
@@ -411,7 +411,7 @@ export const candidates = [
     canId: 150,
   },
   {
-    id: 30,
+    idn: 30,
     Adı: "Sadiq Xankişiyev Nahdəli oğlu",
     Təvəllüd: "12/7/1963",
     DogYer: "Sabirabad",
@@ -424,7 +424,7 @@ export const candidates = [
     canId: 163,
   },
   {
-    id: 31,
+    idn: 31,
     Adı: "Sahib Məmməd Camal oğlu",
     Təvəllüd: "12/20/1958",
     DogYer: "Gədəbəy",
@@ -440,7 +440,7 @@ export const candidates = [
     canId: 93,
   },
   {
-    id: 32,
+    idn: 32,
     Adı: "Sədaqət Paşayeva Saday qızı",
     Təvəllüd: "2/1/1972",
     DogYer: "Ağdam",
@@ -456,7 +456,7 @@ export const candidates = [
     canId: 122,
   },
   {
-    id: 33,
+    idn: 33,
     Adı: "Sərvan Kərimov İdris oğlu",
     Təvəllüd: "6/20/1958",
     DogYer: "Füzuli",
@@ -472,7 +472,7 @@ export const candidates = [
     canId: 89,
   },
   {
-    id: 34,
+    idn: 34,
     Adı: "Sevil Muradova Mehbalı qızı",
     Təvəllüd: "1/5/1958",
     DogYer: "Bakı",
@@ -486,7 +486,7 @@ export const candidates = [
     canId: 112,
   },
   {
-    id: 35,
+    idn: 35,
     Adı: "Süleyman Məmmədhüseynov Qoca oğlu ",
     Təvəllüd: "4/23/1967",
     DogYer: "Ağdaş",
@@ -501,7 +501,7 @@ export const candidates = [
     canId: 94,
   },
   {
-    id: 36,
+    idn: 36,
     Adı: "Telman Ələkbərsoy Zaman oğlu",
     Təvəllüd: "10/25/1945",
     DogYer: "Gədəbəy",
@@ -515,7 +515,7 @@ export const candidates = [
     canId: 45,
   },
   {
-    id: 37,
+    idn: 37,
     Adı: "Telman Verdiyev Salman oğlu",
     Təvəllüd: "5/29/1956",
     DogYer: "Bakı",
@@ -531,7 +531,7 @@ export const candidates = [
     canId: 162,
   },
   {
-    id: 38,
+    idn: 38,
     Adı: "Təranə Səfərsoy Həsən qızı",
     Təvəllüd: "7/1/1970",
     DogYer: "Cəbrayıl",
@@ -547,7 +547,7 @@ export const candidates = [
     canId: 151,
   },
   {
-    id: 39,
+    idn: 39,
     Adı: "Teymur Eminbəyli Nəbi oğlu",
     Təvəllüd: "3/3/1960",
     DogYer: "Gürcüstan",
@@ -563,7 +563,7 @@ export const candidates = [
     canId: 53,
   },
   {
-    id: 40,
+    idn: 40,
     Adı: "Tofiq Nüsrətov Yəhya oğlu",
     Təvəllüd: "5/13/1954",
     DogYer: "Lənkəran",
@@ -576,7 +576,7 @@ export const candidates = [
     canId: 118,
   },
   {
-    id: 41,
+    idn: 41,
     Adı: "Ülvi Namazlı Arif oğlu",
     Təvəllüd: "9/25/1974",
     DogYer: "Qazax",
@@ -590,7 +590,7 @@ export const candidates = [
     canId: 114,
   },
   {
-    id: 42,
+    idn: 42,
     Adı: "Valeh Əliyev Hümmət oğlu",
     Təvəllüd: "9/13/1954",
     DogYer: "Salyan",
@@ -605,7 +605,7 @@ export const candidates = [
     canId: 51,
   },
   {
-    id: 43,
+    idn: 43,
     Adı: "Vaqif Əhmədov Qasım oğlu",
     Təvəllüd: "1/4/1959",
     DogYer: "Tovuz",
@@ -620,7 +620,7 @@ export const candidates = [
     canId: 39,
   },
   {
-    id: 44,
+    idn: 44,
     Adı: "Vüsal Ələkbərov Tofiq oğlu",
     Təvəllüd: "11/10/1972",
     DogYer: "Gəncə",
@@ -633,7 +633,7 @@ export const candidates = [
     canId: 44,
   },
   {
-    id: 45,
+    idn: 45,
     Adı: "Xankişi Həsənov Nəcəf oğlu",
     Təvəllüd: "2/29/1964",
     DogYer: "Quba",
@@ -649,7 +649,7 @@ export const candidates = [
     canId: 69,
   },
   {
-    id: 46,
+    idn: 46,
     Adı: "Xatirə Cəbrayılova Sabir qızı",
     Təvəllüd: "12/23/1988",
     DogYer: "Bakı",
@@ -663,7 +663,7 @@ export const candidates = [
     canId: 30,
   },
   {
-    id: 47,
+    idn: 47,
     Adı: "Xatirə Rəhimli Əziz qızı",
     Təvəllüd: "5/25/1964",
     DogYer: "Ağsu",
@@ -677,7 +677,7 @@ export const candidates = [
     canId: 137,
   },
   {
-    id: 48,
+    idn: 48,
     Adı: "Zakir Hüseyinov Səfxan oğlu",
     Təvəllüd: "2/3/1958",
     DogYer: "Füzuli",
@@ -693,7 +693,7 @@ export const candidates = [
     canId: 73,
   },
   {
-    id: 49,
+    idn: 49,
     Adı: "Zirəddin Abdullayev Sayad oğlu",
     Təvəllüd: "6/1/1947",
     DogYer: "Gədəbəy",
@@ -708,7 +708,7 @@ export const candidates = [
     canId: 7,
   },
   {
-    id: 50,
+    idn: 50,
     Adı: "Validə Əhmədova Gəncalı qızı",
     Təvəllüd: "5/22/1967",
     DogYer: "Laçın ",
@@ -723,7 +723,7 @@ export const candidates = [
     canId: 42,
   },
   {
-    id: 51,
+    idn: 51,
     Adı: "Ruslan Fərzəliyev Sadəddin oğlu",
     Təvəllüd: "6/11/1990",
     DogYer: "Sabirabad",
@@ -739,7 +739,7 @@ export const candidates = [
     canId: 60,
   },
   {
-    id: 52,
+    idn: 52,
     Adı: "Səriyyə Qəmbərova Nurəddin qızı",
     Təvəllüd: "9/23/1985",
     DogYer: "Naxçıvan",
@@ -755,7 +755,7 @@ export const candidates = [
     canId: 130,
   },
   {
-    id: 53,
+    idn: 53,
     Adı: "Vidadi Əhmədov Feyruz oğlu",
     Təvəllüd: "28/03/1956",
     DogYer: "Ucar",
@@ -769,7 +769,7 @@ export const candidates = [
     canId: 40,
   },
   {
-    id: 54,
+    idn: 54,
     Adı: "Elxan Yusifov Oruc oğlu",
     Təvəllüd: "12/31/1950",
     DogYer: "Daşkəsən",
@@ -784,7 +784,7 @@ export const candidates = [
     canId: 171,
   },
   {
-    id: 55,
+    idn: 55,
     Adı: "Tofiq Məmmədov Şirzad oğlu",
     Təvəllüd: "12/30/1978",
     DogYer: "Bakı",
@@ -799,7 +799,7 @@ export const candidates = [
     canId: 103,
   },
   {
-    id: 56,
+    idn: 56,
     Adı: "Fərid Salmanov İlqar oğlu",
     Təvəllüd: "5/7/1976",
     DogYer: "Bakı",
@@ -814,7 +814,7 @@ export const candidates = [
     canId: 146,
   },
   {
-    id: 57,
+    idn: 57,
     Adı: "Anar Mirzəyev Nizam oğlu",
     Təvəllüd: "6/26/1978",
     DogYer: "Lənkəran",
@@ -828,7 +828,7 @@ export const candidates = [
     canId: 107,
   },
   {
-    id: 58,
+    idn: 58,
     Adı: "Namizəd Səfərov Heydər oğlu",
     Təvəllüd: "1/10/1955",
     DogYer: "Naxçıvan",
@@ -843,7 +843,7 @@ export const candidates = [
     canId: 149,
   },
   {
-    id: 59,
+    idn: 59,
     Adı: "Şahəddin Eyvazov Mayıl oğlu",
     Təvəllüd: "11/23/1960",
     DogYer: "Şəmkir",
@@ -858,7 +858,7 @@ export const candidates = [
     canId: 56,
   },
   {
-    id: 60,
+    idn: 60,
     Adı: "Şahin İsmayılov Nurəddin oğlu",
     Təvəllüd: "6/9/1958",
     DogYer: "Bakı",
@@ -873,7 +873,7 @@ export const candidates = [
     canId: 83,
   },
   {
-    id: 61,
+    idn: 61,
     Adı: "Qələndər Aslanov Məhəmmədəli oğlu",
     Təvəllüd: "6/21/1963",
     DogYer: "Goranboy",
@@ -889,7 +889,7 @@ export const candidates = [
     canId: 14,
   },
   {
-    id: 62,
+    idn: 62,
     Adı: "Əvəz Məmmədov Musa oğlu",
     Təvəllüd: "10/14/1970",
     DogYer: "Ordubad",
@@ -905,7 +905,7 @@ export const candidates = [
     canId: 98,
   },
   {
-    id: 63,
+    idn: 63,
     Adı: "Didar Əhmədov Səbzulla oğlu",
     Təvəllüd: "6/2/1955",
     DogYer: "Qusar",
@@ -920,7 +920,7 @@ export const candidates = [
     canId: 37,
   },
   {
-    id: 64,
+    idn: 64,
     Adı: "Ailə Eyvazova Musa qızı",
     Təvəllüd: "3/27/1955",
     DogYer: "Yevlax",
@@ -936,7 +936,7 @@ export const candidates = [
     canId: 57,
   },
   {
-    id: 65,
+    idn: 65,
     Adı: "Qoşqar Movlayev Ənvər oğlu",
     Təvəllüd: "1/3/1980",
     DogYer: "Ermənistan, Ağbaba",
@@ -952,7 +952,7 @@ export const candidates = [
     canId: 110,
   },
   {
-    id: 66,
+    idn: 66,
     Adı: "Aydın Ələkbərov İsaq oğlu",
     Təvəllüd: "7/29/1956",
     DogYer: "Yevlax",
@@ -968,7 +968,7 @@ export const candidates = [
     canId: 43,
   },
   {
-    id: 67,
+    idn: 67,
     Adı: "Ataxan Əbilov Vəli oğlu",
     Təvəllüd: "6/29/1965",
     DogYer: "Azərbaycan",
@@ -984,7 +984,7 @@ export const candidates = [
     canId: 35,
   },
   {
-    id: 68,
+    idn: 68,
     Adı: "Rüstəm Abdullayev Elman oğlu",
     Təvəllüd: "9/14/1988",
     DogYer: "Ağdam",
@@ -998,7 +998,7 @@ export const candidates = [
     canId: 5,
   },
   {
-    id: 69,
+    idn: 69,
     Adı: "İsmayıl Abdullayev Mirbala oğlu ",
     Təvəllüd: "11/27/1973",
     DogYer: "Salyan",
@@ -1012,7 +1012,7 @@ export const candidates = [
     canId: 4,
   },
   {
-    id: 70,
+    idn: 70,
     Adı: "İlham Bayramov Eldar oğlu",
     Təvəllüd: "8/5/1967",
     DogYer: "Gürcüstan",
@@ -1027,7 +1027,7 @@ export const candidates = [
     canId: 20,
   },
   {
-    id: 71,
+    idn: 71,
     Adı: "Əfqan Ramazanov Aleksandroviç",
     Təvəllüd: "7/26/1979",
     DogYer: "Xaçmaz",
@@ -1040,7 +1040,7 @@ export const candidates = [
     canId: 135,
   },
   {
-    id: 72,
+    idn: 72,
     Adı: "Ağaxan Abuşov Əlixas oğlu",
     Təvəllüd: "6/24/1965",
     DogYer: "Masallı",
@@ -1056,7 +1056,7 @@ export const candidates = [
     canId: 9,
   },
   {
-    id: 73,
+    idn: 73,
     Adı: "Sultani Rzayev Orucəliyeviç",
     Təvəllüd: "2/3/1964",
     DogYer: "Astara",
@@ -1072,7 +1072,7 @@ export const candidates = [
     canId: 141,
   },
   {
-    id: 74,
+    idn: 74,
     Adı: "Ziyafət Abbasova Teymur qızı",
     Təvəllüd: "10/14/1972",
     DogYer: "Gürcüstan",
@@ -1088,7 +1088,7 @@ export const candidates = [
     canId: 3,
   },
   {
-    id: 75,
+    idn: 75,
     Adı: "Məkisəd Mirzəyev Arif oğlu",
     Təvəllüd: "1/3/1967",
     DogYer: "Qazax",
@@ -1104,7 +1104,7 @@ export const candidates = [
     canId: 108,
   },
   {
-    id: 76,
+    idn: 76,
     Adı: "Əli Bədəlov Mustafa oğlu",
     Təvəllüd: "3/20/1971",
     DogYer: "Salyan",
@@ -1117,7 +1117,7 @@ export const candidates = [
     canId: 22,
   },
   {
-    id: 77,
+    idn: 77,
     Adı: "Aslan Nəsibov Eldar oğlu",
     Təvəllüd: "12/31/1968",
     DogYer: "Gəncə",
@@ -1129,7 +1129,7 @@ export const candidates = [
     canId: 117,
   },
   {
-    id: 78,
+    idn: 78,
     Adı: "Kamran Ağayev Kamil oğlu",
     Təvəllüd: "7/10/1987",
     DogYer: "Cəlilabad",
@@ -1141,7 +1141,7 @@ export const candidates = [
     canId: 13,
   },
   {
-    id: 79,
+    idn: 79,
     Adı: "Fikrət Qəhrəmanov Əliqulu oğlu",
     Təvəllüd: "10/1/1969",
     DogYer: "Şabran",
@@ -1153,7 +1153,7 @@ export const candidates = [
     canId: 128,
   },
   {
-    id: 80,
+    idn: 80,
     Adı: "Cəmil Hacıyev Malik oğlu",
     Təvəllüd: "4/8/1977",
     DogYer: "Bakı",
@@ -1165,7 +1165,7 @@ export const candidates = [
     canId: 62,
   },
   {
-    id: 81,
+    idn: 81,
     Adı: "Camal Bağırzadə Ramazan oğlu",
     Təvəllüd: "4/8/1957",
     DogYer: "Lənkaran",
@@ -1179,7 +1179,7 @@ export const candidates = [
     canId: 18,
   },
   {
-    id: 82,
+    idn: 82,
     Adı: "Faiq Əliyev Məşədi oğlu",
     Təvəllüd: "3/14/1951",
     DogYer: "Qazax",
@@ -1192,7 +1192,7 @@ export const candidates = [
     canId: 48,
   },
   {
-    id: 83,
+    idn: 83,
     Adı: "Şapur Qasimi Hüseyinqulu oğlu",
     Təvəllüd: "12/31/1946",
     DogYer: "Güney Azərbaycan",
@@ -1204,7 +1204,7 @@ export const candidates = [
     canId: 125,
   },
   {
-    id: 84,
+    idn: 84,
     Adı: "Əzimbəy Hüseyinov Hümbət oğlu",
     Təvəllüd: "11/26/1967",
     DogYer: "Ermənistan",
@@ -1216,7 +1216,7 @@ export const candidates = [
     canId: 72,
   },
   {
-    id: 85,
+    idn: 85,
     Adı: "Əhmədağa Nərimanov Hacıbala oğlu",
     Təvəllüd: "5/15/1953",
     DogYer: "Saatlı",
@@ -1230,7 +1230,7 @@ export const candidates = [
     canId: 116,
   },
   {
-    id: 86,
+    idn: 86,
     Adı: "Vaqif Xankişiyev Tahir oğlu",
     Təvəllüd: "3/8/1978",
     DogYer: "Sabirabad",
@@ -1242,7 +1242,7 @@ export const candidates = [
     canId: 164,
   },
   // {
-  //   id: 87,
+  //   idn: 87,
   //   Adı: "Elmar Bayramov Bəynişan oğlu",
   //   Təvəllüd: "3/28/1978",
   //   DogYer: "Daşkəsən",
@@ -1255,7 +1255,7 @@ export const candidates = [
   //   canId: 19,
   // },
   {
-    id: 88,
+    idn: 88,
     Adı: "Ramiz Tağıyev Yusif oğlu",
     Təvəllüd: "6/8/1957",
     DogYer: "Bəlakən",
@@ -1268,7 +1268,7 @@ export const candidates = [
     img: "/candidates/img088.jpg",
   },
   {
-    id: 89,
+    idn: 89,
     Adı: "Bilal Şirinov Mollaəli oğlu",
     Təvəllüd: "3/12/1956",
     DogYer: "Balakən",
@@ -1281,7 +1281,7 @@ export const candidates = [
     canId: 154,
   },
   {
-    id: 90,
+    idn: 90,
     Adı: "Fərid Qəribov Murad oğlu",
     Təvəllüd: "4/21/1986",
     DogYer: "Qəbələ",
@@ -1294,7 +1294,7 @@ export const candidates = [
     canId: 131,
   },
   {
-    id: 91,
+    idn: 91,
     Adı: "Qibləli Fərəcov Əli oğlu",
     Təvəllüd: "9/6/1959",
     DogYer: "Zərdab",
@@ -1307,7 +1307,7 @@ export const candidates = [
     canId: 59,
   },
   {
-    id: 92,
+    idn: 92,
     Adı: "Əlisurət Cavadov Calal oğlu",
     Təvəllüd: "1/28/1955",
     DogYer: "Ağdaş",
@@ -1322,7 +1322,7 @@ export const candidates = [
     canId: 29,
   },
   {
-    id: 93,
+    idn: 93,
     Adı: "Elşad Şükürov Nəriman oğlu",
     Təvəllüd: "9/1/1981",
     DogYer: "Cəbrayıl",
@@ -1335,7 +1335,7 @@ export const candidates = [
     canId: 156,
   },
   {
-    id: 94,
+    idn: 94,
     Adı: "Əkbər Cavadov Əsgər oğlu",
     Təvəllüd: "2/1/1958",
     DogYer: "Ağcabədi",
@@ -1347,7 +1347,7 @@ export const candidates = [
     canId: 28,
   },
   {
-    id: 95,
+    idn: 95,
     Adı: "Mirqafir Seyidi Mirsədrəddin oğlu",
     Təvəllüd: "8/24/1955",
     DogYer: "Naftalan",
@@ -1359,7 +1359,7 @@ export const candidates = [
     canId: 152,
   },
   {
-    id: 96,
+    idn: 96,
     Adı: "Babək Hüseynli Əsgərağa oğlu",
     Təvəllüd: "11/9/1981",
     DogYer: "Cəlilabad",
@@ -1371,7 +1371,7 @@ export const candidates = [
     canId: 74,
   },
   {
-    id: 97,
+    idn: 97,
     Adı: "Həmid Həmidov Razim oğlu",
     Təvəllüd: "10/16/1988",
     DogYer: "Tovuz",
@@ -1383,7 +1383,7 @@ export const candidates = [
     canId: 66,
   },
   {
-    id: 98,
+    idn: 98,
     Adı: "Ağası Məmmədli Baba oğlu",
     Təvəllüd: "4/8/1958",
     DogYer: "Quba",
@@ -1398,7 +1398,7 @@ export const candidates = [
     canId: 95,
   },
   {
-    id: 99,
+    idn: 99,
     Adı: "Yaşar Rəsulov Rəsul oğlu",
     Təvəllüd: "9/20/1963",
     DogYer: "Şəki",
@@ -1412,7 +1412,7 @@ export const candidates = [
     canId: 140,
   },
   {
-    id: 100,
+    idn: 100,
     Adı: "İlqar Quliyev May oğlu ",
     Təvəllüd: "1/1/1964",
     DogYer: "Kürdəmir",
@@ -1424,7 +1424,7 @@ export const candidates = [
     canId: 133,
   },
   {
-    id: 101,
+    idn: 101,
     Adı: "Arzuman Xasməmmədli Yunis oğlu",
     Təvəllüd: "1/21/1957",
     DogYer: "Qazax",
@@ -1438,7 +1438,7 @@ export const candidates = [
     canId: 167,
   },
   {
-    id: 102,
+    idn: 102,
     Adı: "Aslan Mehtiyev Nazim oğlu",
     Təvəllüd: "1/14/1985",
     DogYer: "Rustavi ",
@@ -1453,7 +1453,7 @@ export const candidates = [
     canId: 92,
   },
   {
-    id: 103,
+    idn: 103,
     Adı: "Sahib Kərimli Fərman oğlu",
     Təvəllüd: "5/26/1974",
     DogYer: "Şəki",
@@ -1467,7 +1467,7 @@ export const candidates = [
     canId: 86,
   },
   {
-    id: 104,
+    idn: 104,
     Adı: "Hüseyn Mustafayev Sahib oğlu",
     Təvəllüd: "2/25/1990",
     DogYer: "Bərdə",
@@ -1483,7 +1483,7 @@ export const candidates = [
     canId: 113,
   },
   {
-    id: 105,
+    idn: 105,
     Adı: "Fariz Şərifov Məhəmmədəli oğlu",
     Təvəllüd: "12/22/1957",
     DogYer: "Ağdaş",
@@ -1499,7 +1499,7 @@ export const candidates = [
     canId: 147,
   },
   {
-    id: 106,
+    idn: 106,
     Adı: "Oruc Yusifov İbrahim oğlu",
     Təvəllüd: "1/22/1962",
     DogYer: "Ağstafa",
@@ -1513,7 +1513,7 @@ export const candidates = [
     canId: 172,
   },
   // {
-  //   id: 107,
+  //   idn: 107,
   //   Adı: "Tural Sadıqlı Əlövsət oğlu",
   //   Təvəllüd: "6/10/1984",
   //   DogYer: "Ağdam",
@@ -1529,7 +1529,7 @@ export const candidates = [
   //   canId: 144,
   // },
   {
-    id: 108,
+    idn: 108,
     Adı: "Ülviyyə Hüseynova Nağı qızı",
     Təvəllüd: "12/11/1977",
     DogYer: "Kürdəmir",
@@ -1541,7 +1541,7 @@ export const candidates = [
     canId: 77,
   },
   {
-    id: 109,
+    idn: 109,
     Adı: "Famil Bağırov Zaidağa oğlu",
     Təvəllüd: "2/15/1985",
     DogYer: "Astara",
@@ -1553,7 +1553,7 @@ export const candidates = [
     canId: 16,
   },
   {
-    id: 110,
+    idn: 110,
     Adı: "Ravil Həsənov Adil oğlu",
     Təvəllüd: "8/16/1988",
     DogYer: "Xaçmaz",
@@ -1565,7 +1565,7 @@ export const candidates = [
     canId: 68,
   },
   {
-    id: 111,
+    idn: 111,
     Adı: "İlham Zahirzadə Zaman oğlu",
     Təvəllüd: "1/27/1965",
     DogYer: "Şərur",
@@ -1578,7 +1578,7 @@ export const candidates = [
     canId: 173,
   },
   {
-    id: 112,
+    idn: 112,
     Adı: "Ənvər Rəhimov Cəlil oğlu",
     Təvəllüd: "12/24/1966",
     DogYer: "Culfa",
@@ -1592,7 +1592,7 @@ export const candidates = [
     canId: 138,
   },
   {
-    id: 113,
+    idn: 113,
     Adı: "Elxan Cəfərov Əhməd oğlu",
     Təvəllüd: "1/8/1987",
     DogYer: "Ordubad",
@@ -1605,7 +1605,7 @@ export const candidates = [
     canId: 31,
   },
   {
-    id: 114,
+    idn: 114,
     Adı: "İlqar Əsgərov Eldar oğlu",
     Təvəllüd: 1964,
     DogYer: "Naxçıvan",
@@ -1619,7 +1619,7 @@ export const candidates = [
     canId: 54,
   },
   {
-    id: 115,
+    idn: 115,
     Adı: "Əziz Əzizov Məmmədəli oğlu",
     Təvəllüd: "7/18/1971",
     DogYer: "Şirvan",
@@ -1633,7 +1633,7 @@ export const candidates = [
     canId: 58,
   },
   {
-    id: 116,
+    idn: 116,
     Adı: "Nicat Umuxanlı Telman oğlu",
     Təvəllüd: "10/1/1991",
     DogYer: "Bakı",
@@ -1647,7 +1647,7 @@ export const candidates = [
     canId: 161,
   },
   {
-    id: 117,
+    idn: 117,
     Adı: "Röya Rəfiyeva Tahir qızı",
     Təvəllüd: "7/3/1981",
     DogYer: "Oguz",
@@ -1661,7 +1661,7 @@ export const candidates = [
     canId: 136,
   },
   // {
-  //   id: 118,
+  //   idn: 118,
   //   Adı: "Nurlana Xəlilova Xəlil qızı",
   //   Təvəllüd: "10/11/1978",
   //   DogYer: "Bakı",
@@ -1675,7 +1675,7 @@ export const candidates = [
   //   canId: 170,
   // },
   {
-    id: 119,
+    idn: 119,
     Adı: "Nüsrət Həsrətli Həsrət oğlu",
     Təvəllüd: "10/10/1954",
     DogYer: "Agdaş",
@@ -1691,7 +1691,7 @@ export const candidates = [
     canId: 71,
   },
   {
-    id: 120,
+    idn: 120,
     Adı: "Şəmsəddin Camiyev Qurbət oğlu",
     Təvəllüd: "12/6/1957",
     DogYer: "Quba",
@@ -1707,7 +1707,7 @@ export const candidates = [
     canId: 27,
   },
   // {
-  //   id: 121,
+  //   idn: 121,
   //   Adı: "Marif Ağaməmmədov Ayaz oğlu",
   //   Təvəllüd: "9/15/1966",
   //   DogYer: "Agsu",
@@ -1723,7 +1723,7 @@ export const candidates = [
   //   canId: 12,
   // },
   {
-    id: 122,
+    idn: 122,
     Adı: "Səid Abasov Əzizxan oğlu",
     Təvəllüd: "3/5/1980",
     DogYer: "Sabirabad",
@@ -1739,7 +1739,7 @@ export const candidates = [
     canId: 1,
   },
   {
-    id: 123,
+    idn: 123,
     Adı: "Elnur Quluzadə Qeyur oğlu",
     Təvəllüd: "11/10/1977",
     DogYer: "Bakı",
@@ -1755,7 +1755,7 @@ export const candidates = [
     canId: 134,
   },
   {
-    id: 124,
+    idn: 124,
     Adı: "Şükür Məmmədli Malik oğlu",
     Təvəllüd: "10/18/1954",
     DogYer: "İsmayıllı",
@@ -1771,7 +1771,7 @@ export const candidates = [
     canId: 97,
   },
   {
-    id: 125,
+    idn: 125,
     Adı: "Şakir Məmmədov Sadıq oğlu",
     Təvəllüd: "7/5/1955",
     DogYer: "Goy-göl",
@@ -1787,7 +1787,7 @@ export const candidates = [
     canId: 101,
   },
   {
-    id: 126,
+    idn: 126,
     Adı: "Əli Həsənov Hüseyn oğlu",
     Təvəllüd: "2/22/1972",
     DogYer: "Naxçıvan",
@@ -1803,7 +1803,7 @@ export const candidates = [
     canId: 67,
   },
   {
-    id: 127,
+    idn: 127,
     Adı: "Valeh İbrahimli Behbudalı oğlu",
     Təvəllüd: "5/28/1963",
     DogYer: "Qubadlı",
@@ -1819,7 +1819,7 @@ export const candidates = [
     canId: 78,
   },
   {
-    id: 128,
+    idn: 128,
     Adı: "Şahin Şirinli Salam oğlu",
     Təvəllüd: "8/30/1953",
     DogYer: "İsnmayıllı",
@@ -1835,7 +1835,7 @@ export const candidates = [
     canId: 153,
   },
   {
-    id: 129,
+    idn: 129,
     Adı: "Bəhruz Həşimov Feruz oğlu",
     Təvəllüd: "3/12/1985",
     DogYer: "Agdaş",
@@ -1851,7 +1851,7 @@ export const candidates = [
     canId: 70,
   },
   {
-    id: 130,
+    idn: 130,
     Adı: "Əliyəddin Saadov Saad oğlu",
     Təvəllüd: "7/24/1969",
     DogYer: "Agdaş",
@@ -1867,7 +1867,7 @@ export const candidates = [
     canId: 142,
   },
   {
-    id: 131,
+    idn: 131,
     Adı: "Şahin Abdullayev Əjdər oğlu",
     Təvəllüd: "",
     DogYer: "Bakı",
@@ -1883,7 +1883,7 @@ export const candidates = [
     canId: 6,
   },
   {
-    id: 132,
+    idn: 132,
     Adı: "Mətin Uluxanlı Hüseyn oğlu",
     Təvəllüd: "4/4/1973",
     DogYer: "Ermənistan",
@@ -1899,7 +1899,7 @@ export const candidates = [
     canId: 160,
   },
   {
-    id: 133,
+    idn: 133,
     Adı: "Rəhim Muradov İsa oğlu",
     Təvəllüd: "10/20/1975",
     DogYer: "Yardımlı",
@@ -1915,7 +1915,7 @@ export const candidates = [
     canId: 111,
   },
   {
-    id: 134,
+    idn: 134,
     Adı: "Anar Adıgözəlov Firayıl oğlu",
     Təvəllüd: "11/3/1976",
     DogYer: "Mingəçevir",
@@ -1931,7 +1931,7 @@ export const candidates = [
     canId: 10,
   },
   {
-    id: 135,
+    idn: 135,
     Adı: "Ruslan İsgəndərov Telman oğlu",
     Təvəllüd: "10/22/1985",
     DogYer: "",
@@ -1947,7 +1947,7 @@ export const candidates = [
     canId: 80,
   },
   {
-    id: 136,
+    idn: 136,
     Adı: "Razil Hüseynov Fazil oğlu",
     Təvəllüd: "8/10/1981",
     DogYer: "Gəncə",
@@ -1963,7 +1963,7 @@ export const candidates = [
     canId: 76,
   },
   {
-    id: 137,
+    idn: 137,
     Adı: "Şəmil Süleymanov Hüseyn oğlu",
     Təvəllüd: "7/10/1961",
     DogYer: "Laçın",
@@ -1979,7 +1979,7 @@ export const candidates = [
     canId: 157,
   },
   {
-    id: 138,
+    idn: 138,
     Adı: "Əvəz Zeynallı Tapdıq oğlu",
     Təvəllüd: "1/1/1970",
     DogYer: "Gəncə",
@@ -1995,7 +1995,7 @@ export const candidates = [
     canId: 174,
   },
   {
-    id: 139,
+    idn: 139,
     Adı: "Mirzə Manafov Tavar oğlu",
     Təvəllüd: "2/21/1968",
     DogYer: "Yardımlı",
@@ -2011,7 +2011,7 @@ export const candidates = [
     canId: 91,
   },
   {
-    id: 140,
+    idn: 140,
     Adı: "Seyhun Feyziyev Dadaşbala oğılu",
     Təvəllüd: "11/25/1976",
     DogYer: "Bakı",
@@ -2027,7 +2027,7 @@ export const candidates = [
     canId: 61,
   },
   {
-    id: 141,
+    idn: 141,
     Adı: "Famil Xəlilov Malik oğlu",
     Təvəllüd: "7/14/1990",
     DogYer: "Bakı",
@@ -2043,7 +2043,7 @@ export const candidates = [
     canId: 169,
   },
   {
-    id: 142,
+    idn: 142,
     Adı: "Elvin İsayev İltiham oğlu",
     Təvəllüd: "10/21/1980",
     DogYer: "Masallı",
@@ -2059,7 +2059,7 @@ export const candidates = [
     canId: 79,
   },
   {
-    id: 143,
+    idn: 143,
     Adı: "Xuraman Qafarova Əşrəf qızı",
     Təvəllüd: "7/6/1958",
     DogYer: "Göyçay",
@@ -2075,7 +2075,7 @@ export const candidates = [
     canId: 124,
   },
   {
-    id: 144,
+    idn: 144,
     Adı: "Ərəstun Oruclu Məmməd oğlu",
     Təvəllüd: "8/18/1963",
     DogYer: "Gəncə",
@@ -2091,7 +2091,7 @@ export const candidates = [
     canId: 119,
   },
   {
-    id: 145,
+    idn: 145,
     Adı: "Şirvan Aydınov Rüstəm oğlu",
     Təvəllüd: "5/17/1970",
     DogYer: "Ermənistan",
@@ -2107,7 +2107,7 @@ export const candidates = [
     canId: 15,
   },
   {
-    id: 146,
+    idn: 146,
     Adı: "Elxan Abbasov Qardaşxan oğlu",
     Təvəllüd: "9/30/1960",
     DogYer: "Yevlax",
@@ -2123,7 +2123,7 @@ export const candidates = [
     canId: 2,
   },
   // {
-  //   id: 147,
+  //   idn: 147,
   //   Adı: "Könül Əhmədova Vaqif qızı",
   //   Təvəllüd: "2/15/1977",
   //   DogYer: "Bakı",
@@ -2139,7 +2139,7 @@ export const candidates = [
   //   canId: 41,
   // },
   {
-    id: 148,
+    idn: 148,
     Adı: "Qurban Budaqlı İlqar oğlu",
     Təvəllüd: "6/27/2001",
     DogYer: "Beylaqan",
@@ -2155,7 +2155,7 @@ export const candidates = [
     canId: 23,
   },
   {
-    id: 149,
+    idn: 149,
     Adı: "Səxavət Cabbarov Ağaşirin oğlu",
     Təvəllüd: "6/15/1978",
     DogYer: "Agdaş",
@@ -2171,7 +2171,7 @@ export const candidates = [
     canId: 25,
   },
   {
-    id: 150,
+    idn: 150,
     Adı: "Emil Camalov Musa oğlu",
     Təvəllüd: "10/31/1981",
     DogYer: "Bakı",
@@ -2187,7 +2187,7 @@ export const candidates = [
     canId: 26,
   },
   {
-    id: 151,
+    idn: 151,
     Adı: "Yaşar Cəfərov Tahir oğlu",
     Təvəllüd: "10/31/1981",
     DogYer: "Goranboy",
@@ -2203,7 +2203,7 @@ export const candidates = [
     canId: 32,
   },
   {
-    id: 152,
+    idn: 152,
     Adı: "Arifə Cəfərova Arif qızı",
     Təvəllüd: "11/2/1975",
     DogYer: "Bakı",
@@ -2219,7 +2219,7 @@ export const candidates = [
     canId: 33,
   },
   {
-    id: 153,
+    idn: 153,
     Adı: "İdris Əhmədov Faxrəddin oğlu",
     Təvəllüd: "4/23/1986",
     DogYer: "Beylaqan",
@@ -2235,7 +2235,7 @@ export const candidates = [
     canId: 38,
   },
   {
-    id: 154,
+    idn: 154,
     Adı: "Elman Əliyev Yaqub oğlu",
     Təvəllüd: "7/1/1963",
     DogYer: "Bakı",
@@ -2251,7 +2251,7 @@ export const candidates = [
     canId: 47,
   },
   {
-    id: 155,
+    idn: 155,
     Adı: "Namiq Əliyev Soltan oğlu",
     Təvəllüd: "3/10/1957",
     DogYer: "Kürdəmir",
@@ -2267,7 +2267,7 @@ export const candidates = [
     canId: 49,
   },
   {
-    id: 156,
+    idn: 156,
     Adı: "Ruslan Əliyev Rasim oğlu",
     Təvəllüd: "11/12/2001",
     DogYer: "Russiya",
@@ -2283,7 +2283,7 @@ export const candidates = [
     canId: 50,
   },
   {
-    id: 157,
+    idn: 157,
     Adı: "Rəfail Emçiyev Nizami oğlu",
     Təvəllüd: "3/8/1987",
     DogYer: "Balakən",
@@ -2299,7 +2299,7 @@ export const candidates = [
     canId: 52,
   },
   {
-    id: 158,
+    idn: 158,
     Adı: "Elmira Extibarova Nüsrət qızı",
     Təvəllüd: "3/8/1987",
     DogYer: "Rusiya",
@@ -2315,7 +2315,7 @@ export const candidates = [
     canId: 55,
   },
   {
-    id: 159,
+    idn: 159,
     Adı: "Etibar Hacıyev Polad oğlu",
     Təvəllüd: "1/25/1967",
     DogYer: "Yevlax",
@@ -2331,7 +2331,7 @@ export const candidates = [
     canId: 63,
   },
   {
-    id: 160,
+    idn: 160,
     Adı: "Nurlan Hacıyev Elman oğlu",
     Təvəllüd: "10/25/1988",
     DogYer: "Quba",
@@ -2347,7 +2347,7 @@ export const candidates = [
     canId: 64,
   },
   {
-    id: 161,
+    idn: 161,
     Adı: "Nəsirəddin Kərəmov Yunus oğlu",
     Təvəllüd: "2/25/1950",
     DogYer: "Saatlı",
@@ -2363,7 +2363,7 @@ export const candidates = [
     canId: 85,
   },
   {
-    id: 162,
+    idn: 162,
     Adı: "Şakir Məmmədov Məhəmmədəli oğlu",
     Təvəllüd: "4/1/1960",
     DogYer: "Agstafa",
@@ -2379,7 +2379,7 @@ export const candidates = [
     canId: 101,
   },
   // {
-  //   id: 163,
+  //   idn: 163,
   //   Adı: "Leyla Məmmədova Abbasqulu qızı",
   //   Təvəllüd: "2/19/1971",
   //   DogYer: "Naxçvan",
@@ -2395,7 +2395,7 @@ export const candidates = [
   //   canId: 105,
   // },
   {
-    id: 164,
+    idn: 164,
     Adı: "Dilarə Miriyeva Qəzənfər qızı",
     Təvəllüd: "7/1/1959",
     DogYer: "Tovus",
@@ -2411,7 +2411,7 @@ export const candidates = [
     canId: 106,
   },
   {
-    id: 165,
+    idn: 165,
     Adı: "Firuzə Namazova Şahin qızı",
     Təvəllüd: "7/21/1995",
     DogYer: "Qəbələ",
@@ -2427,7 +2427,7 @@ export const candidates = [
     canId: 115,
   },
   {
-    id: 166,
+    idn: 166,
     Adı: "Fərhad Orucov Bayram oğlu",
     Təvəllüd: "9/15/1967",
     DogYer: "Gədəbəy",
@@ -2443,7 +2443,7 @@ export const candidates = [
     canId: 120,
   },
   {
-    id: 167,
+    idn: 167,
     Adı: "Məcid Qasımov Kamal oğlu",
     Təvəllüd: "1/31/1987",
     DogYer: "Qazax",
@@ -2459,7 +2459,7 @@ export const candidates = [
     canId: 126,
   },
   {
-    id: 168,
+    idn: 168,
     Adı: "Tamam Qasımzadə Rüstəm qızı",
     Təvəllüd: "8/12/1998",
     DogYer: "Bakı",
@@ -2475,7 +2475,7 @@ export const candidates = [
     canId: 127,
   },
   {
-    id: 169,
+    idn: 169,
     Adı: "Kamil Rəşidov Cabbar oğlu",
     Təvəllüd: "7/15/1944",
     DogYer: "Qəbələ",
@@ -2491,7 +2491,7 @@ export const candidates = [
     canId: 139,
   },
   {
-    id: 170,
+    idn: 170,
     Adı: "Validə Sarracova  Ələkbər qızı",
     Təvəllüd: "1/28/1966",
     DogYer: "Daşkəsən",
@@ -2507,7 +2507,7 @@ export const candidates = [
     canId: 148,
   },
   {
-    id: 171,
+    idn: 171,
     Adı: "Əli Şirvani Alməmməd oğlu",
     Təvəllüd: "12/14/1965",
     DogYer: "Cəlilabad",
@@ -2523,7 +2523,7 @@ export const candidates = [
     canId: 155,
   },
   {
-    id: 172,
+    idn: 172,
     Adı: "Haqverdi Tapdıqov Hüseyn oğlu",
     Təvəllüd: "8/5/1952",
     DogYer: "Kürdəmir",
@@ -2539,7 +2539,7 @@ export const candidates = [
     canId: 158,
   },
   {
-    id: 173,
+    idn: 173,
     Adı: "Rəbiyyə Xanlarova Əli qızı",
     Təvəllüd: "6/6/1960",
     DogYer: "Bakı",
@@ -2555,7 +2555,7 @@ export const candidates = [
     canId: 166,
   },
   {
-    id: 174,
+    idn: 174,
     Adı: "Xələfov Məhəmməd Molla oğlu",
     Təvəllüd: "7/1/1958",
     DogYer: "Ucar",
@@ -2571,7 +2571,7 @@ export const candidates = [
     canId: 168,
   },
   {
-    id: 175,
+    idn: 175,
     Adı: "Almaz Kərimli İsrəfil oğlu",
     Təvəllüd: "2/12/1965",
     DogYer: "Gürcüstan",
@@ -2587,7 +2587,7 @@ export const candidates = [
     canId: 175,
   },
   {
-    id: 176,
+    idn: 176,
     Adı: "Məzahir Məmmədov Məhərrəm oğlu",
     Təvəllüd: "x/x/1963",
     DogYer: "Ermənistan",
@@ -2603,7 +2603,7 @@ export const candidates = [
     canId: 176,
   },
   {
-    id: 177,
+    idn: 177,
     Adı: "Sovet Qəniyev Firudin oğlu",
     Təvəllüd: "6/1/1958",
     DogYer: "Agdaş",
@@ -2619,7 +2619,7 @@ export const candidates = [
     canId: 177,
   },
   {
-    id: 178,
+    idn: 178,
     Adı: "Abdullayeva Sənubər Məhəmməd qızı",
     Təvəllüd: "2/28/1951",
     DogYer: "Ermənistan",
