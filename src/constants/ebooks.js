@@ -109,4 +109,14 @@ export const ebooks = [
     pdfUrl: "/ebooks/devoted_tothe_nationalthought.pdf",
     qr: "/ebooks/qr/azxpqr.jpg",
   },
+  {
+    id: 12,
+    titleAz: "Sosioloqiyada partiyadaxili qruplaşmalar",
+    titleEn: "Intra-party groupings in sociology",
+    author: "Arif Rəhimoğlu",
+    year: "2016",
+    imgUrl: "/ebooks/grouppinginsos.jpg",
+    pdfUrl: "/ebooks/groupings _n_sociology.pdf",
+    qr: "/ebooks/qr/azxpqr.jpg",
+  },
 ];

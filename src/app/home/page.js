@@ -4,6 +4,7 @@ import Link from "next/link";
 import { TbHandClick } from "react-icons/tb";
 import AzxpSession from "@/components/reuseblescomp/AzxpSession";
 import Shortcuts from "@/files/Shortcuts";
+import { azxpsessions } from "@/constants/azxpsessions";
 
 const HomeContent = () => {
   return (
@@ -99,53 +100,15 @@ const HomeContent = () => {
         className="flex w-full gap-3  h-full sm:py-0 sm:mb-2
                        sm:mt-0 sm:h-full justify-around items-start px-1"
       >
-        <section className="grid sm:grid-cols-4 gap-2">
-          <AzxpSession
-            src="/azxpfirst.jpg"
-            text="Azxp birinci sessiyası"
-            link="https://www.youtube.com/watch?v=46gfXhy2q9E"
-          />
-          <AzxpSession
-            src="/azxpsecond.jpg"
-            text="Azxp ikinci sessiyası"
-            link="https://www.youtube.com/watch?v=vushV9NS1R8&t=7693s"
-          />
-          <AzxpSession
-            src="/azxp4.jpg"
-            text="Azxp dördüncü sessiyası"
-            link="https://www.youtube.com/watch?v=Jda4Erz2J-c"
-          />
-
-          <AzxpSession
-            src="/azxpsessions/azxp5.jpg"
-            text="Azxp beşinci sessiyası"
-            link="https://www.youtube.com/live/ooN9WryX4Ow"
-          />
-          <AzxpSession
-            src="/azxpsessions/azxp6.jpg"
-            text="Azxp altıncı sessiyası"
-            link="https://www.youtube.com/live/8zmk1Z90YVw"
-          />
-          <AzxpSession
-            src="/comeTogether.jpg"
-            text="Azxp yaranması"
-            link="https://www.youtube.com/watch?v=5ZVqBN9Cxfs"
-          />
-          <AzxpSession
-            src="/azxpComing.jpg"
-            text="Birləşə bilərik"
-            link="https://www.youtube.com/watch?v=Uf9Sb_Yjdmg"
-          />
-          <AzxpSession
-            src="/aba.jpg"
-            text="Səs namusdur"
-            link="https://www.youtube.com/watch?v=sWuKJMCVHg8"
-          />
-          <AzxpSession
-            src="/azxp.jpg"
-            text="Azxp elan günü"
-            link="https://www.youtube.com/watch?v=Wa1JaPV7GEw"
-          />
+        <section className="grid sm:grid-cols-4 gap-2 overflow-y-auto">
+          {azxpsessions.map((session) => (
+            <AzxpSession
+              key={session.idn}
+              src={session.src}
+              text={session.textaz}
+              link={session.link}
+            />
+          ))}
         </section>
       </section>
     </Container>

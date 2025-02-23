@@ -1,5 +1,3 @@
-import React from "react";
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -19,9 +17,11 @@ const Book = ({ data }) => {
             <p className="w-[60px]">Year:</p>
             <span className="flex pl-5">{data.year}</span>
           </div>
-          <div className="flex">
+          <div className="flex ">
             <p className="w-[60px]">Title:</p>
-            <span className="flex pl-5">{data.titleAz}</span>
+            <span className="pl-5 max-w-64 truncate whitespace-nowrap overflow-hidden">
+              {data.titleAz}
+            </span>
           </div>
           <div className="flex">
             <p className="w-[60px]">Author:</p>
