@@ -47,4 +47,20 @@ export const committees = [
     titleEn: "",
     date: "21.02.2025",
   },
+  {
+    id: 7,
+    pdfLink: "/docpdf/conditionofmilitary.pdf",
+    alt: "gətnamə",
+    titleAz: "Ordudakı mövcud vəziyyət",
+    titleEn: "",
+    date: "22.02.2025",
+  },
+  {
+    id: 8,
+    pdfLink: "/docpdf/khodzhalygenoside.pdf",
+    alt: "genoside",
+    titleAz: "Xocalı soyqırımı",
+    titleEn: "",
+    date: "27.02.2025",
+  },
 ];
