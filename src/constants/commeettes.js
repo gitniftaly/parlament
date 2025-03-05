@@ -11,7 +11,7 @@ export const committees = [
     id: 2,
     pdfLink: "/docpdf/economicsocialpolicy.pdf",
     alt: "economic",
-    titleAz: "İqtisadiyyat və Sosial Siyasət Komitəsi",
+    titleAz: "İqtisadiyyət və Sosial Siyasət Komitəsi",
     titleEn: "",
     date: "19.02.2025",
   },

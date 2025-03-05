@@ -1,8 +1,8 @@
 export const azxpsessions = [
   {
     idn: 1,
-    src: "/azxp.jpg",
-    textaz: "Azxp elan günü",
+    src: "/AzXP.jpg",
+    textaz: "AzXP elan günü",
     texten: "",
     link: "https://www.youtube.com/watch?v=Wa1JaPV7GEw",
     date: "04.09.2024",
@@ -24,14 +24,14 @@ export const azxpsessions = [
   {
     idn: 4,
     src: "/comeTogether.jpg",
-    textaz: "Azxp yaranması",
+    textaz: "AzXP yaranması",
     texten: "",
     link: "https://www.youtube.com/watch?v=5ZVqBN9Cxfs",
   },
   {
     idn: 5,
     src: "/azxpfirst.jpg",
-    textaz: "Azxp birinci sessiyası",
+    textaz: "AzXP 1-ci iclası",
     texten: "",
     link: "https://www.youtube.com/watch?v=46gfXhy2q9E",
     date: "01.01.2025",
@@ -39,7 +39,7 @@ export const azxpsessions = [
   {
     idn: 6,
     src: "/azxpsecond.jpg",
-    textaz: "Azxp ikinci sessiyası",
+    textaz: "AzXP 2-ci iclası",
     texten: "",
     link: "https://www.youtube.com/watch?v=vushV9NS1R8&t:7693s",
     date: "18.01.2025",
@@ -47,7 +47,7 @@ export const azxpsessions = [
   {
     idn: 7,
     src: "/azxp4.jpg",
-    textaz: "Azxp dördüncü sessiyası",
+    textaz: "AzXP 4-cü iclası",
     texten: "",
     link: "https://www.youtube.com/watch?v=Jda4Erz2J-c",
     date: "01.02.2025",
@@ -55,7 +55,7 @@ export const azxpsessions = [
   {
     idn: 8,
     src: "/azxpsessions/azxp5.jpg",
-    textaz: "Azxp beşinci sessiyası",
+    textaz: "AzXP 5-ci iclası",
     texten: "",
     link: "https://www.youtube.com/live/ooN9WryX4Ow",
     date: "09.02.2025",
@@ -63,7 +63,7 @@ export const azxpsessions = [
   {
     idn: 9,
     src: "/azxpsessions/azxp6.jpg",
-    textaz: "Azxp altıncı sessiyası",
+    textaz: "AzXP 6-cı iclası",
     texten: "",
     link: "https://www.youtube.com/live/8zmk1Z90YVw",
     date: "15.02.2025",
@@ -71,7 +71,7 @@ export const azxpsessions = [
   {
     idn: 10,
     src: "/azxpsessions/azxp7.jpg",
-    textaz: "Azxp yeddinci sessiyası",
+    textaz: "AzXP 7-ci iclası",
     texten: "",
     link: "https://www.youtube.com/watch?v=1iIiun32WJQ",
     date: "22.02.2025",

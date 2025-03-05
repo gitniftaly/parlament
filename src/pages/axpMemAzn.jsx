@@ -9,8 +9,8 @@ const axpMemAzn = () => {
       >
         <header className="flex flex-col mt-4 justify-center items-center">
           <h1 className="font-bold px-2">
-            Azərbaycan Xalq Parlamentinin Yaradılması: Demokratiya Üçün Yeni Bir
-            Başlıq
+            Azərbaycan Xalq Parlamentinin Yaradılması. Demokratiya Üçün Yeni Bir
+            Fəcil
           </h1>
         </header>
         <article className="mt-1 px-2 font-serif">

@@ -10,13 +10,13 @@ const Decisions = () => {
   return (
     <div className="flex flex-col min-h-dvh -mt-2 rounded-t-2xl overflow-x-hidden py-3 w-full bg-background px-2 gap-3">
       <header className="font-bold mx-auto py-2">
-        <h1>Informasiya qərarlar bölgəsi.</h1>
+        <h1>Informasiya: qərarlar bölməsi.</h1>
       </header>
       <section className="flex flex-col h-auto w-full gap-3">
         <LinkElement
           link="/docpdf/listofcommittees.pdf"
           alt="committees"
-          title="Azxp kommitələri"
+          title="AzXP komitələri"
           date="16.02.2025"
           target="_blank"
           className="flex w-full gap-3 sm:w-[780px] mx-auto p-2 font-bold"
@@ -24,7 +24,7 @@ const Decisions = () => {
         <LinkElement
           link="/docpdf/azxpresolution.pdf"
           alt="azxp_resolution"
-          title="Azxp ölkə krizisinə ittihamı"
+          title="AzXP hakimiyyət böhranı haqqinda"
           date="16.02.2025"
           target="_blank"
           className="flex w-full gap-3 sm:w-[780px] mx-auto p-2 font-bold"
@@ -32,7 +32,7 @@ const Decisions = () => {
         <LinkElement
           link="/docpdf/azxp_protokol_25.pdf"
           alt="azxp_protokol_25"
-          title="Azxp_protokol_25"
+          title="Protokol_25"
           date="10.02.2025"
           target="_blank"
           className="flex w-full gap-3 sm:w-[780px] mx-auto p-2 font-bold"
@@ -40,7 +40,7 @@ const Decisions = () => {
         <LinkElement
           link="/docpdf/qatnama_01_02_2025.pdf"
           alt="qatname_01_02_2025"
-          title="Gətname01_02_2025"
+          title="Gətnamə_01_02_2025"
           date="01.02.2025"
           target="_blank"
           className="flex w-full gap-3 sm:w-[780px] mx-auto p-2 font-bold"

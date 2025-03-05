@@ -35,7 +35,7 @@ const HomeContent = () => {
           className="flex flex-col items-center "
         >
           <p className="flex font-bold gap-2 items-center">
-            Parlamentə namizədliyinizi necə verə bilərsiz!
+            Parlamentə namizədliyinizi necə verə bilərsiniz
             <span>
               <TbHandClick className="text-black" />
             </span>
@@ -53,7 +53,7 @@ const HomeContent = () => {
         >
           <header>
             <h1 className="font-bold py-1 flex gap-4 items-center">
-              Azxp yaranması <TbHandClick className="text-green-700" />
+              AzXP yaranması <TbHandClick className="text-green-700" />
             </h1>
           </header>
           <Link href="/about/aboutazxp" className="px-2">

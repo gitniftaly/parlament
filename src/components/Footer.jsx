@@ -20,7 +20,12 @@ const Footer = () => {
                         sm:flex sm:justify-evenly items-start py-5"
         >
           {mediaObject.map((img, ind) => (
-            <Link key={ind} href={img.url}>
+            <Link
+              key={ind}
+              href={img.url}
+              target="_blank"
+              className="flex justify-center items-center"
+            >
               <ImagePage
                 key={ind}
                 src={`/media/${img.tv}.png`}
@@ -35,7 +40,7 @@ const Footer = () => {
       </div>
 
       <section className="flex justify-center mt-20">
-        <span className="text-white">&copy; AzXP 2024 </span>
+        <span className="text-white">&copy; AzXP 2025 </span>
       </section>
     </Container>
   );

@@ -20,7 +20,7 @@ const MediaView = ({ tv, profile, produser, since, url, className }) => {
       </div>
 
       <div className="flex flex-1 items-center justify-center flex-col">
-        <Link href={url} className="rounded-lg">
+        <Link href={url} className="rounded-lg" target="_blank">
           <Image
             src={profile}
             alt={produser}

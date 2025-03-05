@@ -12,9 +12,11 @@ const Portret = ({ data }) => {
         className="h-[300px] rounded-lg"
       />
       <article className="pl-3 font-bold py-1">
-        <p>
-          <span>{data.name}</span>.
-          <span className="ml-2 font-normal">{data.title}</span>
+        <p className="flex gap-2">
+          <span className="ml-2 font-normal italic text-blue-700">
+            {data.title}
+          </span>
+          <span>{data.name}</span>
         </p>
         <p>Phone: {data.phone}</p>
       </article>

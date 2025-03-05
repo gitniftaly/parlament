@@ -3,13 +3,19 @@ export const discipline = [
     name: "Teymur Eminbəyli",
     title: "Sədr",
     imgLink: "/candidates/img039.jpg",
-    phone: "+46 76-050 30 38",
+    phone: "+46 76 050 30 38",
   },
   {
     name: "Təranə Səfərsoy",
-    title: "Katibə",
+    title: "Müavin",
     imgLink: "/candidates/img038.jpg",
     phone: "+994 50 769 17 68",
+  },
+  {
+    name: "İlqar Hüseyinli",
+    title: "Katib",
+    imgLink: "/candidates/img014.jpg",
+    phone: "+7 914 174 34 34",
   },
   {
     name: "Validə Əhmədova",
@@ -23,25 +29,19 @@ export const discipline = [
     imgLink: "/candidates/img004.jpg",
     phone: "+49 173 907 1018",
   },
-  {
-    name: "İlqar Hüseyinli",
-    title: "Üzv",
-    imgLink: "/candidates/img014.jpg",
-    phone: "+7 (914) 174-34-34",
-  },
 ];
 export const votingCommission = [
   {
     name: "Rasim Alizada",
     title: "Sədr",
     imgLink: "/serviceteam/rasalizade.jpg",
-    phone: "+7 (921) 956-14-72",
+    phone: "+7 921 956 14 72",
   },
   {
     name: "Kəmalə Mehdiyeva",
-    title: "Katibə",
+    title: "Katib",
     imgLink: "/serviceteam/kmehdiyva.jpg",
-    phone: "+7 (985) 287-26-39",
+    phone: "+7 985 287 26 39",
   },
 
   {
@@ -54,13 +54,13 @@ export const votingCommission = [
     name: "Oktay Ömərov",
     title: "Üzv",
     imgLink: "/serviceteam/oktayomarov.jpg",
-    phone: "+7 (927) 255-47-85",
+    phone: "+7 927 255 47 85",
   },
   {
     name: "Şəmsəddin Cəmiyev",
     title: "Üzv",
     imgLink: "/serviceteam/şcamiyev.jpg",
-    phone: "+46 79-341 57 09",
+    phone: "+46 79 341 57 09",
   },
   {
     name: "Bəxtiyar Ismayilov",
@@ -85,9 +85,9 @@ export const counterTeam = [
   },
   {
     name: "Rəbiyyə Xanlarova",
-    title: "Katibə",
+    title: "Katib",
     imgLink: "/candidates/img173.jpg",
-    phone: "+43 676 6348347",
+    phone: "+43 676 634 8347",
   },
   {
     name: "Müşviq Əhmədli",
@@ -99,12 +99,12 @@ export const counterTeam = [
     name: "Qurban Məmmədli",
     title: "Üzv",
     imgLink: "/candidates/img023.jpg",
-    phone: "+44 7859 168159",
+    phone: "+44 7859 16 81 59",
   },
   {
     name: "İlqar Hüseyinli",
     title: "Üzv",
     imgLink: "/candidates/img014.jpg",
-    phone: "+7 (914) 174-34-34",
+    phone: "+7 914 174 34 34",
   },
 ];

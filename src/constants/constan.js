@@ -64,6 +64,15 @@ export const mediaObject = [
     profile: "/candidates/img138.jpg",
     url: "https://www.youtube.com/c/XuralTV",
   },
+  {
+    id: 6,
+    tv: "mgtv",
+    produser: "Mustafa Gürbüz",
+    since: "Since 2012",
+    info: "",
+    profile: "/media/mgtv.jpg",
+    url: "https://www.youtube.com/channel/UCaBjlLrRL68E1o95J2IMNTw",
+  },
 ];
 
 export const tvprodusers = ["man"];

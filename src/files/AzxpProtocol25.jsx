@@ -5,45 +5,66 @@ const AzxpProtocol25 = () => {
     <div className="flex flex-col h-auto  mx-auto sm:w-[780px] rounded-t-xl w-[400px] px-1 bg-white">
       <header className="flex justify-center py-3">
         <h1 className="font-bold">
-          AzXP Seçki Komissiyasının iclasının 25Ni Protokolundan ÇIXARIŞ:
+          AzXP Millət vəkilliyinə namizədin “Bildiriş”anketinin yeni forması:
         </h1>
       </header>
-      <article>
+
+      <section className="px-5 w-full flex flex-col">
+        <p className="flex">
+          1.
+          <span className="px-4 flex">Adı, soyadı, atasının adı.</span>
+        </p>
+        <p className="flex">
+          2.<span className="px-4">Təvəllüdü</span>
+        </p>
+        <p className="flex">
+          3.<span className="px-4">⁠Doğulduğu yer.</span>
+        </p>
+        <p className="flex">
+          4.<span className="px-4">Təhsili.</span>
+        </p>
+        <p className="flex">
+          5.<span className="px-4">⁠İxtisası, peşəsi.</span>
+        </p>
+        <p className="flex">
+          6.<span className="px-4">Əmək fəaliyyəti.</span>
+        </p>
+        <p className="flex">
+          7.<span className="px-4">Vətəndaşlığı.</span>
+        </p>
+        <p className="flex">
+          8.<span className="px-4"> ⁠⁠AzR vətəndaşı olubmu?</span>
+        </p>
+        <p className="flex">
+          9.<span className="px-4">⁠Ailə vəziyyəti.</span>
+        </p>
+        <p className="flex">
+          11.<span className="px-2">⁠Yaşadığı ölkə.</span>
+        </p>
+        <p className="flex">
+          12.<span className="px-2">Yaşadığı region.</span>
+        </p>
+        <p className="flex">
+          13.<span className="px-2">Fotoşəkil (rəsmi sənəd üçün).</span>
+        </p>
+        <p className="flex">
+          14.⁠<span className="px-2">⁠Əlaqə telefonu.</span>
+        </p>
+        <p className="flex">
+          15.<span className="px-2">⁠Tərcümeyi-hal (qısa).</span>
+        </p>
+        <p className="flex">
+          16.
+          <span className="px-2">
+            Əmək və ictimai fəaliyyəti haqqında 2-3 dəqiqəlik video-çarx.
+          </span>
+        </p>
+      </section>
+      <section className="px-5 py-2 font-bold">
         <p>
-          1.⁠ ⁠Namizədlər aşağıdakı “whatsapp” nömrələri vasitəsi ilə əlaqə
-          yaratmaqla qeydiyyata alınacaqlar:
+          <span>AzXP Seçki Komissiyası</span>
         </p>
-        <p className="px-1 mt-1">
-          1.1. <span className="text-blue-600">+46 70-776 03 03</span>,
-        </p>
-        <p className="px-1">
-          1.2. <span className="text-blue-600">+46 79-341 57 09.</span>,
-        </p>
-        <p className="py-1">
-          2.⁠ ⁠SK-na “Bildiriş”lə müraciət etmiş şəxslər aşağıdakı bəndlərdə
-          tələb olunan məlumatları yazılı təqdim etdikləri halda namizəd kimi
-          qeydə alınacaqlar:
-        </p>
-        <section className="px-1">
-          <p>2.1. Adı, soyadı, atasının adı.</p>
-          <p> 2.2. Doğulduğu yer və tarix. </p>
-          <p> 2.3. Təhsili, ixtisası, peşəsi. </p>
-          <p>2.4. Ailə vəziyyəti.</p>
-          <p>2.5. Partiya mənsubiyyəti.</p>
-          <p>2.6. Yaşadığı ölkə.</p>
-          <p>2.7. Vətəndaşlığı haqqında və şəxsiyyət vəsiqəsinin surəti.</p>
-          <p>2.8. Qısa tərcümeyi-halı və fəaliyyəti.</p>
-          <p>2.9. Bir ədəd fotoşəkil.</p>
-          <p>
-            2.10. Tərcümeyi-hal, əmək və ictimai-siyasi fəaliyyəti haqqında 2-3
-            dəqiqəlik video-çarx.
-          </p>
-        </section>
-        <section className="px-1 py-2">
-          <p>AzXP Seçki Komissiyası</p>
-          <p>11.02.2025il</p>
-        </section>
-      </article>
+      </section>
     </div>
   );
 };
