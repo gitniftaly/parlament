@@ -1,7 +1,7 @@
 export const azxpsessions = [
   {
     idn: 1,
-    src: "/AzXP.jpg",
+    src: "/azxp.jpg",
     textaz: "AzXP elan günü",
     texten: "",
     link: "https://www.youtube.com/watch?v=Wa1JaPV7GEw",
