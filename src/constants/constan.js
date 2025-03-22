@@ -16,6 +16,37 @@ export const urls = {
   tartar: "/tartar",
   home: "/",
 };
+export const totalLinks = [
+  "/",
+  "/news",
+  "/news/announcements",
+  "/news/decisions",
+  "/news/newsLine",
+  "/about",
+  "about/aboutazxp",
+  "about/counterteam",
+  "about/deputies",
+  "about/elccommision",
+  "about/founders",
+  "about/initiativegroup",
+  "about/founders",
+  "deputies",
+  "deputies/deputies2024",
+  "documents",
+  "documents/archive",
+  "documents/ebooks",
+  "documents/regulations",
+  "documents/statement",
+  "elections",
+  "elections/candidates",
+  "elections/electioncommision",
+  "elections/electionyear",
+  "elections/candidates",
+  "tartar",
+  "tartar/ganzha",
+  "tartar/nardaran",
+  "tartar/ttorture",
+];
 
 export const mediaObject = [
   {

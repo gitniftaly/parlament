@@ -18,6 +18,7 @@ const Rules = ({ text, lang }) => {
       <DropdownMenuTrigger
         onClick={() => setIconView(false)}
         onMouseOver={() => setIconView(false)}
+        className="focus:underline focus:underline-offset-8 decoration-2"
       >
         {text}
       </DropdownMenuTrigger>

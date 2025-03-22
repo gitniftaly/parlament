@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-
+import { clsx } from "clsx";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -21,6 +21,7 @@ const ElectionsView = ({ text, lang }) => {
       <DropdownMenuTrigger
         onClick={() => setIconView(false)}
         onMouseOver={() => setIconView(false)}
+        className="focus:underline focus:underline-offset-8 decoration-2"
       >
         {text}
       </DropdownMenuTrigger>
