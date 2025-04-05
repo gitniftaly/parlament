@@ -77,4 +77,10 @@ export const archive = [
     titleAz: "Azxp onuncu toplantısı",
     date: "29.03.2025",
   },
+  {
+    id: 14,
+    link: "https://www.youtube.com/watch?v=ifrpNBFl9Pc",
+    titleAz: "Azxp onbrinci toplantısı",
+    date: "05.04.2025",
+  },
 ];
