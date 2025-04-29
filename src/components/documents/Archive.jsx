@@ -4,7 +4,7 @@ import LinkElement from "../reuseblescomp/LinkElement";
 import { archive } from "@/constants/archive";
 const Archive = () => {
   return (
-    <section className="flex w-full mt-5 flex-col h-[70px] items-center gap-3">
+    <section className="flex w-full mt-5 flex-col h-[70px] items-center gap-3 h-full w-full">
       <header className="flex justify-center w-full h-5">
         <h1 className="font-bold">Azxp arxivi</h1>
       </header>
