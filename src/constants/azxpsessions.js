@@ -108,4 +108,12 @@ export const azxpsessions = [
     link: "https://www.youtube.com/watch?v=ifrpNBFl9Pc",
     date: "05.04.2025",
   },
+  {
+    idn: 15,
+    src: "/azxpsessions/azxp12.jpg",
+    textaz: "AzXP 12-ci iclası",
+    texten: "",
+    link: "https://www.youtube.com/watch?v=9HmztrARs2k",
+    date: "26.04.2025",
+  },
 ];
