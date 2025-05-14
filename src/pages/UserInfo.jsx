@@ -42,6 +42,11 @@ const UserInfo = ({ item }) => {
       </div>
       <hr className=" border-gray-300 border-inherit w-[300px] mt-1" />
       <div className="h-5 flex w-[300px] justify-between">
+        <span>Partiya</span>
+        <span>{item?.PartiaÜzvi}</span>
+      </div>
+      <hr className=" border-gray-300 border-inherit w-[300px] mt-1" />
+      <div className="h-5 flex w-[300px] justify-between">
         <span>Az-Vətəndaşlıgı</span>
         <span>{item?.AzVətOlubmu}</span>
       </div>
