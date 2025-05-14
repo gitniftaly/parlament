@@ -117,7 +117,7 @@ const AboutMobileSubs = ({ mlinks, handleAbout, lang }) => {
               >
                 <section className="flex items-center gap-1">
                   <FaCircle size="4" />
-                  <span>{lang === "az" ? "Deputatlar" : "Deputies"}</span>
+                  <span>{lang === "az" ? "Millət Vəkilləri" : "Deputies"}</span>
                 </section>
               </Link>
             </div>

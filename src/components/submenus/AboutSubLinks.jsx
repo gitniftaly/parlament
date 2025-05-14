@@ -101,7 +101,7 @@ const AboutSubLinks = ({ text, lang }) => {
               href={"/about/deputies/deputies2024"}
               onClick={(e) => onSelectIterm(e)}
             >
-              {lang === "az" ? "Deputatlar" : "Deputies"}
+              {lang === "az" ? "Millət Vəkilləri" : "Deputies"}
             </Link>
           </DropdownMenuItem>
         </DropdownMenuContent>

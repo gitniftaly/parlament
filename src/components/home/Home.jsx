@@ -6,6 +6,7 @@ import AzxpSession from "@/components/reuseblescomp/AzxpSession";
 import Shortcuts from "@/files/Shortcuts";
 import { azxpsessions } from "@/constants/azxpsessions";
 import ElectionSecond from "@/components/home/ElectionSecond";
+import Terror from "./TerrorLink";
 
 const Home = () => {
   return (
@@ -13,6 +14,9 @@ const Home = () => {
       className="flex flex-col  bg-background  justify-start relative
     rounded-t-xl -mt-2 overflow-y-scroll items-center h-full gap-3"
     >
+      <section className="flex mt-5 sm:mt-3 px-2 py-2 h-5 justify-center items-center">
+        <Terror />
+      </section>
       <section
         className="flex m-auto mt-3 h-[100px] sm:w-full rounded-xl sm:px-2
                 w-[400px] sm:h-auto"
