@@ -11,7 +11,7 @@ const Terror = () => {
         target="_blank"
         className="font-serif text-2xl text-blue-800 underline animate-pulse"
       >
-        Siyasi məhbuslar üzrə infomasiya mərkəzi.
+        Siyasi məhbuslar üzrə informasiya mərkəzi.
       </Link>
     </section>
   );
