@@ -104,6 +104,15 @@ export const mediaObject = [
     profile: "/media/mgtv.jpg",
     url: "https://www.youtube.com/channel/UCaBjlLrRL68E1o95J2IMNTw",
   },
+  {
+    id: 7,
+    tv: "fotoinfo",
+    produser: "Tarlan Novruzov",
+    since: "Since 2019",
+    info: "",
+    profile: "/media/fotoinfo.jpg",
+    url: "https://foto.info.az/gundem/22018-dasksnd-yerli-sahibkarlarla-gorus-kecirilib.html",
+  },
 ];
 
 export const tvprodusers = ["man"];
@@ -137,7 +146,7 @@ export const contacts = [
   },
   {
     id: 6,
-    media: "Osman Qızı TV",
+    media: "Foto Info",
     phones: [32333233, 32333233],
     email: "some email",
   },

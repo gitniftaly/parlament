@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div
           className="grid grid-cols-3 gap-3 px-8 justify-center 
-                        sm:flex sm:justify-evenly items-start py-5"
+                        sm:grid-cols-4 py-5"
         >
           {mediaObject.map((img, ind) => (
             <Link
@@ -32,7 +32,7 @@ const Footer = () => {
                 alt={img}
                 width={100}
                 height={100}
-                className="w-full h-auto"
+                className="w-32 h-auto"
               />
             </Link>
           ))}
