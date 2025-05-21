@@ -8,7 +8,7 @@ const AboutMobileSubs = ({ mlinks, handleAbout, lang }) => {
     <>
       <div className="flex w-full">
         <span className="flex items-center">
-          {lang === "az" ? "Haqqinda" : "About"}
+          {lang === "az" ? "Haqqında" : "About"}
           {mlinks ? <MdArrowDropDown size="20" /> : <MdArrowDropUp size="20" />}
         </span>
       </div>
@@ -41,7 +41,7 @@ const AboutMobileSubs = ({ mlinks, handleAbout, lang }) => {
                 <section className="flex items-center gap-1">
                   <FaCircle size="4" />
                   <span>
-                    {lang === "az" ? "Təşəbbüz qrupu" : "Initiative group"}
+                    {lang === "az" ? "Təşəbbüs qrupu" : "Initiative group"}
                   </span>
                 </section>
               </Link>
