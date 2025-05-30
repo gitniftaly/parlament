@@ -349,7 +349,7 @@ export const deputies2024 = [
     AiləStatus: "Evli",
     PartiaÜzvi: "Yox",
     Ölkəsi: "İsveç",
-    img: "/candidates/img039.jpg",
+    img: "/candidates/img0391.jpg",
     canId: 53,
     vote: 6029,
   },
