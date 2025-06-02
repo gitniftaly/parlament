@@ -1289,7 +1289,7 @@ export const deputies2024 = [
   },
   {
     idn: 189,
-    Adı: "Rəsulov Yasar Rasul oğlu",
+    Adı: "Rəsulov Yasar Rəsul oğlu",
     Təvəllüd: "09/20/1963",
     DogYer: "Şəki",
     Təhsil: "Ali",
@@ -1340,7 +1340,7 @@ export const deputies2024 = [
   },
   {
     idn: 192,
-    Adı: "İsmayılov Sahin Nurəddin oğlu",
+    Adı: "İsmayılov Şahin Nurəddin oğlu",
     Təvəllüd: "06/09/1958",
     DogYer: "Bakı",
     Təhsil: "Ali",
