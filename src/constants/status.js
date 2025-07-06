@@ -1,6 +1,6 @@
 export const status = [
   {
-    id: 1,
+    id: 58,
     aztxt: "Azərbaycan Xalq Parlamentinin sədri.",
     entxt: "Chairman of Azerbaijan Popular Parliament",
   },
@@ -10,7 +10,7 @@ export const status = [
     entxt: "Member of the Presidium",
   },
   {
-    id: 58,
+    id: 588,
     aztxt: "Rəyasət Heyətinin üzvü.",
     entxt: "Member of the Presidium",
   },

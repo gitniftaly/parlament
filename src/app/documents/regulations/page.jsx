@@ -1,6 +1,7 @@
 // import AzxpRules from "@/components/AzXPRules";
 import Link from "next/link";
 import { TbHandClick } from "react-icons/tb";
+import React from "react";
 const page = () => {
   // return <AzxpRules />;
   return (
@@ -26,6 +27,16 @@ const page = () => {
           className="flex items-center gap-4"
         >
           AzXP-nin Reqlamenti <TbHandClick className="text-green-700" />
+        </Link>
+      </div>
+      <div className="border border-gray-300 rounded-lg flex h-16 w-[400px] sm:w-[780px] mt-5 justify-center items-center font-bold">
+        <Link
+          href="/docpdf/regulations_on_disciplinary.pdf"
+          target="_blank"
+          className="flex items-center gap-4"
+        >
+          Əsasnamə İntizam Komissiyası haqqında
+          <TbHandClick className="text-green-700" />
         </Link>
       </div>
     </div>

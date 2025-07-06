@@ -1,5 +1,8 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import React from "react";
+/* eslint-disable react/prop-types */
+
 const ProfileList = dynamic(() => import("./ProfileList"), {
   ssr: false, // Don't render on the server
 });
