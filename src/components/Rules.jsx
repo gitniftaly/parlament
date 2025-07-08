@@ -42,7 +42,7 @@ const Rules = ({ text, lang }) => {
               href={"/documents/regulations"}
               onClick={(e) => onSelectIterm(e)}
             >
-              Nizamnamə | Reqlament
+              Nizamnamələr | Reqlament
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />

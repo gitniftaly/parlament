@@ -130,7 +130,7 @@ const MobileMenu = ({ lang, obj }) => {
                     className="-ml-[15px] mr-2 "
                   />
                   <Link href={"/documents/regulations"} alt="regulations">
-                    Nizamnamə | Reqlament
+                    Nizamnamələr | Reqlament
                   </Link>
                 </div>
                 <div

@@ -9,7 +9,7 @@ const Shortcuts = () => {
           AzXP Bəyannamə | Etik kodeksi
         </Link>
         <Link href="documents/regulations" alt="">
-          AzXP Nizamnamə | Reqlament
+          AzXP Nizamnamələr | Reqlament
         </Link>
         <Link href="/documents/archive" alt="">
           AzXP Arxivi
