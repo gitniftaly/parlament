@@ -5,8 +5,8 @@ import { TbHandClick } from "react-icons/tb";
 import AzxpSession from "@/components/reuseblescomp/AzxpSession";
 import Shortcuts from "@/files/Shortcuts";
 import { azxpsessions } from "@/constants/azxpsessions";
-import ElectionSecond from "@/components/home/ElectionSecond";
 import Terror from "./TerrorLink";
+import ElectionLink from "./ElectionLink";
 
 const Home = () => {
   return (
@@ -16,6 +16,9 @@ const Home = () => {
     >
       <section className="flex mt-5 sm:mt-3 px-2 py-2 h-5 justify-center items-center">
         <Terror />
+      </section>
+      <section className="flex mt-4 sm:m-0 px-2 py-2 h-15 justify-center bg-green-400 items-center rounded-md">
+        <ElectionLink />
       </section>
       <section
         className="flex m-auto mt-3 h-[100px] sm:w-full rounded-xl sm:px-2

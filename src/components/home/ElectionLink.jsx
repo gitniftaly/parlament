@@ -4,15 +4,16 @@ import { TbHandClick } from "react-icons/tb";
 const ElectionLink = () => {
   return (
     <section
-      className="flex justify-center sm:h-[50px] sm:px-0 h-20 px-2 w-full bg-blue-300
+      className="flex justify-center sm:h-[50px] sm:px-0 h-24 px-2 w-full bg-black text-white
                              mx-auto rounded-lg animate-pulse"
     >
       <Link
-        href="/news/decisions"
+        href="/docpdf/azxpnotificationlist.pdf"
         alt="secki"
+        target="_blank"
         className="flex flex-col items-center "
       >
-        <p className="flex font-bold gap-2 items-center">
+        <p className="flex font-bold gap-2 items-center font-white">
           Parlamentə namizədliyinizi necə verə bilərsiniz
           <span>
             <TbHandClick className="text-black" />

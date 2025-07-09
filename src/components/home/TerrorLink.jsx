@@ -1,7 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import Container from "../Container";
 
 const Terror = () => {
   return (

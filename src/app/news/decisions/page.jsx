@@ -2,7 +2,6 @@
 
 import LinkElement from "@/components/reuseblescomp/LinkElement";
 import AzxpProtocol24 from "@/files/AzxpProtocol24";
-import AzxpProtocol25 from "@/files/AzxpProtocol25";
 import Link from "next/link";
 import { FcDownload } from "react-icons/fc";
 
@@ -53,8 +52,15 @@ const Decisions = () => {
           target="_blank"
           className="flex w-full gap-3 sm:w-[780px] mx-auto p-2 font-bold"
         />
+        <LinkElement
+          link="/docpdf/azxpmeeting40.pdf"
+          alt="seçki"
+          title="AzXP Seçki Komissiyası iclasının 40Noli PROTOKOLU."
+          date="21.06.2025"
+          target="_blank"
+          className="flex w-full gap-3 sm:w-[780px] mx-auto p-2 font-bold"
+        />
 
-        <AzxpProtocol25 />
         <div
           className="w-full mx-auto sm:w-[780px] h-14 border border-gray-300 
                        flex justify-center items-center px-2 rounded-lg"
