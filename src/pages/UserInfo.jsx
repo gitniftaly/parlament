@@ -5,8 +5,8 @@ const UserInfo = ({ item }) => {
   return (
     <div
       key={item?.idn}
-      className=" flex flex-col w-[400px] h-96 border border-gray-300 
-                rounded-lg shadow-md px-2 items-center pb-2"
+      className=" flex flex-col w-[400px] h-48 border border-gray-300 
+                rounded-lg shadow-md px-2 items-center pb-2 bg-red-500"
     >
       <div className="h-5 flex m-2">
         <span className="font-bold font-serif ">{item?.Adı}</span>

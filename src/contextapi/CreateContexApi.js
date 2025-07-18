@@ -12,44 +12,9 @@ export const AppContextApi = ({ children }) => {
   const VISITOR = "visitor";
   const [links, setLinks] = useState({ name: "", url: "" });
   const [visitorCount, setVisitorCount] = useState("");
-  const voteCounters = [
-    { name: "Ass ss", no: "no", yes: "" },
-    { name: "Ass ss", no: "", yes: "yes" },
-    { name: "Ass ss", no: "", yes: "yes" },
-    { name: "Ass ss", no: "", yes: "yes" },
-    { name: "Ass ss", no: "", yes: "yes" },
-    { name: "Ass ss", no: "no", yes: "" },
-  ];
-
-  const pozitive = () => {
-    let votes = 0;
-    for (let o of voteCounters) {
-      if (o.yes) {
-        votes += 1;
-      }
-    }
-    return votes;
-  };
-  const negative = () => {
-    let votes = 0;
-    for (let o of voteCounters) {
-      if (o.no) {
-        votes += 1;
-      }
-    }
-    return votes;
-  };
+  const [hide, setHide] = useState(true);
 
   const dep2024 = deputies2024.sort((a, b) => (a.vote < b.vote ? 1 : -1));
-  // const Yes = pozitive() || 0;
-  // const No = negative() || 0;
-  const [poz, setPozitive] = useState(0);
-  const [neg, setNegative] = useState(0);
-
-  // useEffect(() => {
-  //   setPozitive(pozitive());
-  //   setNegative(negative());
-  // }, [poz, neg]);
 
   return (
     <ContextApi.Provider
@@ -65,13 +30,8 @@ export const AppContextApi = ({ children }) => {
         visitorCount,
         setVisitorCount,
         dep2024,
-        poz,
-        setPozitive,
-        neg,
-        setNegative,
-        voteCounters,
-        pozitive,
-        negative,
+        hide,
+        setHide,
       }}
     >
       {children}
