@@ -22,13 +22,13 @@ const Activists = () => {
         height={300}
         src="/politics/activists.jpg"
         layout="responsive"
-        className="sm:w-[400px] z-50"
+        className="sm:w-[400px]"
       />
       <div
-        className="flex w-10 m-1 bg-red-500 h-10 rounded-full justify-center items-center"
+        className="flex w-10 m-1 bg-red-600 h-10 rounded-full justify-center items-center"
         onClick={hideOnClick}
       >
-        <span className="flex text-white justify-center items-center font-extrabold w-full h-full">
+        <span className="flex text-white justify-center items-center font-extrabold w-10 h-10">
           X
         </span>
       </div>
