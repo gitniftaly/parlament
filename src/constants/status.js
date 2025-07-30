@@ -10,6 +10,11 @@ export const status = [
     entxt: "Member of the Presidium",
   },
   {
+    id: 1,
+    aztxt: "Rəyasət Heyətinin üzvü.",
+    entxt: "Member of the Presidium",
+  },
+  {
     id: 588,
     aztxt: "Rəyasət Heyətinin üzvü.",
     entxt: "Member of the Presidium",

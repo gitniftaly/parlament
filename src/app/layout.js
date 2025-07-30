@@ -1,3 +1,4 @@
+import React from "react";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -23,6 +24,7 @@ export const metadata = {
   description: "People and parliament are one solid mass.",
 };
 
+// eslint-disable-next-line react/prop-types
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

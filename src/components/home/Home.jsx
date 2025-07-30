@@ -1,3 +1,4 @@
+import React from "react";
 import Container from "@/components/Container";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,6 +9,7 @@ import { azxpsessions } from "@/constants/azxpsessions";
 import Terror from "./TerrorLink";
 import ElectionLink from "./ElectionLink";
 import Activists from "../popup/activists";
+// import Overlay from "../popup/overlay";
 
 const Home = () => {
   return (
@@ -34,7 +36,9 @@ const Home = () => {
           className="flex rounded-lg w-full h-[170px]"
         />
       </section>
+      {/* <Overlay className="" /> */}
       <Activists />
+
       <div className="flex-col flex sm:flex-row p-1 sm:gap-1 gap-3 sm:h-[220px] h-[280px] items-center mb-1">
         <div
           className=" flex flex-col rounded-xl shadow-md border border-gray-300 w-full h-[280px]
