@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 "use client";
+import React from "react";
 import { createContext, useState } from "react";
 
 import { deputies2024 } from "@/constants/deputies2024";

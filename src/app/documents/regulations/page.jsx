@@ -39,6 +39,26 @@ const page = () => {
           <TbHandClick className="text-green-700" />
         </Link>
       </div>
+      <div className="border border-gray-300 rounded-lg flex h-16 w-[400px] sm:w-[780px] mt-5 justify-center items-center font-bold">
+        <Link
+          href="/docpdf/suleyman_eturn_plan_to_Karabakh.pdf"
+          target="_blank"
+          className="flex items-center gap-4"
+        >
+          Süleyman müəllim Qarabağa qayıdış planı
+          <TbHandClick className="text-green-700" />
+        </Link>
+      </div>
+      <div className="border border-gray-300 rounded-lg flex h-16 w-[400px] sm:w-[780px] mt-5 justify-center items-center font-bold">
+        <Link
+          href="/docpdf/resolution_on_the_HAF.pdf"
+          target="_blank"
+          className="flex items-center gap-4"
+        >
+          HƏF ilə bağlı Qətnamə
+          <TbHandClick className="text-green-700" />
+        </Link>
+      </div>
     </div>
   );
 };
