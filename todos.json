@@ -1,0 +1,12 @@
+{
+  "todos": [
+    {
+      "id": "100",
+      "voteYes": 1,
+      "voteNo": 1,
+      "reset": 0,
+      "votingFor": "Uşaq pullarının verilməsi şərtləri",
+      "timer": "2"
+    }
+  ]
+}
