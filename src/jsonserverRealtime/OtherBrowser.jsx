@@ -4,8 +4,8 @@ import React, { useState, useEffect } from "react";
 import { useSync } from "./useSync";
 import useContextApi from "@/contextapi/useContextApi";
 
-export default function OtherBrowser() {
-  const [todos, setTodos] = useSync("http://localhost:3001/todos");
+export default function OtherBrowser(url) {
+  const [todos, setTodos] = useSync(url);
   const [btnLocked, setBtnLocked] = useState(false);
   const { lang } = useContextApi();
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function OtherBrowser() {
 
   const voteYes = async (todo) => {
     const updated = { ...todo, voteYes: todo.voteYes + 1 };
-    await fetch(`http://localhost:3001/todos/${todo.id}`, {
+    await fetch(`${url}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -32,7 +32,7 @@ export default function OtherBrowser() {
   };
   const voteNo = async (todo) => {
     const updated = { ...todo, voteNo: todo.voteNo + 1 };
-    await fetch(`http://localhost:3001/todos/${todo.id}`, {
+    await fetch(`${url}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

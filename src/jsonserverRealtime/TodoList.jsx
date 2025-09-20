@@ -3,6 +3,8 @@
 import React from "react";
 import useContextApi from "@/contextapi/useContextApi";
 import { useActions } from "./TodosActions";
+import { URL } from "@/constants/constan";
+
 export default function TodoList() {
   const {
     todos,
@@ -15,8 +17,8 @@ export default function TodoList() {
     reset,
     votingfor,
     timerVal,
-  } = useActions();
-
+  } = useActions(URL);
+  console.log("URL: ", URL);
   const { lang } = useContextApi();
 
   if (!todos)

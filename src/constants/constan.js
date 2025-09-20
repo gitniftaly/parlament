@@ -151,3 +151,7 @@ export const contacts = [
     email: "some email",
   },
 ];
+
+// eslint-disable-next-line no-undef
+const apiBase = process.env.NEXT_PUBLIC_API_URL;
+export const URL = `${apiBase}/todos/`;
