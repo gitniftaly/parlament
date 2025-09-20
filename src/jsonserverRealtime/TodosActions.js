@@ -2,14 +2,15 @@
 import { useState } from "react";
 import { useSync } from "./useSync";
 
-export const useActions = () => {
-  const [todos, setTodos] = useSync("http://localhost:3001/todos");
+export const useActions = (url) => {
+  console.log("USEAC: ", url);
+  const [todos, setTodos] = useSync(url);
   const [title, setTitle] = useState("");
   const [timer, setTimer] = useState(0);
 
   const voteYes = async (todo) => {
     const updated = { ...todo, voteYes: todo.voteYes + 1 };
-    await fetch(`http://localhost:3001/todos/${todo.id}`, {
+    await fetch(`${url}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -20,7 +21,7 @@ export const useActions = () => {
   };
   const voteNo = async (todo) => {
     const updated = { ...todo, voteNo: todo.voteNo + 1 };
-    await fetch(`http://localhost:3001/todos/${todo.id}`, {
+    await fetch(`${url}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -31,7 +32,7 @@ export const useActions = () => {
   };
   const reset = async (todo) => {
     const updated = { ...todo, voteNo: 0, voteYes: 0 };
-    await fetch(`http://localhost:3001/todos/${todo.id}`, {
+    await fetch(`${url}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -44,7 +45,7 @@ export const useActions = () => {
 
   const votingfor = async (todo) => {
     const updated = { ...todo, votingFor: title };
-    await fetch(`http://localhost:3001/todos/${todo.id}`, {
+    await fetch(`${url}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -56,7 +57,7 @@ export const useActions = () => {
 
   const timerVal = async (todo) => {
     const updated = { ...todo, timer: timer };
-    await fetch(`http://localhost:3001/todos/${todo.id}`, {
+    await fetch(`${url}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

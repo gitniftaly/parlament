@@ -2,11 +2,11 @@
   "todos": [
     {
       "id": "100",
-      "voteYes": 1,
+      "voteYes": 0,
       "voteNo": 1,
       "reset": 0,
-      "votingFor": "Uşaq pullarının verilməsi şərtləri",
-      "timer": "2"
+      "votingFor": "This is what we are voting for",
+      "timer": "1"
     }
   ]
 }
