@@ -18,7 +18,7 @@ export default function TodoList() {
     votingfor,
     timerVal,
   } = useActions(URL);
-  console.log("URL: ", URL);
+
   const { lang } = useContextApi();
 
   if (!todos)
