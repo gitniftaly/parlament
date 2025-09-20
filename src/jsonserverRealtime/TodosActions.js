@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useSync } from "./useSync";
 
 export const useActions = (url) => {
-  console.log("USEAC: ", url);
   const [todos, setTodos] = useSync(url);
   const [title, setTitle] = useState("");
   const [timer, setTimer] = useState(0);
