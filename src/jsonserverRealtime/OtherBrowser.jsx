@@ -3,9 +3,10 @@
 import React, { useState, useEffect } from "react";
 import { useSync } from "./useSync";
 import useContextApi from "@/contextapi/useContextApi";
+import { URL } from "@/constants/constan";
 
-export default function OtherBrowser(url) {
-  const [todos, setTodos] = useSync(url);
+export default function OtherBrowser() {
+  const [todos, setTodos] = useSync(URL);
   const [btnLocked, setBtnLocked] = useState(false);
   const { lang } = useContextApi();
   useEffect(() => {
@@ -20,7 +21,7 @@ export default function OtherBrowser(url) {
 
   const voteYes = async (todo) => {
     const updated = { ...todo, voteYes: todo.voteYes + 1 };
-    await fetch(`${url}${todo.id}`, {
+    await fetch(`${URL}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -32,7 +33,7 @@ export default function OtherBrowser(url) {
   };
   const voteNo = async (todo) => {
     const updated = { ...todo, voteNo: todo.voteNo + 1 };
-    await fetch(`${url}${todo.id}`, {
+    await fetch(`${URL}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

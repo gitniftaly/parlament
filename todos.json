@@ -1,12 +1,12 @@
 {
   "todos": [
     {
-      "id": "100",
-      "voteYes": 0,
-      "voteNo": 1,
+      "id": "10",
+      "voteYes": 11,
+      "voteNo": 9,
       "reset": 0,
       "votingFor": "This is what we are voting for",
-      "timer": "1"
+      "timer": 0
     }
   ]
 }
