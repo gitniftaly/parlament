@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FaRegHandPointDown } from "react-icons/fa6";
 // import Container from "../Container";
 
 const ElectionSecond = () => {
@@ -40,6 +41,19 @@ const ElectionSecond = () => {
           className="pb-20 font-serif text-2xl text-blue-600 underline"
         >
           Azərbaycan Xalq Parlamentinə əlavə seçkilər.
+        </Link>
+        <div className="flex gap-5  text-amber-700 text-2xl animate-bounce">
+          <span>Səs vermə qaydaları </span>
+          <span>
+            <FaRegHandPointDown />
+          </span>
+        </div>
+        <Link
+          href="https://www.youtube.com/watch?v=laPCOgaVyxg"
+          target="_blank"
+          className="pb-20 font-serif text-2xl text-blue-600 underline"
+        >
+          Azərbaycan Xalq Parlamentinə növbəti seçkilər başlayır 21.9.25
         </Link>
       </section>
     </div>
