@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Container from "../Container";
+// import Container from "../Container";
 
 const ElectionSecond = () => {
   return (
     <div
-      className="grid grid-cols-1 sm:flex h-full w-full justify-evenly items-center 
+      className="grid grid-cols-1 sm:flex h-full w-full justify-center items-center 
                       pb-10"
     >
       <section className="flex flex-col justify-center items-center">
-        <Link
+        {/* <Link
           href="https://www.youtube.com/watch?v=Ol3yDDpIPHg"
           target="_blank"
           className="pb-20 font-serif text-2xl text-blue-600 underline"
@@ -24,7 +24,7 @@ const ElectionSecond = () => {
             className="py-4 pb-5"
           />
           Səsvermə başladı! Saat 08:00-dən öz millət vəkillərinizi seçin!
-        </Link>
+        </Link> */}
       </section>
       <section className="flex flex-col justify-center items-center">
         <Image
@@ -35,7 +35,7 @@ const ElectionSecond = () => {
           className="py-4 pb-5"
         />
         <Link
-          href="https://pollforall.com/p34897dx"
+          href="https://pollforall.com/plqqn8w2"
           target="_blank"
           className="pb-20 font-serif text-2xl text-blue-600 underline"
         >
