@@ -8,19 +8,21 @@ import { URL } from "@/constants/constan";
 export default function OtherBrowser() {
   const [todos, setTodos] = useSync(URL);
   const [btnLocked, setBtnLocked] = useState(false);
+  const [showRes, setShowRes] = useState(false);
   const { lang } = useContextApi();
+
   useEffect(() => {
     if (btnLocked) {
-      const tir = setTimeout(
-        () => setBtnLocked(false),
-        parseInt(todos[0].timer) * 5000
-      );
+      setShowRes(true);
+      const tir = setTimeout(() => setBtnLocked(false), todos[0].timer * 5000);
       return () => clearTimeout(tir); // cleanup
     }
+    setShowRes(false);
   }, [btnLocked, todos]);
 
   const voteYes = async (todo) => {
     const updated = { ...todo, voteYes: todo.voteYes + 1 };
+    setShowRes(true);
     await fetch(`${URL}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
@@ -33,6 +35,7 @@ export default function OtherBrowser() {
   };
   const voteNo = async (todo) => {
     const updated = { ...todo, voteNo: todo.voteNo + 1 };
+    setShowRes(true);
     await fetch(`${URL}${todo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
@@ -59,10 +62,10 @@ export default function OtherBrowser() {
             className="flex w-full h-32 justify-center items-center gap-6"
           >
             <div className="w-[100px] h-[100px] text-2xl flex justify-center items-center rounded-full bg-green-200">
-              {todo.voteYes}
+              {showRes ? todo.voteYes : 0}
             </div>
             <div className="w-[100px] h-[100px]  text-2xl flex justify-center items-center rounded-full bg-amber-200">
-              {todo.voteNo}
+              {showRes ? todo.voteNo : 0}
             </div>
           </li>
         ))}
