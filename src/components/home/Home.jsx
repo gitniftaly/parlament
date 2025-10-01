@@ -7,7 +7,7 @@ import AzxpSession from "@/components/reuseblescomp/AzxpSession";
 import Shortcuts from "@/files/Shortcuts";
 import { azxpsessions } from "@/constants/azxpsessions";
 import Terror from "./TerrorLink";
-// import ElectionLink from "./ElectionLink";
+// import ElectionnpLink from "./ElectionLink";
 import Activists from "../popup/activists";
 // import Overlay from "../popup/overlay";
 

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { mediaObject } from "../constants/constan";
 import SocialMedia from "./SocialMedia";
 import { socialmedia } from "@/constants/socialmedia";
+import React from "react";
 
 const Footer = () => {
   return (
@@ -32,7 +33,7 @@ const Footer = () => {
                 alt={img}
                 width={100}
                 height={100}
-                className="w-32 h-auto"
+                className="w-32 h-auto rounded-full"
               />
             </Link>
           ))}

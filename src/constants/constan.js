@@ -106,12 +106,12 @@ export const mediaObject = [
   },
   {
     id: 7,
-    tv: "fotoinfo",
-    produser: "Tarlan Novruzov",
-    since: "Since 2019",
+    tv: "ammh",
+    produser: "Rza Səfərsoy",
+    since: "Since 2023",
     info: "",
-    profile: "/media/fotoinfo.jpg",
-    url: "https://foto.info.az/gundem/22018-dasksnd-yerli-sahibkarlarla-gorus-kecirilib.html",
+    profile: "/media/ammh.jpg",
+    url: "https://youtube.com/@muqavimttv-sc5xw?si=zKIGullqaz97BGb3",
   },
 ];
 
