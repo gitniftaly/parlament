@@ -1,5 +1,6 @@
 import Container from "@/components/Container";
 import Archive from "@/components/documents/Archive";
+import React from "react";
 
 const page = () => {
   return (

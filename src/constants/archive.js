@@ -89,4 +89,34 @@ export const archive = [
     titleAz: "Azxp onikinci toplantısı",
     date: "26.04.2025",
   },
+  {
+    id: 16,
+    link: "https://www.youtube.com/watch?v=WbmDxU54fXA",
+    titleAz: "AzXP-13 Xocalı soy qrımı",
+    date: "26.02.2025",
+  },
+  {
+    id: 17,
+    link: "https://www.youtube.com/watch?v=eixixuX8v8U",
+    titleAz: "AzXP-14 Tərtər gətliyamı",
+    date: "24.05.2025",
+  },
+  {
+    id: 18,
+    link: "https://www.youtube.com/watch?v=4WRcEb2uhLc",
+    titleAz: "AzXP-15 Tərtər gətliyamı-2",
+    date: "07.06.2025",
+  },
+  {
+    id: 19,
+    link: "https://www.youtube.com/watch?v=6tRoBTmZmgY",
+    titleAz: "AzXP-16 Növbəti iclası",
+    date: "14.05.2025",
+  },
+  {
+    id: 20,
+    link: "https://www.youtube.com/watch?v=ht_j5BMw0H4",
+    titleAz: "AzXP-17 İzrail, iran...",
+    date: "21.05.2025",
+  },
 ];
