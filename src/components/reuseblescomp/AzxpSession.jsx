@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
+// eslint-disable-next-line react/prop-types
 const AzxpSession = ({ src, text, link }) => {
   return (
     <div
