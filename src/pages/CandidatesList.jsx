@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import CandidatDeteails from "./CandidatDeteails";
+import React from "react";
 
 const CandidatesList = ({ candidates }) => {
   return (

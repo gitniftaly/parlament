@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 "use client";
 import React, { useState } from "react";
 import {
@@ -163,19 +164,26 @@ const MobileMenu = ({ lang, obj }) => {
             )}
           </DropdownMenuItem>
           <DropdownMenuSeparator />
+
           <DropdownMenuItem
             onSelect={(e) => e.preventDefault()}
             className="flex flex-col"
             onClick={() => setSubElection((ln) => !ln)}
           >
-            <ElectionsLinks
-              className="-ml-14"
-              electionLinks={subElection}
-              handleElectionLinks={handleElectionLinks}
-              lang={lang}
-            />
-            {/* </section> */}
+            <Link
+              href="/elections"
+              className="flex items-start w-full"
+              onClick={handleElectionLinks}
+            >
+              <ElectionsLinks
+                className=""
+                electionLinks={subElection}
+                handleElectionLinks={handleElectionLinks}
+                lang={lang}
+              />
+            </Link>
           </DropdownMenuItem>
+
           <DropdownMenuSeparator />
           <DropdownMenuItem
             onSelect={(e) => e.preventDefault()}

@@ -228,4 +228,12 @@ export const azxpsessions = [
     link: "https://www.youtube.com/live/bjo4vvnDkiU",
     date: "27.09.2025",
   },
+  {
+    idn: 30,
+    src: "/azxpsessions/azxp27.jpg",
+    textaz: "AzXP-25 Dövlət işgəncələri...",
+    texten: "",
+    link: "https://www.youtube.com/live/cv-7f7i3h50",
+    date: "04.10.2025",
+  },
 ];
