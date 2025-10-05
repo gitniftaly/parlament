@@ -14,11 +14,13 @@ import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 
 import MobileMenu from "./MobileMenu";
 import Rules from "./Rules";
-import ElectionsView from "./ElectionsView";
+
 import { language } from "@/constants/contents";
 import TartarMenuDrop from "@/components/menudropdown/TartarMenuDrop";
 import { ContextApi } from "@/contextapi/CreateContexApi";
 import AboutSubLinks from "@/components/submenus/AboutSubLinks";
+
+import ElectionsLinks from "./submenus/ElectionsLinks";
 
 const Navbar = () => {
   const [iconView] = useState(false);
@@ -100,12 +102,7 @@ const Navbar = () => {
                     </div>
                   ) : ind === 2 ? (
                     <div className="flex justify-center items-center">
-                      <ElectionsView text={text} lang={lang} />
-                      {!iconView ? (
-                        <MdArrowDropUp size="20" />
-                      ) : (
-                        <MdArrowDropDown size="20" />
-                      )}
+                      <ElectionsLinks />
                     </div>
                   ) : ind === 3 ? (
                     <div className="flex justify-center items-center">
