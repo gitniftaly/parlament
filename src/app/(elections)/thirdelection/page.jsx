@@ -8,7 +8,7 @@ const ThirdEleciton = () => {
   const { lang } = useContextApi();
   return (
     <Container
-      className="flex flex-col h-dvh bg-background rounded-xl -mt-2
+      className="flex flex-col h-auto pb-10 bg-background rounded-xl -mt-2
                         overflow-y-scroll items-center "
     >
       <h1 className="py-10 text-blue-500 text-lg font-bold">Third Election!</h1>

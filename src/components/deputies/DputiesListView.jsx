@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import Container from "@/components/Container";
 import { useDebounce } from "@/utils/debounce";
