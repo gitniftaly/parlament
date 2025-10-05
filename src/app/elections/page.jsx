@@ -10,8 +10,8 @@ const Election = () => {
   const elect = lang === "az" ? electionAz : electionEn;
   return (
     <Container
-      className="flex flex-col h-dvh bg-background rounded-xl -mt-2
-                       overflow-y-scroll items-center gap-4"
+      className="flex flex-col h-auto bg-background rounded-xl -mt-2
+                       overflow-y-scroll items-center gap-4 pb-10"
     >
       <h1 className="py-10 text-lg text-blue-500 font-bold">
         {lang === "az" ? "Keçirilmiş seçkilər" : " All elections information."}

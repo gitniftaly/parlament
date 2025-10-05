@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { useState, useContext } from "react";
+import React, { useState, useContext } from "react";
 import { adminAccessData } from "@/constants/adminAccess";
 import { ContextApi } from "@/contextapi/CreateContexApi";
 import { redirect } from "next/navigation";
@@ -58,7 +58,7 @@ const Login = () => {
             placeholder="user name"
             type="text"
             onChange={(e) => handleAccess(e)}
-            autocomplete="off"
+            autoComplete="off"
             className="h-8 w-80 border border-gray-300 rounded-lg px-2"
           />
         </div>
@@ -72,7 +72,7 @@ const Login = () => {
             placeholder="password"
             type="password"
             onChange={(e) => handleAccess(e)}
-            autocomplete="off"
+            autoComplete="off"
             className="h-8 w-80 border border-gray-300 rounded-lg px-2 justify-end -pr-2"
           />
         </div>
