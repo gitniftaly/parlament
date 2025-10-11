@@ -236,4 +236,12 @@ export const azxpsessions = [
     link: "https://www.youtube.com/live/cv-7f7i3h50",
     date: "04.10.2025",
   },
+  {
+    idn: 31,
+    src: "/azxpsessions/azxp28.jpg",
+    textaz: "AzXP-26 Qətnamə qəbul edilir...",
+    texten: "",
+    link: "https://www.youtube.com/live/09tPNSNKZXk",
+    date: "11.10.2025",
+  },
 ];
