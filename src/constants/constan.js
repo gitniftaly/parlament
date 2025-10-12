@@ -106,12 +106,12 @@ export const mediaObject = [
   },
   {
     id: 7,
-    tv: "ammh",
+    tv: "azmmh",
     produser: "Rza Səfərsoy",
     since: "Since 2023",
     info: "",
     profile: "/media/azmmh.jpg",
-    url: "https://youtube.com/@muqavimttv-sc5xw?si=zKIGullqaz97BGb3",
+    url: "https://www.youtube.com/@MuqavimeTV",
   },
 ];
 

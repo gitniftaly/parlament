@@ -1,9 +1,11 @@
+/* eslint-disable react/prop-types */
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
 const Book = ({ data }) => {
   return (
-    <div className="h-[150px] sm:w-[780px] relative border-b shadow-md border-gray-300 rounded-lg max-w-lg mx-auto p-2 flex gap-4">
+    <div className="h-[150px] sm:w-[780px] relative border-b shadow-md border-gray-300 rounded-lg max-w-lg mx-auto p-2 flex sm:gap-4">
       <Link href={data.pdfUrl} target="_blank" className="flex gap-5">
         <Image
           src={data.imgUrl}
@@ -15,17 +17,17 @@ const Book = ({ data }) => {
         <article className="flex flex-col  justify-end font-bold">
           <div className="flex">
             <p className="w-[60px]">Year:</p>
-            <span className="flex pl-5">{data.year}</span>
+            <span className="flex sm:pl-5 pl-2">{data.year}</span>
           </div>
           <div className="flex ">
             <p className="w-[60px]">Title:</p>
-            <span className="pl-5 max-w-64 truncate whitespace-nowrap overflow-hidden">
+            <span className="sm:pl-5 pl-2 sm:max-w-64 max-w-56 truncate whitespace-nowrap overflow-hidden">
               {data.titleAz}
             </span>
           </div>
           <div className="flex">
             <p className="w-[60px]">Author:</p>
-            <span className="flex pl-5">{data.author}</span>
+            <span className="flex sm:pl-5 pl-2">{data.author}</span>
           </div>
         </article>
       </Link>
