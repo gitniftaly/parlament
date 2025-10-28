@@ -1181,7 +1181,7 @@ export const deputies2024 = [
     AiləStatus: "",
     PartiaÜzvi: "",
     Ölkəsi: "Azərbaycan",
-    img: "/candidates/img180-1.jpg",
+    img: "/candidates/img180.jpg",
     canId: 66,
     vote: 2120,
   },
