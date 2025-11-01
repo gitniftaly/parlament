@@ -260,4 +260,12 @@ export const azxpsessions = [
     link: "https://www.youtube.com/live/DTVlNzNwBn4",
     date: "25.10.2025",
   },
+  {
+    idn: 34,
+    src: "/azxpsessions/azxp31.jpg",
+    textaz: "AzXP-29 Milli Məclis buraxılır...",
+    texten: "",
+    link: "https://www.youtube.com/live/6FypY-Eudps?si=bk3rAAqqMo9Pyxy5",
+    date: "01.11.2025",
+  },
 ];
