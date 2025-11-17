@@ -2,7 +2,7 @@
 import Container from "@/components/Container";
 import AzxMemoazn from "@/pages/axpMemAzn";
 import AxpMemoEng from "@/pages/AxpMemoEng";
-
+import React from "react";
 import useContextApi from "@/contextapi/useContextApi";
 
 const AboutAzxp = () => {
