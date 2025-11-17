@@ -268,4 +268,20 @@ export const azxpsessions = [
     link: "https://www.youtube.com/live/6FypY-Eudps?si=bk3rAAqqMo9Pyxy5",
     date: "01.11.2025",
   },
+  {
+    idn: 35,
+    src: "/azxpsessions/azxp32.jpg",
+    textaz: "Həbsdə olan millət vəkilləri və...",
+    texten: "",
+    link: "https://www.youtube.com/watch?v=Xa-ElqdQsqU",
+    date: "08.11.2025",
+  },
+  {
+    idn: 36,
+    src: "/azxpsessions/azxp33.jpg",
+    textaz: "Parlament uşaqlar məsələsini müz...",
+    texten: "",
+    link: "https://www.youtube.com/live/XWDj4QjyWUY",
+    date: "15.11.2025",
+  },
 ];

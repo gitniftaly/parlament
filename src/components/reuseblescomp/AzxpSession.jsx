@@ -14,8 +14,8 @@ const AzxpSession = ({ src, text, link }) => {
         href={link}
         className="flex items-center flex-col gap-2 sm:h-[200px] sm:py-3"
       >
-        <div className="font-bold mt-1">
-          <p>{text}</p>
+        <div className="font-bold mt-1 sm:truncate">
+          <p className="px-2">{text}</p>
         </div>
         <Image
           src={src}
