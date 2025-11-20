@@ -13,7 +13,7 @@ const page = () => {
       </header>
       <div className="border border-gray-300 rounded-lg flex h-16 w-[400px] sm:w-[780px] mt-5 justify-center items-center font-bold">
         <Link
-          href="/statement.pdf"
+          href="/newstatement01.11.2025.pdf"
           target="_blank"
           className="flex items-center gap-4"
         >
