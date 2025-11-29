@@ -12,10 +12,12 @@ const AzxpSession = ({ src, text, link }) => {
       <Link
         target="_blank"
         href={link}
-        className="flex items-center flex-col gap-2 sm:h-[200px] sm:py-3"
+        className="flex items-center flex-col gap-2 sm:h-[200px] sm:py-2"
       >
-        <div className="font-bold mt-1 sm:truncate">
-          <p className="px-2">{text}</p>
+        <div className="font-bold mt-1 sm:truncate w-full">
+          <p className="px-2 sm:w-[270px] sm:overflow-x-auto sm:truncate">
+            {text}
+          </p>
         </div>
         <Image
           src={src}
