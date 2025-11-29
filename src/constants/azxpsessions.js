@@ -247,7 +247,7 @@ export const azxpsessions = [
   {
     idn: 32,
     src: "/azxpsessions/azxp29.jpg",
-    textaz: "AzXP-27 Ölkədə yaranmış vəziyyə...",
+    textaz: "AzXP-27 Ölkədə yaranmış vəziyyət",
     texten: "",
     link: "https://www.youtube.com/watch?v=JSNvMdEER4M",
     date: "18.10.2025",
@@ -283,5 +283,21 @@ export const azxpsessions = [
     texten: "",
     link: "https://www.youtube.com/live/XWDj4QjyWUY",
     date: "15.11.2025",
+  },
+  {
+    idn: 37,
+    src: "/azxpsessions/azxp34.jpg",
+    textaz: "Xalq Parlamentində nələr baş verir...",
+    texten: "",
+    link: "https://www.youtube.com/live/sUz-7wTXzbk",
+    date: "22.11.2025",
+  },
+  {
+    idn: 38,
+    src: "/azxpsessions/azxp35.jpg",
+    textaz: "Təcili! Xalq Parlamentində rəhbərliyə...",
+    texten: "",
+    link: "https://www.youtube.com/live/YIdTvQfWalQ",
+    date: "29.11.2025",
   },
 ];

@@ -93,7 +93,7 @@ const Home = () => {
         className="flex w-full gap-3  h-full sm:py-0 sm:mb-2
                        sm:mt-0 sm:h-full justify-around items-start px-1"
       >
-        <section className="grid sm:grid-cols-4 gap-2 overflow-y-auto sm:h-96 h-60">
+        <section className="grid sm:grid-cols-4 gap-3 overflow-y-auto sm:h-96 h-60">
           {azxpsessions.map((session) => (
             <AzxpSession
               key={session.idn}
