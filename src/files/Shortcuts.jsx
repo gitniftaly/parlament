@@ -3,7 +3,7 @@ import React from "react";
 
 const Shortcuts = () => {
   return (
-    <div className="flex flex-col h-full justify-between items-start sm:flex-row gap-2">
+    <div className="sm:flex hidden flex-col h-full justify-between items-start sm:flex-row gap-2">
       <section className="border border-gray-300 rounded-xl flex h-full w-full flex-col px-3 py-2 items-center">
         <Link href="documents/statement" alt="">
           AzXP Bəyannamə | Etik kodeksi
