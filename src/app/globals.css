@@ -98,4 +98,17 @@ body {
       transform: rotate(360deg);
     }
   }
+  @keyframes slideDown {
+    from {
+      transform: translateY(-15%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .animate-slide-down {
+    animation: slideDown 3s ease-out forwards;
+  }
 }
