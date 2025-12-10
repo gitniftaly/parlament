@@ -17,7 +17,7 @@ const Home = () => {
       <Elections52 />
 
       <section
-        className="flex m-auto mt-3 h-[100px] sm:w-full rounded-xl sm:px-2
+        className="flex m-1 pr-1 justify-center h-[100px] sm:w-full rounded-xl sm:px-2 
                 w-[400px] sm:h-auto"
       >
         <Image
@@ -25,8 +25,7 @@ const Home = () => {
           src="/mammd.png"
           height={300}
           width={300}
-          layout="responsive"
-          className="flex rounded-lg w-full h-[170px]"
+          className="flex rounded-lg w-full sm:h-[200px]"
         />
       </section>
       {/* <Overlay className="" /> */}
