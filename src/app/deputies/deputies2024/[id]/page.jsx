@@ -1,5 +1,6 @@
 import CandidatDeteails from "@/pages/CandidatDeteails";
 import { deputies2024 } from "@/constants/deputies2024";
+import React from "react";
 
 const Details = async ({ params }) => {
   const id = (await params).id;
