@@ -1,32 +1,32 @@
 export const status = [
   {
-    id: 46,
+    id: 3,
     aztxt: "Azərbaycan Xalq Parlamentinin sədri.",
     entxt: "Chairman of Azerbaijan Popular Parliament",
   },
   {
-    id: 466,
+    id: 187,
     aztxt: "Rəyasət Heyətinin üzvü.",
     entxt: "Member of the Presidium",
   },
   {
-    id: 1,
+    id: 38,
     aztxt: "Rəyasət Heyətinin üzvü.",
     entxt: "Member of the Presidium",
   },
   {
-    id: 58,
+    id: 194,
     aztxt: "Rəyasət Heyətinin üzvü.",
     entxt: "Member of the Presidium",
   },
   {
-    id: 67,
+    id: 32,
     aztxt: "Rəyasət Heyətinin üzvü.",
     entxt: "Member of the Presidium",
   },
-  {
-    id: 144,
-    aztxt: "Rəyasət Heyətinin üzvü.",
-    entxt: "Member of the Presidium",
-  },
+  // {
+  //   id: 144,
+  //   aztxt: "Rəyasət Heyətinin üzvü.",
+  //   entxt: "Member of the Presidium",
+  // },
 ];

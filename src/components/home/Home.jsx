@@ -23,9 +23,11 @@ const Home = () => {
         <Image
           alt="mmad"
           src="/mammd.png"
-          height={300}
-          width={300}
-          className="flex rounded-lg w-full sm:h-[200px]"
+          width={600}
+          height={600}
+          sizes="(max-width: 768px) 100vw, 300px"
+          style={{ width: "100%", height: "auto" }}
+          className="rounded-lg"
         />
       </section>
       {/* <Overlay className="" /> */}
@@ -85,7 +87,7 @@ const Home = () => {
         className="flex w-full gap-3  h-full sm:py-0 sm:mb-2
                        sm:mt-0 sm:h-full justify-around items-start px-1"
       >
-        <section className="grid sm:grid-cols-4 gap-3 overflow-y-auto sm:h-96 h-60">
+        <section className="grid sm:grid-cols-4 gap-3 overflow-y-auto sm:h-[700px] h-[700px] ">
           {azxpsessions.map((session) => (
             <AzxpSession
               key={session.idn}

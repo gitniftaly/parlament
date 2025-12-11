@@ -6,7 +6,7 @@ import React from "react";
 const AzxpSession = ({ src, text, link }) => {
   return (
     <div
-      className="flex border border-gray-300 h-[200px] shadow-sm 
+      className="flex border border-gray-300 h-full shadow-sm 
                            rounded-md items-center sm:h-[190px]"
     >
       <Link

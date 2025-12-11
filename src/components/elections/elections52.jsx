@@ -1,5 +1,7 @@
 "use client";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { TbHandClick } from "react-icons/tb";
 
 const Elections52 = () => {
   const [show, setShow] = useState(true);
@@ -35,6 +37,22 @@ const Elections52 = () => {
           <h3>06.12.2025-ci il (Watsapp üzərindən)</h3>
         </header>
         <div className="p-2">
+          <div
+            className="flex bg-blue-600 w-full sm:h-10 h-12 text-white font-normal animate-bounce 
+                          rounded-md p2 justify-center items-center text-center p-3 shadow shadow-red-700"
+          >
+            <Link
+              href="https://youtu.be/buTGGgYwUpY?si=yqU3e2jUlHk75lj9"
+              target="_blank"
+              className="flex items-center"
+            >
+              <p className="p-2">
+                Tanış olun! AzXP 2 ci çagrış Millət Vəkilləri seçkilərinə start
+                verdi!
+              </p>
+              <TbHandClick className="flex items-center text-white" />
+            </Link>
+          </div>
           <p className="font-bold mt-4 mb-2">
             İclasda iştirak etdilər (7 nəfər):
           </p>
