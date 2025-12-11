@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
+import path from "path";
+import { fileURLToPath } from "url";
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const nextConfig = {
   experimental: {
     // Disable server source maps (prevents stack frame requests)
@@ -8,14 +12,14 @@ const nextConfig = {
     reactCompiler: false,
   },
 
-  // Disable "building..." indicators
+  // Disable "building..." indicators (updated for Next.js 15+)
   devIndicators: {
-    buildActivity: false,
-    buildActivityPosition: "bottom-right",
+    position: "bottom-right", // replaces buildActivityPosition
   },
 
   // Disable browser source maps in production
   productionBrowserSourceMaps: false,
+  outputFileTracingRoot: path.join(__dirname, ".."),
 };
 
 export default nextConfig;

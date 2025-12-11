@@ -3,6 +3,7 @@ import clsx from "clsx";
 import ImagePage from "../ImagePage";
 import parlament from "/images/parlament.png";
 import { TbHandClick } from "react-icons/tb";
+import React from "react";
 
 const LinkElement = ({ link, alt, title, date, className }) => {
   return (
