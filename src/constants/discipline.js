@@ -1,33 +1,33 @@
 export const discipline = [
   {
-    name: "Teymur Eminbəyli",
+    name: "Süleyman Məmmədhüseynov",
     title: "Sədr",
-    imgLink: "/candidates/img039.jpg",
-    phone: "+46 76 050 30 38",
+    imgLink: "/candidates/img191.jpg",
+    phone: "00.000.0000",
   },
   {
-    name: "Təranə Səfərsoy",
-    title: "Müavin",
-    imgLink: "/candidates/img038.jpg",
-    phone: "+994 50 769 17 68",
-  },
-  {
-    name: "İlqar Hüseyinli",
-    title: "Katib",
-    imgLink: "/candidates/img014.jpg",
-    phone: "+7 914 174 34 34",
-  },
-  {
-    name: "Validə Əhmədova",
+    name: "Telman Ələkbərsoy",
     title: "Üzv",
-    imgLink: "/candidates/img050.jpg",
-    phone: "+994 51 382 82 96",
+    imgLink: "/candidates/img184.jpg",
+    phone: "00.000.0000",
   },
   {
-    name: "Eldar Həmidov",
+    name: "Əli Bədəlov",
     title: "Üzv",
-    imgLink: "/candidates/img004.jpg",
-    phone: "+49 173 907 1018",
+    imgLink: "/candidates/img076.jpg",
+    phone: "00.000.0000",
+  },
+  {
+    name: "Tofiq Məmmədov",
+    title: "Üzv",
+    imgLink: "/candidates/img055.jpg",
+    phone: "00.000.0000",
+  },
+  {
+    name: "Tahirə Məsimzadə",
+    title: "Üzv",
+    imgLink: "/candidates/img214.jpg",
+    phone: "00.000.0000",
   },
 ];
 export const votingCommission = [
@@ -106,5 +106,37 @@ export const counterTeam = [
     title: "Üzv",
     imgLink: "/candidates/img014.jpg",
     phone: "+7 914 174 34 34",
+  },
+];
+export const bordofdirectors = [
+  {
+    name: "Cavanşir Xanlarov",
+    title: "Sədr",
+    imgLink: "/candidates/img003.jpg",
+    phone: "000.000.0000",
+  },
+  {
+    name: "Emil Jamalov",
+    title: "Üzv",
+    imgLink: "/candidates/img187.jpg",
+    phone: "000.000.0000",
+  },
+  {
+    name: "Təranə Səfərsoy",
+    title: "Üzv",
+    imgLink: "/candidates/img038.jpg",
+    phone: "000.000.0000",
+  },
+  {
+    name: "Sevinc Zülfüqarova",
+    title: "Üzv",
+    imgLink: "/candidates/img194.jpg",
+    phone: "000.000.0000",
+  },
+  {
+    name: "Sədaqət Paşayeva",
+    title: "Üzv",
+    imgLink: "/candidates/img032.jpg",
+    phone: "000.000.0000",
   },
 ];

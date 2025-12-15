@@ -1,11 +1,18 @@
 import Container from "@/components/Container";
+import Link from "next/link";
 import React from "react";
+import { IoArrowBackOutline } from "react-icons/io5";
 
 const page = () => {
   return (
-    <Container className="h-dvh w-full bg-background -mt-2 rounded-t-xl overflow-auto mb-10 sm:mb-0">
+    <Container className="flex flex-col h-dvh w-full bg-background  rounded-t-xl overflow-auto mb-10 sm:mb-0">
+      <div className="p-2">
+        <Link href={"/news"} className="text-lg">
+          <IoArrowBackOutline />
+        </Link>
+      </div>
       <main className="w-full px-10 flex">
-        <div className="mt-10 w-[400px] h-full items-center justify-center flex flex-col sm:w-full overflow-auto">
+        <div className="w-[400px] h-full items-center justify-center flex flex-col sm:w-full overflow-auto">
           <header>
             <h1 className="font-bold flex items-center flex-col py-2">
               <p className="flex gap-3 items-center">

@@ -2,6 +2,7 @@
 import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 import { FaCircle } from "react-icons/fa6";
 import Link from "next/link";
+import React from "react";
 
 const TartarSubLinks = ({ tlinks, handleTartarLinks, lang }) => {
   return (

@@ -1,10 +1,10 @@
 import Link from "next/link";
 import clsx from "clsx";
 import ImagePage from "../ImagePage";
-import parlament from "/images/parlament.png";
 import { TbHandClick } from "react-icons/tb";
 import React from "react";
 
+// eslint-disable-next-line react/prop-types
 const LinkElement = ({ link, alt, title, date, className }) => {
   return (
     <Link
@@ -13,7 +13,7 @@ const LinkElement = ({ link, alt, title, date, className }) => {
       target="_blank"
       className={clsx("border border-gray-300 rounded-md", className)}
     >
-      <ImagePage src={parlament} width={50} height={50} alt={alt} />
+      <ImagePage src="/images/parlament.png" width={50} height={50} alt={alt} />
       <div className="flex flex-col">
         <div className="font-thin">{date}</div>
         <div className="text-blue-800">{title}</div>

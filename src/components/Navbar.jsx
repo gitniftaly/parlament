@@ -3,29 +3,17 @@ import React from "react";
 import Image from "next/image";
 import flag from "../../images/qerb.jpg";
 import logaaz from "../../images/pt.png";
-import NavLink from "./NavLink";
 import { FiMenu } from "react-icons/fi";
-import { urls } from "@/constants/constan";
-
-import { useEffect, useState, useContext } from "react";
+import { useEffect, useState } from "react";
 import Container from "./Container";
-import InfoMenu from "./InfoMenu";
-import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
-
-import MobileMenu from "./MobileMenu";
-import Rules from "./Rules";
-
 import { language } from "@/constants/contents";
-import TartarMenuDrop from "@/components/menudropdown/TartarMenuDrop";
-import { ContextApi } from "@/contextapi/CreateContexApi";
-import AboutSubLinks from "@/components/submenus/AboutSubLinks";
-
-import ElectionsLinks from "./submenus/ElectionsLinks";
+import useContextApi from "@/contextapi/useContextApi";
+import ENavbar from "@/newdesign/Navbar";
+import Link from "next/link";
 
 const Navbar = () => {
-  const [iconView] = useState(false);
-  const hrefList = Object.values(urls);
-  const { lang, setLang } = useContext(ContextApi);
+  const { lang, setLang } = useContextApi();
+  // eslint-disable-next-line no-unused-vars
   const [content, setContent] = useState(language[lang]);
 
   useEffect(() => {
@@ -38,8 +26,11 @@ const Navbar = () => {
 
   return (
     <>
-      <Container className="flex flex-col justify-between h-32 sm:h-48 sm:w-full rounded-t-md bg-nav-background">
-        <div className="flex  w-full  justify-between items-center mt-3 ">
+      <Container
+        className="flex flex-col justify-between h-32 sm:h-48 sm:w-full rounded-t-md bg-nav-background
+      .0"
+      >
+        <div className="flex  w-full  justify-between items-center mt-3 relative">
           <Image
             alt="azflag"
             src={logaaz}
@@ -71,74 +62,14 @@ const Navbar = () => {
             height="auto"
             className="rounded-md  hidden sm:flex"
           />
-        </div>
-        <div className="flex w-full justify-between items-center -mt-2">
-          <section
-            className="hidden sm:w-full sm:flex
-             justify-between items-center h-8 sm:mb-3
-             font-serif font-normal mx-20"
-          >
-            {content.map((text, ind) => (
-              <NavLink
-                key={ind}
-                text={
-                  ind === 1 ? (
-                    <div className="flex justify-center items-center">
-                      <Rules text={text} lang={lang} />
-                      {!iconView ? (
-                        <MdArrowDropUp size="20" />
-                      ) : (
-                        <MdArrowDropDown size="20" />
-                      )}
-                    </div>
-                  ) : ind === 0 ? (
-                    <div className="flex justify-center items-center">
-                      <InfoMenu text={text} lang={lang} />
-                      {!iconView ? (
-                        <MdArrowDropUp size="20" />
-                      ) : (
-                        <MdArrowDropDown size="20" />
-                      )}
-                    </div>
-                  ) : ind === 2 ? (
-                    <div className="flex justify-center items-center">
-                      <ElectionsLinks />
-                    </div>
-                  ) : ind === 3 ? (
-                    <div className="flex justify-center items-center">
-                      <AboutSubLinks text={text} lang={lang} />
-
-                      {!iconView ? (
-                        <MdArrowDropUp size="20" />
-                      ) : (
-                        <MdArrowDropDown size="20" />
-                      )}
-                    </div>
-                  ) : ind === 5 ? (
-                    <div className="flex justify-center items-center">
-                      <TartarMenuDrop text={text} lang={lang} />
-                      {!iconView ? (
-                        <MdArrowDropUp size="20" />
-                      ) : (
-                        <MdArrowDropDown size="20" />
-                      )}
-                    </div>
-                  ) : (
-                    text
-                  )
-                }
-                url={hrefList[ind]}
-                className="font-normal"
-              />
-            ))}
-          </section>
-
-          <section
-            className="mb-14 h-8 w-[395px] flex  justify-end px-1 z-30
-                     sm:hidden text-gray-400 absolute"
-          >
-            <MobileMenu lang={lang} obj={<MenuIcon />} />
-          </section>
+          <nav className="hidden sm:flex absolute mt-48 pl-10 text-white font-normal text-lg items-center">
+            <ENavbar />
+          </nav>
+          <div className="pr-2 pl-2 sm:hidden">
+            <Link href="/menuicon">
+              <MenuIcon />
+            </Link>
+          </div>
         </div>
       </Container>
     </>

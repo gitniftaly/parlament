@@ -5,10 +5,9 @@ export const metadata = {
   description: "Tartar events: torturing inosents.",
 };
 
+// eslint-disable-next-line react/prop-types
 const TartarRoot = ({ children }) => {
-  return (
-    <div className="flex bg-background -mt-2 rounded-xl h-dvh">{children}</div>
-  );
+  return <div className="flex bg-background -mt-2 rounded-xl ">{children}</div>;
 };
 
 export default TartarRoot;

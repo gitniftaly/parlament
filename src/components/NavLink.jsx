@@ -2,6 +2,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import React from "react";
 
 const NavLink = ({ text, url, className, onClick, ...props }) => {
   const param = usePathname();

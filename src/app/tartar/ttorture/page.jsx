@@ -6,7 +6,7 @@ import React from "react";
 
 const Tartar = () => {
   return (
-    <div className="flex flex-col mt-16 py-14 h-10 w-full justify-center gap-5 items-center">
+    <div className="flex flex-col  py-14 h-15 w-full justify-center gap-5 items-center">
       <div className="flex">
         <Link href="/tartar/ttorture/late">
           <Button

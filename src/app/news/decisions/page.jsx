@@ -4,10 +4,17 @@ import LinkElement from "@/components/reuseblescomp/LinkElement";
 import AzxpProtocol24 from "@/files/AzxpProtocol24";
 import Link from "next/link";
 import { FcDownload } from "react-icons/fc";
+import React from "react";
+import { IoArrowBackOutline } from "react-icons/io5";
 
 const Decisions = () => {
   return (
     <div className="flex flex-col min-h-dvh -mt-2 rounded-t-2xl overflow-x-hidden py-3 w-full bg-background px-2 gap-3">
+      <div className="p-2">
+        <Link href={"/news"} className="text-lg">
+          <IoArrowBackOutline />
+        </Link>
+      </div>
       <header className="font-bold mx-auto py-2">
         <h1>Informasiya: qərarlar bölməsi.</h1>
       </header>
@@ -70,7 +77,6 @@ const Decisions = () => {
             alt="alt text"
             rel="noopener noreferrer"
             target="_blank"
-            locale={false}
             className="font-bold text-blue-600 flex items-center gap-2 "
           >
             AzXP SK-nın 24-saylı Yekun Protokolu.

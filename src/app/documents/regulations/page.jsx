@@ -2,10 +2,16 @@
 import Link from "next/link";
 import { TbHandClick } from "react-icons/tb";
 import React from "react";
+import { IoArrowBackOutline } from "react-icons/io5";
 const page = () => {
   // return <AzxpRules />;
   return (
     <div className="flex flex-col h-dvh bg-background rounded-t-2xl -mt-2 sm:[780px] items-center">
+      <div className="p-2 w-full">
+        <Link href={"/documents"} className="text-lg">
+          <IoArrowBackOutline />
+        </Link>
+      </div>
       <header className="py-3">
         <h1>
           <p className="font-bold">Sənədlər bölməsi</p>

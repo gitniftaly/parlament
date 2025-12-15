@@ -1,7 +1,7 @@
 /* eslint-disable no-irregular-whitespace */
 
 import Link from "next/link";
-
+import React from "react";
 const AzxpProtocol24 = () => {
   return (
     <div className="flex h-auto w-full rounded-2xl py-3 px-2 flex-col gap-3">
@@ -120,7 +120,7 @@ const AzxpProtocol24 = () => {
         <div className="flex flex-col sm:w-[780px] w-[400px] pl-5 -mt-2 mb-2">
           <p>
             <span>1)</span>&nbsp;
-            <Link href="/pdf.pdf" target="_blank" locale={false}>
+            <Link href="/pdf.pdf" target="_blank">
               <span className="font-bold text-blue-900">
                 1-saylı Əlavə: Azərbaycan Xalq Parlamentinə seçkilərdə iştirak
                 edən adbaad 175 namizədin topladığı səslərin hesabatı - 26

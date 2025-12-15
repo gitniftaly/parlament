@@ -1,12 +1,20 @@
 import Container from "@/components/Container";
 import Portret from "@/components/reuseblescomp/Portret";
 import { counterTeam } from "@/constants/discipline";
+import Link from "next/link";
+import React from "react";
+import { IoArrowBackOutline } from "react-icons/io5";
 
 const page = () => {
   return (
     <Container className="flex bg-background -mt-2 rounded-t-2xl h-dvh w-full flex-col items-center">
-      <header className="">
-        <h1 className="flex mt-5 font-bold font-sans items-center flex-col">
+      <div className="p-2 w-full">
+        <Link href={"/about"} className="text-lg">
+          <IoArrowBackOutline />
+        </Link>
+      </div>
+      <header>
+        <h1 className="flex mt-2 font-bold font-sans items-center flex-col">
           <p>Azərbaycan Xalq Parlamentinin</p>
           <p>hesablayıcı komissiyası</p>
         </h1>

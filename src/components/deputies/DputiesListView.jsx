@@ -6,6 +6,8 @@ import { useDebounce } from "@/utils/debounce";
 
 import useContextApi from "@/contextapi/useContextApi";
 import DepityListView from "./DepityListView";
+import Link from "next/link";
+import { IoArrowBackOutline } from "react-icons/io5";
 
 const DeputiesListView = () => {
   const { lang, dep2024 } = useContextApi();
@@ -22,7 +24,12 @@ const DeputiesListView = () => {
 
   return (
     <Container className="h-dvh bg-background rounded-xl -mt-2 flex items-center justify-start flex-col">
-      <div className="flex font-bold font-serif flex-wrap py-3 px-2">
+      <div className="p-2 w-full">
+        <Link href={"/about"} className="text-lg">
+          <IoArrowBackOutline />
+        </Link>
+      </div>
+      <div className="flex font-bold font-serif flex-wrap py-1 px-2 text-center">
         Azərbaycan Xalq Parlamentinə seçilmiş {data.length} millət vəkilinin
         siyahısı.
       </div>

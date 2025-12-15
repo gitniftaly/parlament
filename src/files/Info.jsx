@@ -1,22 +1,26 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const Info = ({ img }) => {
   const [hide, setHide] = useState(true);
 
   return (
     <div
-      className={`absolute font-bold bg-white h-[650px] w-[400px] top-0 mt-11 right-0 z-30 px-2 ${hide ? "" : "hidden"}`}
+      className={`absolute font-bold bg-white h-[650px] w-[400px] top-0 mt-11 right-0 z-30 px-2 ${
+        hide ? "" : "hidden"
+      }`}
     >
-      <Image
-        src={img}
-        width={100}
-        height={100}
-        className="mx-auto py-1 rounded-xl w-[100px] h-[100px]"
-        alt="info"
-      />
+      {img && (
+        <Image
+          src={img}
+          width={100}
+          height={100}
+          className="mx-auto py-1 rounded-xl w-[100px] h-[100px]"
+          alt="info"
+        />
+      )}
       <p className="">
         Azərbaycan Xalq Parlamenti (AzXP) adından, parlamentimizin üzvü,
         hörmətli millət vəkili Elvin İsayevin dəyərli atası İltiham İsayevin

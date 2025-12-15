@@ -79,7 +79,7 @@ const Anouncments = () => {
         </p>
       </article>
       <article className="px-2  flex font-bold">
-        <p>Azərbaycan Xalq Parlamentinin Mətbuat Xidməti</p>
+        <p>Azərbaycan Xalq Parlamentinin Mətbuat Xidməti</p>
       </article>
     </div>
   );

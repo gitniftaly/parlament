@@ -10,14 +10,16 @@ const ProfileList = ({ data }) => {
     >
       <div className=" flex px-3  mt-2 bg-inherit  gap-3 sm:gap-10  w-full h-auto">
         <section className="flex items-start h-full w-20 rounded-full bg-green-500">
-          <Image
-            src={data?.img}
-            alt="pic1"
-            width="100"
-            height="100"
-            sizes="(max-width: 500px) 70px, 320px"
-            className="rounded-full"
-          />
+          {data?.img && (
+            <Image
+              src={data.img}
+              alt="pic1"
+              width="100"
+              height="100"
+              sizes="(max-width: 500px) 70px, 320px"
+              className="rounded-full"
+            />
+          )}
         </section>
         <section className="flex flex-col mt-3">
           <p

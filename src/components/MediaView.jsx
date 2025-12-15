@@ -2,6 +2,8 @@ import clsx from "clsx";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+
+// eslint-disable-next-line react/prop-types
 const MediaView = ({ tv, profile, produser, since, url, className }) => {
   console.log("Profile: ", profile);
   return (

@@ -1,5 +1,6 @@
 import UrlInfo from "./UrlInfo";
 import ImageView from "./ImageView";
+import React from "react";
 
 const TartarView = ({ data }) => {
   return (

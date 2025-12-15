@@ -1,13 +1,18 @@
 // import {unusedImports} from "eslint-plugin-unused-imports";
 
 {
+  "root": true,
   "extends": [
     "next",
     "next/babel",
     "next/core-web-vitals",
     "eslint:recommended",
     "plugin:prettier/recommended"
-  ]
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
+  }
 }
 
 // export default [{

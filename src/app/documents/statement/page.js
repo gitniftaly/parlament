@@ -1,17 +1,18 @@
+import React from "react";
 import Header from "@/components/reuseblescomp/Header";
 import Link from "next/link";
-// import bnma1 from "../../../../public/azxpbnma/bnma1.jpg";
 import { TbHandClick } from "react-icons/tb";
-// import Image from "next/image";
+import { IoArrowBackOutline } from "react-icons/io5";
+
 const page = () => {
-  // return (
-  //   <div className="flex h-dvh bg-background rounded-t-2xl -mt-2 sm:[780px]">
-  //     <iframe src="/decision.pdf" width="auto" height="100%" />
-  //   </div>
-  // );
   return (
-    <div className="flex flex-col h-dvh bg-background rounded-t-2xl -mt-2 sm:[780px] items-center gap-4 mb-20 sm:mb-0">
-      <Header text="Sənədlər bölməsi" className="mt-4" />
+    <div className="flex flex-col h-dvh bg-background rounded-t-2xl sm:[780px] items-center gap-4 mb-20 sm:mb-0">
+      <div className="p-2 w-full">
+        <Link href={"/documents"} className="text-lg">
+          <IoArrowBackOutline />
+        </Link>
+      </div>
+      <Header text="Sənədlər bölməsi" />
       <div className="border border-gray-300 rounded-lg flex h-16 w-[400px] sm:w-[780px] mt-5 justify-center items-center font-bold">
         <Link
           href="/azxpethicrules.pdf"
@@ -32,9 +33,6 @@ const page = () => {
         </Link>
       </div>
       <div className="border border-gray-300 rounded-md flex flex-col sm:w-[600px] items-center sm:mb-0 overflow-auto">
-        {/* <header className="py-2">
-          <h1 className="font-bold">Azərbaycan Xalq Parlamentinin Bəyanati</h1>
-        </header> */}
         <Header
           text="Azərbaycan Xalq Parlamentinin Bəyanati"
           className="py-2"
