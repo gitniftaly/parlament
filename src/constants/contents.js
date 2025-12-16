@@ -72,6 +72,26 @@ export const statecrimes = [
     url: "/tartar/ganzha",
   },
 ];
+export const news = [
+  {
+    ind: 0,
+    infoaz: "Xəbərlər",
+    infoen: "NewsLine",
+    url: "/news/newsLine",
+  },
+  {
+    ind: 1,
+    infoaz: "Elanlar",
+    infoen: "Announcements",
+    url: "/news/announcements",
+  },
+  {
+    ind: 2,
+    infoaz: "Qərarlar",
+    infoen: "Decisions",
+    url: "/news/decisions",
+  },
+];
 export const about = [
   {
     ind: 0,
