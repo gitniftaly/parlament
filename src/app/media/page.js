@@ -1,6 +1,7 @@
 import Container from "@/components/Container";
 import MediaView from "@/components/MediaView";
-import { mediaObject, tvprodusers } from "@/constants/constan";
+import { mediaObject } from "@/constants/constan";
+import React from "react";
 
 const Media = () => {
   return (

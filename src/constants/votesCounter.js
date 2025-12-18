@@ -27,11 +27,13 @@ export const negative = () => {
 };
 
 export const electionAz = [
+  { href: "/_email", text: "Namizədliyə ərizə formı" },
   { href: "/firstelection", text: "Brinci seçki" },
   { href: "/secelection", text: "İkinci seçki" },
   { href: "/thirdelection", text: "Üçüncü seçki" },
 ];
 export const electionEn = [
+  { href: "/_email", text: "Candidate application form" },
   { href: "/firstelection", text: "First election" },
   { href: "/secelection", text: "Second election" },
   { href: "/thirdelection", text: "Third election" },

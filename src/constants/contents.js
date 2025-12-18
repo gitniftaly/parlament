@@ -51,6 +51,12 @@ export const documents = [
     infoen: "Statutes | Regulations",
     url: "/documents/regulations",
   },
+  {
+    ind: 3,
+    infoaz: "Seçkilər Qaydalar",
+    infoen: "Elections Rules",
+    url: "/documents/regulations",
+  },
 ];
 export const statecrimes = [
   {

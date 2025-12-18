@@ -86,15 +86,15 @@ export const mediaObject = [
     profile: "/media/voiceofu.jpg",
     url: "https://www.youtube.com/@voiceofu91",
   },
-  // {
-  //   id: 5,
-  //   tv: "xural",
-  //   produser: "Əvəz Zeynallı",
-  //   since: "Since 2018",
-  //   info: "",
-  //   profile: "/candidates/img138.jpg",
-  //   url: "https://www.youtube.com/c/XuralTV",
-  // },
+  {
+    id: 4,
+    tv: "yazxp",
+    produser: "AzXP",
+    since: "Since 2025",
+    info: "",
+    profile: "/candidates/img055.jpg",
+    url: "https://www.youtube.com/@AZXP-o9x",
+  },
   // {
   //   id: 6,
   //   tv: "mgtv",
@@ -105,7 +105,7 @@ export const mediaObject = [
   //   url: "https://www.youtube.com/channel/UCaBjlLrRL68E1o95J2IMNTw",
   // },
   {
-    id: 4,
+    id: 5,
     tv: "azmmh",
     produser: "Rza Səfərsoy",
     since: "Since 2023",
