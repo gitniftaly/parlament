@@ -15,6 +15,7 @@ export async function POST(req) {
 Name: ${user.name}
 DOB: ${user.dob}
 BurthPlace:${user.burthplace}
+Location:${user.location}
 Citizenship: ${user.citizen}
 Education: ${user.education}
 Occupation: ${user.occupation}
@@ -30,6 +31,7 @@ Date: ${user.date}
           <li><strong>Ad, soyad, ata adı:</strong> ${user.name}</li>
           <li><strong>Doğum tarixi:</strong> ${user.dob}</li>
           <li><strong>Doğum yeri:</strong> ${user.burthplace}</li>
+          <li><strong>Yaşadıgı ölkə:</strong> ${user.burthplace}</li>
           <li><strong>Vətəndaşlıq:</strong> ${user.citizen}</li>
           <li><strong>Təhsil:</strong> ${user.education}</li>
           <li><strong>İxtisas/peşə:</strong> ${user.occupation}</li>

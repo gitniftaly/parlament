@@ -9,6 +9,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: {
+            transform: "translateX(calc(-1 * var(--scroll-width)))",
+          },
+        },
+      },
+      animation: {
+        marquee: "marquee linear infinite",
+      },
       colors: {
         background: "#dbeafe",
 
@@ -61,5 +72,6 @@ module.exports = {
       },
     },
   },
+
   plugins: [],
 };

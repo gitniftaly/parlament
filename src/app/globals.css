@@ -111,4 +111,28 @@ body {
   .animate-slide-down {
     animation: slideDown 3s ease-out forwards;
   }
+  /* @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  .animate-liner {
+    animation: scroll 20s linear infinite;
+  } */
+
+  @keyframes marquee {
+    from {
+      transform: "translateX(0)";
+    }
+    to {
+      transform: "translateX(calc(-1 * var(--scroll-width)))";
+    }
+  }
+
+  .animation-mar {
+    animation: marquee linear infinite;
+  }
 }

@@ -7,6 +7,7 @@ import AzxpSession from "@/components/reuseblescomp/AzxpSession";
 import Shortcuts from "@/files/Shortcuts";
 import { azxpsessions } from "@/constants/azxpsessions";
 import Elections52 from "../elections/elections52";
+import Runningimgs from "./Runningimgs";
 
 const Home = () => {
   return (
@@ -82,7 +83,7 @@ const Home = () => {
         </header>
         <Shortcuts />
       </section>
-
+      <Runningimgs />
       <section
         className="flex w-full gap-3  h-full sm:py-0 sm:mb-2
                        sm:mt-0 sm:h-full justify-around items-start px-1"

@@ -16,7 +16,7 @@ const Elections52 = () => {
   }, []);
   return (
     <section
-      className={`flex flex-col sm:w-[650px] mt-4 sm:m-0 px-2 py-2 h-15 justify-center
+      className={`flex flex-col z-10 sm:w-[650px] mt-4 sm:m-0 px-2 py-2 h-15 justify-center
        bg-white items-center rounded-md absolute  ${
          !showSlide ? "animate-slide-down" : ""
        }

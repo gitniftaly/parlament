@@ -14,9 +14,6 @@ const Shortcuts = () => {
         <Link href="/documents/archive" alt="">
           AzXP Arxivi
         </Link>
-        <Link href="/documents/ebooks" alt="kitab">
-          Kitabxana
-        </Link>
       </section>
       <section className="border border-gray-300 rounded-xl flex h-full w-full flex-col px-3 py-2 items-center">
         <Link href="/news/newsLine" alt="">
@@ -27,9 +24,6 @@ const Shortcuts = () => {
         </Link>
         <Link href="/news/decisions" alt="">
           AzXP qərarları
-        </Link>
-        <Link href="/documents/ebooks" alt="kitabxana">
-          Kitabxana
         </Link>
       </section>
       <section className="border border-gray-300 rounded-xl flex h-full w-full flex-col px-3 py-2 items-center">
@@ -42,9 +36,6 @@ const Shortcuts = () => {
         <Link href="/about/discipline" alt="">
           AzXP İntizam Komissiyası
         </Link>
-        <Link href="/documents/ebooks" alt="kitabxana">
-          Kitabxana
-        </Link>
       </section>
       <section className="border border-gray-300 rounded-xl flex h-full w-full flex-col px-3 py-2 items-center">
         <Link href="/docpdf/listofcommittees.pdf" alt="" target="_blank">
@@ -52,10 +43,6 @@ const Shortcuts = () => {
         </Link>
         <Link href="/docpdf/azxpresolution.pdf" alt="" target="_blank">
           AzXP Resolution
-        </Link>
-
-        <Link href="/documents/ebooks" alt="kitabxana">
-          Kitabxana
         </Link>
       </section>
     </div>
